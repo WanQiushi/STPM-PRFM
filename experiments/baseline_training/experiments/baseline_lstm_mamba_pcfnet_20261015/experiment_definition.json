@@ -1,0 +1,59 @@
+{
+  "plan": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/plan.json",
+  "datasets": {
+    "D1": {
+      "data": "${WORKSPACE}/data/mainbridge_temperature_v2/minute_complete.npz",
+      "source_protocol": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007/dataset/protocol.json",
+      "frozen_protocol": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D1/dataset/protocol.json",
+      "windows": {
+        "train": 150,
+        "val": 26,
+        "test": 39
+      },
+      "normalization": "Frozen train-only observed mean/std",
+      "history_points": 43200,
+      "prediction_points": 1440,
+      "channels": 5
+    },
+    "D21": {
+      "data": "${WORKSPACE}/experiments/d21_suite_20261013/data/minute_synthetic.npz",
+      "source_protocol": "${WORKSPACE}/experiments/d21_suite_20261013/data/protocol.json",
+      "frozen_protocol": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D21/dataset/protocol.json",
+      "windows": {
+        "train": 499,
+        "val": 60,
+        "test": 60
+      },
+      "normalization": "Frozen train-only observed mean/std",
+      "history_points": 43200,
+      "prediction_points": 1440,
+      "channels": 8
+    }
+  },
+  "models": [
+    "VanillaLSTM",
+    "Mamba",
+    "PCFNet"
+  ],
+  "seeds": [
+    2024,
+    2025,
+    2026,
+    2027,
+    2028
+  ],
+  "jobs": 30,
+  "gpu_indices": [
+    0
+  ],
+  "training": "Frozen Adam1e-4/effectivebatch16/max300/patience60/clip1; joint standardized observed-mask MSE; derivative weights0",
+  "model_sources": {
+    "PCFNet": {
+      "author_commit": "a844ebb317916c428c0a24b7177edcb25be0230d",
+      "vendor": "${WORKSPACE}/vendor/PCFNet_IF2026_source_20261015"
+    },
+    "Mamba": "mamba-ssm2.2.6.post3 original Mamba1",
+    "LSTM": "torch.nn.LSTM"
+  },
+  "changes": "No existing baseline or A2 retraining; historical SegRNN/PatchLSTM results preserved; PCFNet numerical EMA equivalence documented"
+}

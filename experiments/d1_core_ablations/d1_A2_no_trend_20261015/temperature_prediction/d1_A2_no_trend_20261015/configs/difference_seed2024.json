@@ -1,0 +1,31 @@
+{
+  "seed": 2024,
+  "configuration_changes": {
+    "run_name": {
+      "reference": "A2_seed2024",
+      "control": "A2_lambda0_seed2024"
+    },
+    "trend_weight": {
+      "reference": 3.0,
+      "control": 0.0
+    }
+  },
+  "source_equal": {
+    "train.py": true,
+    "models.py": true,
+    "temperature_ablation.py": true,
+    "fixed_trend.py": true,
+    "data_contract_v8.py": true,
+    "train_contract_v9.py": true,
+    "ode_core_v9.py": true,
+    "temperature_metrics.py": true,
+    "h1_ablation.py": true
+  },
+  "initial_checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_2_2_sampling_20261008/v9_1min_seed2024/best.pt",
+  "reference_temperature": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024",
+  "reference_metrics": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/evaluation_A2/seed2024/metrics.json",
+  "H1_checkpoint": "${WORKSPACE}/outputs/va_1_20261004/best_va1.pt",
+  "H1_shared_across_five_temperature_seeds": true,
+  "H1_training": false,
+  "test_evaluated": false
+}

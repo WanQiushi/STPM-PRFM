@@ -1,0 +1,108 @@
+{
+  "model": "iTransformer",
+  "label": "iTransformer",
+  "seed": 2026,
+  "host": "runtime",
+  "sample_minutes": 15,
+  "history_days": 30,
+  "horizon_days": 1,
+  "model_args": {
+    "task_name": "long_term_forecast",
+    "seq_len": 2976,
+    "pred_len": 96,
+    "label_len": 96,
+    "enc_in": 5,
+    "dec_in": 5,
+    "c_out": 5,
+    "features": "M",
+    "d_model": 64,
+    "d_ff": 128,
+    "e_layers": 2,
+    "d_layers": 1,
+    "n_heads": 4,
+    "factor": 3,
+    "dropout": 0.1,
+    "activation": "gelu",
+    "embed": "timeF",
+    "freq": "t",
+    "output_attention": false,
+    "moving_avg": 25,
+    "individual": false,
+    "patch_len": 16,
+    "stride": 8,
+    "top_k": 3,
+    "num_kernels": 3,
+    "use_norm": true,
+    "temporal_rank": 64
+  },
+  "batch_size": 16,
+  "micro_batch_size": 16,
+  "epochs": 300,
+  "patience": 60,
+  "lr": 0.0001,
+  "grad_clip": 1.0,
+  "cpu_threads": 4,
+  "physical_gpu": "${GPU}",
+  "objective": "Measured-entry masked standardized response MSE",
+  "selection": "52 common validation days; pooled physical displacement RMSE,15min",
+  "known_temperature_adapter": "30-parameter affine projection of [futureT,annual sin/cos,semiannual sin/cos] to five context coordinates; append to30day history; only response coordinates scored",
+  "future_response_input": false,
+  "backbone_source": "${RESULTS}\\baseline_joint5_1min_frozen_20261009\\source_snapshot\\experiments\\minute_joint5_forecast_20261007\\config_iTransformer_1min_Joint5_MSE_seed2024.json",
+  "original_model_args": {
+    "task_name": "long_term_forecast",
+    "seq_len": 43200,
+    "pred_len": 1440,
+    "label_len": 1440,
+    "enc_in": 5,
+    "dec_in": 5,
+    "c_out": 5,
+    "features": "M",
+    "d_model": 64,
+    "d_ff": 128,
+    "e_layers": 2,
+    "d_layers": 1,
+    "n_heads": 4,
+    "factor": 3,
+    "dropout": 0.1,
+    "activation": "gelu",
+    "embed": "timeF",
+    "freq": "t",
+    "output_attention": false,
+    "moving_avg": 375,
+    "individual": false,
+    "patch_len": 240,
+    "stride": 120,
+    "top_k": 3,
+    "num_kernels": 3,
+    "use_norm": true,
+    "temporal_rank": 64
+  },
+  "time_width_changes": {
+    "seq_len": {
+      "original": 43200,
+      "current": 2976
+    },
+    "pred_len": {
+      "original": 1440,
+      "current": 96
+    },
+    "label_len": {
+      "original": 1440,
+      "current": 96
+    },
+    "moving_avg": {
+      "original": 375,
+      "current": 25
+    },
+    "patch_len": {
+      "original": 240,
+      "current": 16
+    },
+    "stride": {
+      "original": 120,
+      "current": 8
+    }
+  },
+  "common_calendar_policy": "Same annual/semiannual values as H1, from origin and lead time",
+  "initialization_policy": "Frozen baseline wrapper initialization"
+}

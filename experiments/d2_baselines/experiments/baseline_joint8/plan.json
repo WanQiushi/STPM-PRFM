@@ -1,0 +1,84 @@
+{
+  "models": [
+    "DLinear",
+    "iTransformer",
+    "LSTM",
+    "TimeXer",
+    "PatchTST",
+    "TimesNet",
+    "SegRNN",
+    "ModernTCN"
+  ],
+  "seeds": [
+    2024,
+    2025,
+    2026,
+    2027,
+    2028
+  ],
+  "configs": [
+    "experiments/baseline_joint8/config_DLinear_1min_Joint8_MSE_seed2024.json",
+    "experiments/baseline_joint8/config_DLinear_1min_Joint8_MSE_seed2025.json",
+    "experiments/baseline_joint8/config_DLinear_1min_Joint8_MSE_seed2026.json",
+    "experiments/baseline_joint8/config_DLinear_1min_Joint8_MSE_seed2027.json",
+    "experiments/baseline_joint8/config_DLinear_1min_Joint8_MSE_seed2028.json",
+    "experiments/baseline_joint8/config_iTransformer_1min_Joint8_MSE_seed2024.json",
+    "experiments/baseline_joint8/config_iTransformer_1min_Joint8_MSE_seed2025.json",
+    "experiments/baseline_joint8/config_iTransformer_1min_Joint8_MSE_seed2026.json",
+    "experiments/baseline_joint8/config_iTransformer_1min_Joint8_MSE_seed2027.json",
+    "experiments/baseline_joint8/config_iTransformer_1min_Joint8_MSE_seed2028.json",
+    "experiments/baseline_joint8/config_LSTM_1min_Joint8_MSE_seed2024.json",
+    "experiments/baseline_joint8/config_LSTM_1min_Joint8_MSE_seed2025.json",
+    "experiments/baseline_joint8/config_LSTM_1min_Joint8_MSE_seed2026.json",
+    "experiments/baseline_joint8/config_LSTM_1min_Joint8_MSE_seed2027.json",
+    "experiments/baseline_joint8/config_LSTM_1min_Joint8_MSE_seed2028.json",
+    "experiments/baseline_joint8/config_TimeXer_1min_Joint8_MSE_seed2024.json",
+    "experiments/baseline_joint8/config_TimeXer_1min_Joint8_MSE_seed2025.json",
+    "experiments/baseline_joint8/config_TimeXer_1min_Joint8_MSE_seed2026.json",
+    "experiments/baseline_joint8/config_TimeXer_1min_Joint8_MSE_seed2027.json",
+    "experiments/baseline_joint8/config_TimeXer_1min_Joint8_MSE_seed2028.json",
+    "experiments/baseline_joint8/config_PatchTST_1min_Joint8_MSE_seed2024.json",
+    "experiments/baseline_joint8/config_PatchTST_1min_Joint8_MSE_seed2025.json",
+    "experiments/baseline_joint8/config_PatchTST_1min_Joint8_MSE_seed2026.json",
+    "experiments/baseline_joint8/config_PatchTST_1min_Joint8_MSE_seed2027.json",
+    "experiments/baseline_joint8/config_PatchTST_1min_Joint8_MSE_seed2028.json",
+    "experiments/baseline_joint8/config_TimesNet_1min_Joint8_MSE_seed2024.json",
+    "experiments/baseline_joint8/config_TimesNet_1min_Joint8_MSE_seed2025.json",
+    "experiments/baseline_joint8/config_TimesNet_1min_Joint8_MSE_seed2026.json",
+    "experiments/baseline_joint8/config_TimesNet_1min_Joint8_MSE_seed2027.json",
+    "experiments/baseline_joint8/config_TimesNet_1min_Joint8_MSE_seed2028.json",
+    "experiments/baseline_joint8/config_SegRNN_1min_Joint8_MSE_seed2024.json",
+    "experiments/baseline_joint8/config_SegRNN_1min_Joint8_MSE_seed2025.json",
+    "experiments/baseline_joint8/config_SegRNN_1min_Joint8_MSE_seed2026.json",
+    "experiments/baseline_joint8/config_SegRNN_1min_Joint8_MSE_seed2027.json",
+    "experiments/baseline_joint8/config_SegRNN_1min_Joint8_MSE_seed2028.json",
+    "experiments/baseline_moderntcn_joint8/config_ModernTCN_1min_Joint8_MSE_seed2024.json",
+    "experiments/baseline_moderntcn_joint8/config_ModernTCN_1min_Joint8_MSE_seed2025.json",
+    "experiments/baseline_moderntcn_joint8/config_ModernTCN_1min_Joint8_MSE_seed2026.json",
+    "experiments/baseline_moderntcn_joint8/config_ModernTCN_1min_Joint8_MSE_seed2027.json",
+    "experiments/baseline_moderntcn_joint8/config_ModernTCN_1min_Joint8_MSE_seed2028.json"
+  ],
+  "output": "outputs/baselines",
+  "gpu": 0,
+  "max_workers": 4,
+  "memory_budget_mib": 66560,
+  "example_window_index": 0,
+  "scheduling_groups": [
+    [
+      "SegRNN",
+      "ModernTCN",
+      "DLinear",
+      "iTransformer"
+    ],
+    [
+      "LSTM",
+      "PatchTST",
+      "TimeXer"
+    ],
+    [
+      "TimesNet"
+    ]
+  ],
+  "resource_policy": "Original GPU owner/memory admission logic preserved. Original five-channel admission budgets are estimates, not measured eight-channel peaks; resource choice at launch.",
+  "task": "D2.1 joint eight-channel minute forecast, 499/60/60"
+}

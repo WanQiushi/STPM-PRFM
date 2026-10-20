@@ -1,0 +1,76 @@
+{
+  "output": "outputs/minute_moderntcn_joint5_20261009",
+  "gpu": 0,
+  "max_workers": 4,
+  "memory_budget_mib": 66560,
+  "models": [
+    "ModernTCN"
+  ],
+  "seeds": [
+    2024,
+    2025,
+    2026,
+    2027,
+    2028
+  ],
+  "configs": [
+    "config_ModernTCN_1min_Joint5_MSE_seed2024.json",
+    "config_ModernTCN_1min_Joint5_MSE_seed2025.json",
+    "config_ModernTCN_1min_Joint5_MSE_seed2026.json",
+    "config_ModernTCN_1min_Joint5_MSE_seed2027.json",
+    "config_ModernTCN_1min_Joint5_MSE_seed2028.json"
+  ],
+  "reuse_runs": [],
+  "all_expected_runs": [
+    "DLinear_1min_Joint5_MSE_seed2024",
+    "DLinear_1min_Joint5_MSE_seed2025",
+    "DLinear_1min_Joint5_MSE_seed2026",
+    "DLinear_1min_Joint5_MSE_seed2027",
+    "DLinear_1min_Joint5_MSE_seed2028",
+    "iTransformer_1min_Joint5_MSE_seed2024",
+    "iTransformer_1min_Joint5_MSE_seed2025",
+    "iTransformer_1min_Joint5_MSE_seed2026",
+    "iTransformer_1min_Joint5_MSE_seed2027",
+    "iTransformer_1min_Joint5_MSE_seed2028",
+    "CNN_1min_Joint5_MSE_seed2024",
+    "CNN_1min_Joint5_MSE_seed2025",
+    "CNN_1min_Joint5_MSE_seed2026",
+    "CNN_1min_Joint5_MSE_seed2027",
+    "CNN_1min_Joint5_MSE_seed2028",
+    "LSTM_1min_Joint5_MSE_seed2024",
+    "LSTM_1min_Joint5_MSE_seed2025",
+    "LSTM_1min_Joint5_MSE_seed2026",
+    "LSTM_1min_Joint5_MSE_seed2027",
+    "LSTM_1min_Joint5_MSE_seed2028",
+    "TimeXer_1min_Joint5_MSE_seed2024",
+    "TimeXer_1min_Joint5_MSE_seed2025",
+    "TimeXer_1min_Joint5_MSE_seed2026",
+    "TimeXer_1min_Joint5_MSE_seed2027",
+    "TimeXer_1min_Joint5_MSE_seed2028",
+    "PatchTST_1min_Joint5_MSE_seed2024",
+    "PatchTST_1min_Joint5_MSE_seed2025",
+    "PatchTST_1min_Joint5_MSE_seed2026",
+    "PatchTST_1min_Joint5_MSE_seed2027",
+    "PatchTST_1min_Joint5_MSE_seed2028",
+    "TimesNet_1min_Joint5_MSE_seed2024",
+    "TimesNet_1min_Joint5_MSE_seed2025",
+    "TimesNet_1min_Joint5_MSE_seed2026",
+    "TimesNet_1min_Joint5_MSE_seed2027",
+    "TimesNet_1min_Joint5_MSE_seed2028",
+    "SegRNN_1min_Joint5_MSE_seed2024",
+    "SegRNN_1min_Joint5_MSE_seed2025",
+    "SegRNN_1min_Joint5_MSE_seed2026",
+    "SegRNN_1min_Joint5_MSE_seed2027",
+    "SegRNN_1min_Joint5_MSE_seed2028"
+  ],
+  "scheduling_groups": [
+    [
+      "ModernTCN"
+    ]
+  ],
+  "example_window_index": 16,
+  "sampling_minutes": 1,
+  "h1_policy": "Excluded; H1 and separate temperature work are not modified or launched.",
+  "purpose": "Forty new pure-history joint forecasts: temperature plus four displacement channels, five seeds per retained baseline.",
+  "reference_experiment": "fifteen_displacement_five_seed_complete_20261006"
+}

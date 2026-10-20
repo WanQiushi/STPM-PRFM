@@ -1,0 +1,22 @@
+{
+  "run": "d1_predicted_temperature_ablations_20261020_162845",
+  "physical_gpu": "${GPU}",
+  "training_started": false,
+  "arms": [
+    "no_lf_anchor",
+    "mean_split",
+    "no_neural_memory"
+  ],
+  "response_seed": 2024,
+  "temperature_seeds": [
+    2024,
+    2025,
+    2026,
+    2027,
+    2028
+  ],
+  "pretraining": "original 68 training / 26 validation windows, original staged objectives",
+  "adaptation": "same frozen v11 causal OOF cache, includes pretrained epoch zero",
+  "evaluation": "same 110 validation / 109 test days, one minute, measured displacement labels",
+  "new_training": "three response pretraining plus adaptation pipelines, not fifteen response seeds"
+}

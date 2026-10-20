@@ -1,0 +1,1942 @@
+[
+  {
+    "id": "stat_0001",
+    "file": "experiments/baseline_training/experiments/baseline_lstm_mamba_pcfnet_20261015/D1/dataset/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0002",
+    "file": "experiments/baseline_training/experiments/baseline_lstm_mamba_pcfnet_20261015/D1/dataset/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0003",
+    "file": "experiments/baseline_training/experiments/baseline_lstm_mamba_pcfnet_20261015/D1/dataset/protocol.json",
+    "json_pointer": "/training_difference_scales/first_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0004",
+    "file": "experiments/baseline_training/experiments/baseline_lstm_mamba_pcfnet_20261015/D1/dataset/protocol.json",
+    "json_pointer": "/training_difference_scales/second_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0005",
+    "file": "experiments/d1_baselines/experiments/minute_joint5_forecast_20261007/dataset/frozen_15min_protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0006",
+    "file": "experiments/d1_baselines/experiments/minute_joint5_forecast_20261007/dataset/frozen_15min_protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0007",
+    "file": "experiments/d1_baselines/experiments/minute_joint5_forecast_20261007/dataset/frozen_15min_protocol.json",
+    "json_pointer": "/training_difference_scales/first_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0008",
+    "file": "experiments/d1_baselines/experiments/minute_joint5_forecast_20261007/dataset/frozen_15min_protocol.json",
+    "json_pointer": "/training_difference_scales/second_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0009",
+    "file": "experiments/d1_baselines/experiments/minute_joint5_forecast_20261007/dataset/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0010",
+    "file": "experiments/d1_baselines/experiments/minute_joint5_forecast_20261007/dataset/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0011",
+    "file": "experiments/d1_baselines/experiments/minute_joint5_forecast_20261007/dataset/protocol.json",
+    "json_pointer": "/training_difference_scales/first_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0012",
+    "file": "experiments/d1_baselines/experiments/minute_joint5_forecast_20261007/dataset/protocol.json",
+    "json_pointer": "/training_difference_scales/second_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0013",
+    "file": "experiments/d1_baselines/experiments/minute_moderntcn_joint5_20261009/dataset/frozen_15min_protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0014",
+    "file": "experiments/d1_baselines/experiments/minute_moderntcn_joint5_20261009/dataset/frozen_15min_protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0015",
+    "file": "experiments/d1_baselines/experiments/minute_moderntcn_joint5_20261009/dataset/frozen_15min_protocol.json",
+    "json_pointer": "/training_difference_scales/first_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0016",
+    "file": "experiments/d1_baselines/experiments/minute_moderntcn_joint5_20261009/dataset/frozen_15min_protocol.json",
+    "json_pointer": "/training_difference_scales/second_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0017",
+    "file": "experiments/d1_baselines/experiments/minute_moderntcn_joint5_20261009/dataset/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0018",
+    "file": "experiments/d1_baselines/experiments/minute_moderntcn_joint5_20261009/dataset/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0019",
+    "file": "experiments/d1_baselines/experiments/minute_moderntcn_joint5_20261009/dataset/protocol.json",
+    "json_pointer": "/training_difference_scales/first_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0020",
+    "file": "experiments/d1_baselines/experiments/minute_moderntcn_joint5_20261009/dataset/protocol.json",
+    "json_pointer": "/training_difference_scales/second_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0021",
+    "file": "experiments/d1_known_response/source/frozen_project/experiments/version_long_suite_20260930/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0022",
+    "file": "experiments/d1_known_response/source/frozen_project/experiments/version_long_suite_20260930/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0023",
+    "file": "experiments/d1_known_temperature/frozen_sources/baseline_snapshot/experiments/minute_joint5_forecast_20261007/dataset/frozen_15min_protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0024",
+    "file": "experiments/d1_known_temperature/frozen_sources/baseline_snapshot/experiments/minute_joint5_forecast_20261007/dataset/frozen_15min_protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0025",
+    "file": "experiments/d1_known_temperature/frozen_sources/baseline_snapshot/experiments/minute_joint5_forecast_20261007/dataset/frozen_15min_protocol.json",
+    "json_pointer": "/training_difference_scales/first_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0026",
+    "file": "experiments/d1_known_temperature/frozen_sources/baseline_snapshot/experiments/minute_joint5_forecast_20261007/dataset/frozen_15min_protocol.json",
+    "json_pointer": "/training_difference_scales/second_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0027",
+    "file": "experiments/d1_known_temperature/frozen_sources/baseline_snapshot/experiments/minute_joint5_forecast_20261007/dataset/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0028",
+    "file": "experiments/d1_known_temperature/frozen_sources/baseline_snapshot/experiments/minute_joint5_forecast_20261007/dataset/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0029",
+    "file": "experiments/d1_known_temperature/frozen_sources/baseline_snapshot/experiments/minute_joint5_forecast_20261007/dataset/protocol.json",
+    "json_pointer": "/training_difference_scales/first_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0030",
+    "file": "experiments/d1_known_temperature/frozen_sources/baseline_snapshot/experiments/minute_joint5_forecast_20261007/dataset/protocol.json",
+    "json_pointer": "/training_difference_scales/second_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0031",
+    "file": "experiments/d1_known_temperature/frozen_sources/baseline_snapshot/experiments/minute_moderntcn_joint5_20261009/dataset/frozen_15min_protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0032",
+    "file": "experiments/d1_known_temperature/frozen_sources/baseline_snapshot/experiments/minute_moderntcn_joint5_20261009/dataset/frozen_15min_protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0033",
+    "file": "experiments/d1_known_temperature/frozen_sources/baseline_snapshot/experiments/minute_moderntcn_joint5_20261009/dataset/frozen_15min_protocol.json",
+    "json_pointer": "/training_difference_scales/first_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0034",
+    "file": "experiments/d1_known_temperature/frozen_sources/baseline_snapshot/experiments/minute_moderntcn_joint5_20261009/dataset/frozen_15min_protocol.json",
+    "json_pointer": "/training_difference_scales/second_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0035",
+    "file": "experiments/d1_known_temperature/frozen_sources/baseline_snapshot/experiments/minute_moderntcn_joint5_20261009/dataset/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0036",
+    "file": "experiments/d1_known_temperature/frozen_sources/baseline_snapshot/experiments/minute_moderntcn_joint5_20261009/dataset/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0037",
+    "file": "experiments/d1_known_temperature/frozen_sources/baseline_snapshot/experiments/minute_moderntcn_joint5_20261009/dataset/protocol.json",
+    "json_pointer": "/training_difference_scales/first_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0038",
+    "file": "experiments/d1_known_temperature/frozen_sources/baseline_snapshot/experiments/minute_moderntcn_joint5_20261009/dataset/protocol.json",
+    "json_pointer": "/training_difference_scales/second_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0039",
+    "file": "experiments/d1_known_temperature/frozen_sources/three_family/D1/dataset/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0040",
+    "file": "experiments/d1_known_temperature/frozen_sources/three_family/D1/dataset/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0041",
+    "file": "experiments/d1_known_temperature/frozen_sources/three_family/D1/dataset/protocol.json",
+    "json_pointer": "/training_difference_scales/first_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0042",
+    "file": "experiments/d1_known_temperature/frozen_sources/three_family/D1/dataset/protocol.json",
+    "json_pointer": "/training_difference_scales/second_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0043",
+    "file": "experiments/d1_oof_adaptation/frozen_project/experiments/version_long_suite_20260930/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0044",
+    "file": "experiments/d1_oof_adaptation/frozen_project/experiments/version_long_suite_20260930/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0045",
+    "file": "experiments/d1_oof_adaptation/normalization.json",
+    "json_pointer": "/temperature_mean"
+  },
+  {
+    "id": "stat_0046",
+    "file": "experiments/d1_oof_adaptation/normalization.json",
+    "json_pointer": "/temperature_std"
+  },
+  {
+    "id": "stat_0047",
+    "file": "experiments/d1_oof_adaptation/normalization.json",
+    "json_pointer": "/h1_mean"
+  },
+  {
+    "id": "stat_0048",
+    "file": "experiments/d1_oof_adaptation/normalization.json",
+    "json_pointer": "/h1_std"
+  },
+  {
+    "id": "stat_0049",
+    "file": "experiments/d1_prfm/config/normalization.json",
+    "json_pointer": "/temperature_mean"
+  },
+  {
+    "id": "stat_0050",
+    "file": "experiments/d1_prfm/config/normalization.json",
+    "json_pointer": "/temperature_std"
+  },
+  {
+    "id": "stat_0051",
+    "file": "experiments/d1_prfm/config/normalization.json",
+    "json_pointer": "/h1_mean"
+  },
+  {
+    "id": "stat_0052",
+    "file": "experiments/d1_prfm/config/normalization.json",
+    "json_pointer": "/h1_std"
+  },
+  {
+    "id": "stat_0053",
+    "file": "experiments/d1_response_ablations/source/executed_source/h1_pretraining_protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0054",
+    "file": "experiments/d1_response_ablations/source/executed_source/h1_pretraining_protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0055",
+    "file": "experiments/d1_response_ablations/source/gpu1_executed_source/h1_pretraining_protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0056",
+    "file": "experiments/d1_response_ablations/source/gpu1_executed_source/h1_pretraining_protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0057",
+    "file": "experiments/d1_response_ablations/source/gpu1_parallel_executed_source/h1_pretraining_protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0058",
+    "file": "experiments/d1_response_ablations/source/gpu1_parallel_executed_source/h1_pretraining_protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0059",
+    "file": "experiments/d1_response_ablations/source/normalization.json",
+    "json_pointer": "/temperature_mean"
+  },
+  {
+    "id": "stat_0060",
+    "file": "experiments/d1_response_ablations/source/normalization.json",
+    "json_pointer": "/temperature_std"
+  },
+  {
+    "id": "stat_0061",
+    "file": "experiments/d1_response_ablations/source/normalization.json",
+    "json_pointer": "/h1_mean"
+  },
+  {
+    "id": "stat_0062",
+    "file": "experiments/d1_response_ablations/source/normalization.json",
+    "json_pointer": "/h1_std"
+  },
+  {
+    "id": "stat_0063",
+    "file": "experiments/d1_response_ablations/source/original_frozen_project/experiments/version_long_suite_20260930/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0064",
+    "file": "experiments/d1_response_ablations/source/original_frozen_project/experiments/version_long_suite_20260930/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0065",
+    "file": "experiments/d1_small_sample/metadata/baseline_protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0066",
+    "file": "experiments/d1_small_sample/metadata/baseline_protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0067",
+    "file": "experiments/d1_small_sample/metadata/baseline_protocol.json",
+    "json_pointer": "/training_difference_scales/first_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0068",
+    "file": "experiments/d1_small_sample/metadata/baseline_protocol.json",
+    "json_pointer": "/training_difference_scales/second_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0069",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/mean"
+  },
+  {
+    "id": "stat_0070",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/std"
+  },
+  {
+    "id": "stat_0071",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/normalization/mean"
+  },
+  {
+    "id": "stat_0072",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/normalization/std"
+  },
+  {
+    "id": "stat_0073",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0074",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0075",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0076",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0077",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0078",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0079",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0080",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0081",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0082",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0083",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0084",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0085",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/mean"
+  },
+  {
+    "id": "stat_0086",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/std"
+  },
+  {
+    "id": "stat_0087",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/normalization/mean"
+  },
+  {
+    "id": "stat_0088",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/normalization/std"
+  },
+  {
+    "id": "stat_0089",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0090",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0091",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0092",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0093",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0094",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0095",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0096",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0097",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0098",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0099",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0100",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0101",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/mean"
+  },
+  {
+    "id": "stat_0102",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/std"
+  },
+  {
+    "id": "stat_0103",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/normalization/mean"
+  },
+  {
+    "id": "stat_0104",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/normalization/std"
+  },
+  {
+    "id": "stat_0105",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0106",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0107",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0108",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0109",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0110",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0111",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0112",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0113",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0114",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0115",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0116",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0117",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/mean"
+  },
+  {
+    "id": "stat_0118",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/std"
+  },
+  {
+    "id": "stat_0119",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/normalization/mean"
+  },
+  {
+    "id": "stat_0120",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/normalization/std"
+  },
+  {
+    "id": "stat_0121",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0122",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0123",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0124",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0125",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0126",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0127",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0128",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0129",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0130",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0131",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0132",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/latest30/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0133",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/mean"
+  },
+  {
+    "id": "stat_0134",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/std"
+  },
+  {
+    "id": "stat_0135",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/normalization/mean"
+  },
+  {
+    "id": "stat_0136",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/normalization/std"
+  },
+  {
+    "id": "stat_0137",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0138",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0139",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0140",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0141",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0142",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0143",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0144",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0145",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0146",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0147",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0148",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/9m/protocol.json/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0149",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/mean"
+  },
+  {
+    "id": "stat_0150",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/std"
+  },
+  {
+    "id": "stat_0151",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/normalization/mean"
+  },
+  {
+    "id": "stat_0152",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/normalization/std"
+  },
+  {
+    "id": "stat_0153",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0154",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0155",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0156",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0157",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0158",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0159",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0160",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0161",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0162",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0163",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0164",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/6m/protocol.json/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0165",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/mean"
+  },
+  {
+    "id": "stat_0166",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/std"
+  },
+  {
+    "id": "stat_0167",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/normalization/mean"
+  },
+  {
+    "id": "stat_0168",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/normalization/std"
+  },
+  {
+    "id": "stat_0169",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0170",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0171",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0172",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0173",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0174",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0175",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0176",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0177",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0178",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0179",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0180",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/3m/protocol.json/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0181",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/mean"
+  },
+  {
+    "id": "stat_0182",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/std"
+  },
+  {
+    "id": "stat_0183",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/normalization/mean"
+  },
+  {
+    "id": "stat_0184",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/normalization/std"
+  },
+  {
+    "id": "stat_0185",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0186",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0187",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0188",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0189",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0190",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0191",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0192",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0193",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0194",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0195",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0196",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_bundle.json",
+    "json_pointer": "/coverage30_candidate/${WORKSPACE}/experiments/d1_small_sample_20261013/protocols/1m/protocol.json/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0197",
+    "file": "experiments/d1_small_sample/protocols/1m/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0198",
+    "file": "experiments/d1_small_sample/protocols/1m/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0199",
+    "file": "experiments/d1_small_sample/protocols/1m/protocol.json",
+    "json_pointer": "/normalization/mean"
+  },
+  {
+    "id": "stat_0200",
+    "file": "experiments/d1_small_sample/protocols/1m/protocol.json",
+    "json_pointer": "/normalization/std"
+  },
+  {
+    "id": "stat_0201",
+    "file": "experiments/d1_small_sample/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0202",
+    "file": "experiments/d1_small_sample/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0203",
+    "file": "experiments/d1_small_sample/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0204",
+    "file": "experiments/d1_small_sample/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0205",
+    "file": "experiments/d1_small_sample/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0206",
+    "file": "experiments/d1_small_sample/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0207",
+    "file": "experiments/d1_small_sample/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0208",
+    "file": "experiments/d1_small_sample/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0209",
+    "file": "experiments/d1_small_sample/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0210",
+    "file": "experiments/d1_small_sample/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0211",
+    "file": "experiments/d1_small_sample/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0212",
+    "file": "experiments/d1_small_sample/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0213",
+    "file": "experiments/d1_small_sample/protocols/1m_coverage30_candidate/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0214",
+    "file": "experiments/d1_small_sample/protocols/1m_coverage30_candidate/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0215",
+    "file": "experiments/d1_small_sample/protocols/1m_coverage30_candidate/protocol.json",
+    "json_pointer": "/normalization/mean"
+  },
+  {
+    "id": "stat_0216",
+    "file": "experiments/d1_small_sample/protocols/1m_coverage30_candidate/protocol.json",
+    "json_pointer": "/normalization/std"
+  },
+  {
+    "id": "stat_0217",
+    "file": "experiments/d1_small_sample/protocols/1m_coverage30_candidate/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0218",
+    "file": "experiments/d1_small_sample/protocols/1m_coverage30_candidate/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0219",
+    "file": "experiments/d1_small_sample/protocols/1m_coverage30_candidate/protocol.json",
+    "json_pointer": "/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0220",
+    "file": "experiments/d1_small_sample/protocols/1m_coverage30_candidate/protocol.json",
+    "json_pointer": "/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0221",
+    "file": "experiments/d1_small_sample/protocols/1m_coverage30_candidate/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0222",
+    "file": "experiments/d1_small_sample/protocols/1m_coverage30_candidate/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0223",
+    "file": "experiments/d1_small_sample/protocols/1m_coverage30_candidate/protocol.json",
+    "json_pointer": "/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0224",
+    "file": "experiments/d1_small_sample/protocols/1m_coverage30_candidate/protocol.json",
+    "json_pointer": "/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0225",
+    "file": "experiments/d1_small_sample/protocols/1m_coverage30_candidate/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0226",
+    "file": "experiments/d1_small_sample/protocols/1m_coverage30_candidate/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0227",
+    "file": "experiments/d1_small_sample/protocols/1m_coverage30_candidate/protocol.json",
+    "json_pointer": "/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0228",
+    "file": "experiments/d1_small_sample/protocols/1m_coverage30_candidate/protocol.json",
+    "json_pointer": "/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0229",
+    "file": "experiments/d1_small_sample/protocols/1m_latest30_reference/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0230",
+    "file": "experiments/d1_small_sample/protocols/1m_latest30_reference/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0231",
+    "file": "experiments/d1_small_sample/protocols/1m_latest30_reference/protocol.json",
+    "json_pointer": "/normalization/mean"
+  },
+  {
+    "id": "stat_0232",
+    "file": "experiments/d1_small_sample/protocols/1m_latest30_reference/protocol.json",
+    "json_pointer": "/normalization/std"
+  },
+  {
+    "id": "stat_0233",
+    "file": "experiments/d1_small_sample/protocols/1m_latest30_reference/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0234",
+    "file": "experiments/d1_small_sample/protocols/1m_latest30_reference/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0235",
+    "file": "experiments/d1_small_sample/protocols/1m_latest30_reference/protocol.json",
+    "json_pointer": "/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0236",
+    "file": "experiments/d1_small_sample/protocols/1m_latest30_reference/protocol.json",
+    "json_pointer": "/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0237",
+    "file": "experiments/d1_small_sample/protocols/1m_latest30_reference/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0238",
+    "file": "experiments/d1_small_sample/protocols/1m_latest30_reference/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0239",
+    "file": "experiments/d1_small_sample/protocols/1m_latest30_reference/protocol.json",
+    "json_pointer": "/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0240",
+    "file": "experiments/d1_small_sample/protocols/1m_latest30_reference/protocol.json",
+    "json_pointer": "/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0241",
+    "file": "experiments/d1_small_sample/protocols/1m_latest30_reference/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0242",
+    "file": "experiments/d1_small_sample/protocols/1m_latest30_reference/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0243",
+    "file": "experiments/d1_small_sample/protocols/1m_latest30_reference/protocol.json",
+    "json_pointer": "/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0244",
+    "file": "experiments/d1_small_sample/protocols/1m_latest30_reference/protocol.json",
+    "json_pointer": "/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0245",
+    "file": "experiments/d1_small_sample/protocols/3m/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0246",
+    "file": "experiments/d1_small_sample/protocols/3m/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0247",
+    "file": "experiments/d1_small_sample/protocols/3m/protocol.json",
+    "json_pointer": "/normalization/mean"
+  },
+  {
+    "id": "stat_0248",
+    "file": "experiments/d1_small_sample/protocols/3m/protocol.json",
+    "json_pointer": "/normalization/std"
+  },
+  {
+    "id": "stat_0249",
+    "file": "experiments/d1_small_sample/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0250",
+    "file": "experiments/d1_small_sample/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0251",
+    "file": "experiments/d1_small_sample/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0252",
+    "file": "experiments/d1_small_sample/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0253",
+    "file": "experiments/d1_small_sample/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0254",
+    "file": "experiments/d1_small_sample/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0255",
+    "file": "experiments/d1_small_sample/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0256",
+    "file": "experiments/d1_small_sample/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0257",
+    "file": "experiments/d1_small_sample/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0258",
+    "file": "experiments/d1_small_sample/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0259",
+    "file": "experiments/d1_small_sample/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0260",
+    "file": "experiments/d1_small_sample/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0261",
+    "file": "experiments/d1_small_sample/protocols/6m/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0262",
+    "file": "experiments/d1_small_sample/protocols/6m/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0263",
+    "file": "experiments/d1_small_sample/protocols/6m/protocol.json",
+    "json_pointer": "/normalization/mean"
+  },
+  {
+    "id": "stat_0264",
+    "file": "experiments/d1_small_sample/protocols/6m/protocol.json",
+    "json_pointer": "/normalization/std"
+  },
+  {
+    "id": "stat_0265",
+    "file": "experiments/d1_small_sample/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0266",
+    "file": "experiments/d1_small_sample/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0267",
+    "file": "experiments/d1_small_sample/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0268",
+    "file": "experiments/d1_small_sample/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0269",
+    "file": "experiments/d1_small_sample/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0270",
+    "file": "experiments/d1_small_sample/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0271",
+    "file": "experiments/d1_small_sample/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0272",
+    "file": "experiments/d1_small_sample/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0273",
+    "file": "experiments/d1_small_sample/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0274",
+    "file": "experiments/d1_small_sample/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0275",
+    "file": "experiments/d1_small_sample/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0276",
+    "file": "experiments/d1_small_sample/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0277",
+    "file": "experiments/d1_small_sample/protocols/9m/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0278",
+    "file": "experiments/d1_small_sample/protocols/9m/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0279",
+    "file": "experiments/d1_small_sample/protocols/9m/protocol.json",
+    "json_pointer": "/normalization/mean"
+  },
+  {
+    "id": "stat_0280",
+    "file": "experiments/d1_small_sample/protocols/9m/protocol.json",
+    "json_pointer": "/normalization/std"
+  },
+  {
+    "id": "stat_0281",
+    "file": "experiments/d1_small_sample/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0282",
+    "file": "experiments/d1_small_sample/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0283",
+    "file": "experiments/d1_small_sample/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0284",
+    "file": "experiments/d1_small_sample/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0285",
+    "file": "experiments/d1_small_sample/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0286",
+    "file": "experiments/d1_small_sample/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0287",
+    "file": "experiments/d1_small_sample/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0288",
+    "file": "experiments/d1_small_sample/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0289",
+    "file": "experiments/d1_small_sample/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0290",
+    "file": "experiments/d1_small_sample/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0291",
+    "file": "experiments/d1_small_sample/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0292",
+    "file": "experiments/d1_small_sample/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0293",
+    "file": "experiments/d1_small_sample/vendor/temperature_a2/h1_pretraining_protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0294",
+    "file": "experiments/d1_small_sample/vendor/temperature_a2/h1_pretraining_protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0295",
+    "file": "experiments/d1_small_sample_additional/protocols/1m/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0296",
+    "file": "experiments/d1_small_sample_additional/protocols/1m/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0297",
+    "file": "experiments/d1_small_sample_additional/protocols/1m/protocol.json",
+    "json_pointer": "/normalization/mean"
+  },
+  {
+    "id": "stat_0298",
+    "file": "experiments/d1_small_sample_additional/protocols/1m/protocol.json",
+    "json_pointer": "/normalization/std"
+  },
+  {
+    "id": "stat_0299",
+    "file": "experiments/d1_small_sample_additional/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0300",
+    "file": "experiments/d1_small_sample_additional/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0301",
+    "file": "experiments/d1_small_sample_additional/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0302",
+    "file": "experiments/d1_small_sample_additional/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0303",
+    "file": "experiments/d1_small_sample_additional/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0304",
+    "file": "experiments/d1_small_sample_additional/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0305",
+    "file": "experiments/d1_small_sample_additional/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0306",
+    "file": "experiments/d1_small_sample_additional/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0307",
+    "file": "experiments/d1_small_sample_additional/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0308",
+    "file": "experiments/d1_small_sample_additional/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0309",
+    "file": "experiments/d1_small_sample_additional/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0310",
+    "file": "experiments/d1_small_sample_additional/protocols/1m/protocol.json",
+    "json_pointer": "/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0311",
+    "file": "experiments/d1_small_sample_additional/protocols/3m/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0312",
+    "file": "experiments/d1_small_sample_additional/protocols/3m/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0313",
+    "file": "experiments/d1_small_sample_additional/protocols/3m/protocol.json",
+    "json_pointer": "/normalization/mean"
+  },
+  {
+    "id": "stat_0314",
+    "file": "experiments/d1_small_sample_additional/protocols/3m/protocol.json",
+    "json_pointer": "/normalization/std"
+  },
+  {
+    "id": "stat_0315",
+    "file": "experiments/d1_small_sample_additional/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0316",
+    "file": "experiments/d1_small_sample_additional/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0317",
+    "file": "experiments/d1_small_sample_additional/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0318",
+    "file": "experiments/d1_small_sample_additional/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0319",
+    "file": "experiments/d1_small_sample_additional/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0320",
+    "file": "experiments/d1_small_sample_additional/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0321",
+    "file": "experiments/d1_small_sample_additional/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0322",
+    "file": "experiments/d1_small_sample_additional/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0323",
+    "file": "experiments/d1_small_sample_additional/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0324",
+    "file": "experiments/d1_small_sample_additional/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0325",
+    "file": "experiments/d1_small_sample_additional/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0326",
+    "file": "experiments/d1_small_sample_additional/protocols/3m/protocol.json",
+    "json_pointer": "/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0327",
+    "file": "experiments/d1_small_sample_additional/protocols/6m/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0328",
+    "file": "experiments/d1_small_sample_additional/protocols/6m/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0329",
+    "file": "experiments/d1_small_sample_additional/protocols/6m/protocol.json",
+    "json_pointer": "/normalization/mean"
+  },
+  {
+    "id": "stat_0330",
+    "file": "experiments/d1_small_sample_additional/protocols/6m/protocol.json",
+    "json_pointer": "/normalization/std"
+  },
+  {
+    "id": "stat_0331",
+    "file": "experiments/d1_small_sample_additional/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0332",
+    "file": "experiments/d1_small_sample_additional/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0333",
+    "file": "experiments/d1_small_sample_additional/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0334",
+    "file": "experiments/d1_small_sample_additional/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0335",
+    "file": "experiments/d1_small_sample_additional/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0336",
+    "file": "experiments/d1_small_sample_additional/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0337",
+    "file": "experiments/d1_small_sample_additional/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0338",
+    "file": "experiments/d1_small_sample_additional/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0339",
+    "file": "experiments/d1_small_sample_additional/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0340",
+    "file": "experiments/d1_small_sample_additional/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0341",
+    "file": "experiments/d1_small_sample_additional/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0342",
+    "file": "experiments/d1_small_sample_additional/protocols/6m/protocol.json",
+    "json_pointer": "/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0343",
+    "file": "experiments/d1_small_sample_additional/protocols/9m/protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0344",
+    "file": "experiments/d1_small_sample_additional/protocols/9m/protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0345",
+    "file": "experiments/d1_small_sample_additional/protocols/9m/protocol.json",
+    "json_pointer": "/normalization/mean"
+  },
+  {
+    "id": "stat_0346",
+    "file": "experiments/d1_small_sample_additional/protocols/9m/protocol.json",
+    "json_pointer": "/normalization/std"
+  },
+  {
+    "id": "stat_0347",
+    "file": "experiments/d1_small_sample_additional/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/mean"
+  },
+  {
+    "id": "stat_0348",
+    "file": "experiments/d1_small_sample_additional/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/0/normalization/std"
+  },
+  {
+    "id": "stat_0349",
+    "file": "experiments/d1_small_sample_additional/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/0/mean"
+  },
+  {
+    "id": "stat_0350",
+    "file": "experiments/d1_small_sample_additional/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/0/std"
+  },
+  {
+    "id": "stat_0351",
+    "file": "experiments/d1_small_sample_additional/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/mean"
+  },
+  {
+    "id": "stat_0352",
+    "file": "experiments/d1_small_sample_additional/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/1/normalization/std"
+  },
+  {
+    "id": "stat_0353",
+    "file": "experiments/d1_small_sample_additional/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/1/mean"
+  },
+  {
+    "id": "stat_0354",
+    "file": "experiments/d1_small_sample_additional/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/1/std"
+  },
+  {
+    "id": "stat_0355",
+    "file": "experiments/d1_small_sample_additional/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/mean"
+  },
+  {
+    "id": "stat_0356",
+    "file": "experiments/d1_small_sample_additional/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/2/normalization/std"
+  },
+  {
+    "id": "stat_0357",
+    "file": "experiments/d1_small_sample_additional/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/2/mean"
+  },
+  {
+    "id": "stat_0358",
+    "file": "experiments/d1_small_sample_additional/protocols/9m/protocol.json",
+    "json_pointer": "/oof_folds/2/std"
+  },
+  {
+    "id": "stat_0359",
+    "file": "experiments/d1_stpm/runs/seed2024/data_report.json",
+    "json_pointer": "/mean_celsius"
+  },
+  {
+    "id": "stat_0360",
+    "file": "experiments/d1_stpm/runs/seed2024/data_report.json",
+    "json_pointer": "/std_celsius"
+  },
+  {
+    "id": "stat_0361",
+    "file": "experiments/d1_stpm/runs/seed2025/data_report.json",
+    "json_pointer": "/mean_celsius"
+  },
+  {
+    "id": "stat_0362",
+    "file": "experiments/d1_stpm/runs/seed2025/data_report.json",
+    "json_pointer": "/std_celsius"
+  },
+  {
+    "id": "stat_0363",
+    "file": "experiments/d1_stpm/runs/seed2026/data_report.json",
+    "json_pointer": "/mean_celsius"
+  },
+  {
+    "id": "stat_0364",
+    "file": "experiments/d1_stpm/runs/seed2026/data_report.json",
+    "json_pointer": "/std_celsius"
+  },
+  {
+    "id": "stat_0365",
+    "file": "experiments/d1_stpm/runs/seed2027/data_report.json",
+    "json_pointer": "/mean_celsius"
+  },
+  {
+    "id": "stat_0366",
+    "file": "experiments/d1_stpm/runs/seed2027/data_report.json",
+    "json_pointer": "/std_celsius"
+  },
+  {
+    "id": "stat_0367",
+    "file": "experiments/d1_stpm/runs/seed2028/data_report.json",
+    "json_pointer": "/mean_celsius"
+  },
+  {
+    "id": "stat_0368",
+    "file": "experiments/d1_stpm/runs/seed2028/data_report.json",
+    "json_pointer": "/std_celsius"
+  },
+  {
+    "id": "stat_0369",
+    "file": "experiments/d1_stpm/source/h1_pretraining_protocol.json",
+    "json_pointer": "/mean"
+  },
+  {
+    "id": "stat_0370",
+    "file": "experiments/d1_stpm/source/h1_pretraining_protocol.json",
+    "json_pointer": "/std"
+  },
+  {
+    "id": "stat_0371",
+    "file": "results/d1_independent_prfm.json",
+    "json_pointer": "/validation/channel_rmse_mm/old/mean"
+  },
+  {
+    "id": "stat_0372",
+    "file": "results/d1_independent_prfm.json",
+    "json_pointer": "/validation/channel_rmse_mm/new/mean"
+  },
+  {
+    "id": "stat_0373",
+    "file": "results/d1_independent_prfm.json",
+    "json_pointer": "/validation/channel_rmse_mm/paired_change/mean"
+  },
+  {
+    "id": "stat_0374",
+    "file": "results/d1_independent_prfm.json",
+    "json_pointer": "/validation/channel_mae_mm/old/mean"
+  },
+  {
+    "id": "stat_0375",
+    "file": "results/d1_independent_prfm.json",
+    "json_pointer": "/validation/channel_mae_mm/new/mean"
+  },
+  {
+    "id": "stat_0376",
+    "file": "results/d1_independent_prfm.json",
+    "json_pointer": "/validation/channel_mae_mm/paired_change/mean"
+  },
+  {
+    "id": "stat_0377",
+    "file": "results/d1_independent_prfm.json",
+    "json_pointer": "/test/channel_rmse_mm/old/mean"
+  },
+  {
+    "id": "stat_0378",
+    "file": "results/d1_independent_prfm.json",
+    "json_pointer": "/test/channel_rmse_mm/new/mean"
+  },
+  {
+    "id": "stat_0379",
+    "file": "results/d1_independent_prfm.json",
+    "json_pointer": "/test/channel_rmse_mm/paired_change/mean"
+  },
+  {
+    "id": "stat_0380",
+    "file": "results/d1_independent_prfm.json",
+    "json_pointer": "/test/channel_mae_mm/old/mean"
+  },
+  {
+    "id": "stat_0381",
+    "file": "results/d1_independent_prfm.json",
+    "json_pointer": "/test/channel_mae_mm/new/mean"
+  },
+  {
+    "id": "stat_0382",
+    "file": "results/d1_independent_prfm.json",
+    "json_pointer": "/test/channel_mae_mm/paired_change/mean"
+  },
+  {
+    "id": "stat_0383",
+    "file": "experiments/d2_pipeline/ablation_template/frozen_project/experiments/version_long_suite_20260930/protocol.json",
+    "field": "/mean"
+  },
+  {
+    "id": "stat_0384",
+    "file": "experiments/d2_pipeline/ablation_template/frozen_project/experiments/version_long_suite_20260930/protocol.json",
+    "field": "/std"
+  },
+  {
+    "id": "stat_0385",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_preparation.py",
+    "field": "baseline_metadata/mean"
+  },
+  {
+    "id": "stat_0386",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_preparation.py",
+    "field": "baseline_metadata/std"
+  },
+  {
+    "id": "stat_0387",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_preparation.py",
+    "field": "baseline_metadata/training_difference_scales/first_difference_rms_normalized"
+  },
+  {
+    "id": "stat_0388",
+    "file": "experiments/d1_small_sample/metadata/read_only_protocol_preparation.py",
+    "field": "baseline_metadata/training_difference_scales/second_difference_rms_normalized"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "scope": "D1 current fixed A2 strict no-trend loss ablation, five temperature seeds2024-2028; original shared H1 frozen",
+  "gpu_indices": [
+    0,
+    1
+  ],
+  "max_workers_per_gpu": 2,
+  "max_cpu_validations": 2,
+  "runs": [
+    {
+      "seed": 2026,
+      "weight": 0.0,
+      "gpu": 0,
+      "config": "${WORKSPACE}/temperature_prediction/d1_A2_no_trend_20261015/configs/A2_lambda0_seed2026.json",
+      "output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2026",
+      "reference_temperature": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026",
+      "reference_metrics": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/evaluation_A2/seed2026/metrics.json",
+      "validation_metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/evaluation_A2/seed2026/metrics.json"
+    },
+    {
+      "seed": 2024,
+      "weight": 0.0,
+      "gpu": 1,
+      "config": "${WORKSPACE}/temperature_prediction/d1_A2_no_trend_20261015/configs/A2_lambda0_seed2024.json",
+      "output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2024",
+      "reference_temperature": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024",
+      "reference_metrics": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/evaluation_A2/seed2024/metrics.json",
+      "validation_metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/evaluation_A2/seed2024/metrics.json"
+    },
+    {
+      "seed": 2025,
+      "weight": 0.0,
+      "gpu": 1,
+      "config": "${WORKSPACE}/temperature_prediction/d1_A2_no_trend_20261015/configs/A2_lambda0_seed2025.json",
+      "output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2025",
+      "reference_temperature": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025",
+      "reference_metrics": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/evaluation_A2/seed2025/metrics.json",
+      "validation_metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/evaluation_A2/seed2025/metrics.json"
+    },
+    {
+      "seed": 2027,
+      "weight": 0.0,
+      "gpu": 0,
+      "config": "${WORKSPACE}/temperature_prediction/d1_A2_no_trend_20261015/configs/A2_lambda0_seed2027.json",
+      "output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2027",
+      "reference_temperature": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027",
+      "reference_metrics": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/evaluation_A2/seed2027/metrics.json",
+      "validation_metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/evaluation_A2/seed2027/metrics.json"
+    },
+    {
+      "seed": 2028,
+      "weight": 0.0,
+      "gpu": 1,
+      "config": "${WORKSPACE}/temperature_prediction/d1_A2_no_trend_20261015/configs/A2_lambda0_seed2028.json",
+      "output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2028",
+      "reference_temperature": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028",
+      "reference_metrics": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/evaluation_A2/seed2028/metrics.json",
+      "validation_metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/evaluation_A2/seed2028/metrics.json"
+    }
+  ],
+  "contract": "D1 minute_complete.npz; original training511days,304train/66temperatureval;26commonvalidationwindows,1440minute nodes,4bearings;original5v9;80base/60residual caps,patience12,Adam0.001,batch32,shape0.25;only trend_weight3->0;H1 fixed shared original adapted checkpoint;no test scoring"
+}

@@ -1,0 +1,48 @@
+{
+  "version": "va-1",
+  "experiment_id": "va_1_20261004",
+  "task": "frozen_v11_temperature_forecast_to_full_H1_displacement_adaptation",
+  "output": "outputs/va_1_20261004",
+  "original_source_output": "outputs/v0258_history_state_fusion_20261004",
+  "forecast_source_output": "outputs/v0258_erroraware_20261003",
+  "h1_source": "experiments/v2_hybrid_kqsz_20261001",
+  "temperature_source": "temperature_prediction/shape_ode_residual_temperature_v11_20261002",
+  "data": "data/mainbridge_temperature_v2/minute_complete.npz",
+  "seed": 2024,
+  "gpu": 0,
+  "threads": 4,
+  "sample_minutes": 15,
+  "history_days": 30,
+  "horizon_days": 1,
+  "split_days": [
+    511,
+    110,
+    109
+  ],
+  "fold_start_days": [
+    180,
+    290,
+    400
+  ],
+  "expected_windows": {
+    "train": 110,
+    "validation": 26,
+    "test": 39
+  },
+  "batch_size": 16,
+  "epochs": 80,
+  "patience": 20,
+  "lr": 0.0001,
+  "grad_clip": 1.0,
+  "ode_weight": 0.001,
+  "h1_stage": "forecast_adaptation",
+  "temperature_parameters": "all frozen, including output residual",
+  "h1_parameters": "original configure_stage active parameters; original FFT cutoffs and disabled LF seasonal maps stay fixed",
+  "training_input": "past five-channel history and fixed causal OOF temperature forecasts in Celsius",
+  "training_loss": "masked normalized measured displacement MSE + 0.001 original BW residual energy",
+  "selection": "validation pooled displacement RMSE in mm, includes unadapted epoch 0",
+  "test_policy": "construct measured test targets and evaluate original/selected models only after validation selection",
+  "capacity_change": false,
+  "future_temperature_truth_as_input": false,
+  "independent_displacement_head": false
+}

@@ -1,0 +1,67 @@
+{
+  "protocol_path": "protocols/6m/protocol.json",
+  "model": "ModernTCN",
+  "seed": 2027,
+  "run_name": "D1_6m_ModernTCN_seed2027",
+  "output": "outputs/6m/ModernTCN_seed2027",
+  "record_dir": "${RECORDS}/d1_small_sample_20261013",
+  "budget": "6m",
+  "full_data_weights_used": false,
+  "test_used_for_selection": false,
+  "model_args": {
+    "seq_len": 43200,
+    "pred_len": 1440,
+    "label_len": 1440,
+    "enc_in": 5,
+    "c_out": 5,
+    "freq": "t",
+    "stem_ratio": 6,
+    "downsample_ratio": 2,
+    "ffn_ratio": 8,
+    "patch_size": 240,
+    "patch_stride": 120,
+    "num_blocks": [
+      3
+    ],
+    "large_size": [
+      51
+    ],
+    "small_size": [
+      5
+    ],
+    "dims": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "dw_dims": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "small_kernel_merged": false,
+    "dropout": 0.1,
+    "head_dropout": 0.0,
+    "use_multi_scale": false,
+    "revin": true,
+    "affine": false,
+    "subtract_last": false,
+    "kernel_size": 375,
+    "decomposition": false,
+    "individual": false
+  },
+  "batch_size": 16,
+  "micro_batch_size": 16,
+  "epochs": 300,
+  "patience": 60,
+  "lr": 0.0001,
+  "grad_clip": 1.0,
+  "torch_threads": 2,
+  "reference_configuration": "metadata/frozen_baseline_configs/ModernTCN_seed2027.json",
+  "first_difference_weight": 0.0,
+  "second_difference_weight": 0.0,
+  "loss_policy": "Observed-entry masked standardized five-channel MSE.",
+  "checkpoint_selection": "Joint five-channel standardized validation RMSE."
+}

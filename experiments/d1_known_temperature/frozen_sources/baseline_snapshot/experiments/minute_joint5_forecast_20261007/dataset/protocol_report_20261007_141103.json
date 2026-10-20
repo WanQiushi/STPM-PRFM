@@ -1,0 +1,131 @@
+{
+  "created_at_beijing": "2026-10-07T14:11:03.391357+08:00",
+  "protocol": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007/dataset/protocol.json",
+  "counts": {
+    "train": {
+      "selected": 150,
+      "causal_history": 150,
+      "measured_targets": [
+        214151,
+        213875,
+        213690,
+        214083,
+        213966
+      ],
+      "minimum_observed_per_channel": [
+        1195,
+        1133,
+        1132,
+        1133,
+        1133
+      ]
+    },
+    "val": {
+      "selected": 26,
+      "causal_history": 26,
+      "measured_targets": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "minimum_observed_per_channel": [
+        1437,
+        1239,
+        1236,
+        1246,
+        1246
+      ]
+    },
+    "test": {
+      "selected": 39,
+      "causal_history": 39,
+      "measured_targets": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "minimum_observed_per_channel": [
+        1436,
+        1141,
+        1139,
+        1082,
+        1080
+      ]
+    }
+  },
+  "training_selection": {
+    "candidate_grid_minutes": 720,
+    "candidates": 961,
+    "causal_candidates": 159,
+    "selected": 150,
+    "min_observed_per_channel": 1080,
+    "observed_target_fraction": 0.75,
+    "retained_reference_train": 150,
+    "added": 0,
+    "removed": 31,
+    "added_origins": [],
+    "removed_origins": [
+      116640,
+      117360,
+      118080,
+      118800,
+      119520,
+      120240,
+      147600,
+      177120,
+      251280,
+      361440,
+      519840,
+      521280,
+      522720,
+      524160,
+      525600,
+      527040,
+      528480,
+      652320,
+      653760,
+      655200,
+      656640,
+      658080,
+      691200,
+      692640,
+      694080,
+      695520,
+      696960,
+      698400,
+      699840,
+      701280,
+      702720
+    ],
+    "target_end_within_training": true,
+    "full_future_temperature_required": false
+  },
+  "reference_contract": {
+    "validation_origins_equal": true,
+    "test_origins_equal": true,
+    "displacement_mean_equal": true,
+    "displacement_std_equal": true
+  },
+  "history_points": 43200,
+  "future_points": 1440,
+  "channels": [
+    "Temperature",
+    "Pier1",
+    "Pier2",
+    "Pier3",
+    "Pier4"
+  ],
+  "units": [
+    "deg C",
+    "mm",
+    "mm",
+    "mm",
+    "mm"
+  ],
+  "source_arrays_modified": false,
+  "old_protocol_modified": false
+}

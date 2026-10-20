@@ -1,0 +1,61 @@
+{
+  "windows": 109,
+  "locations": 4,
+  "pairs_per_seed": 436,
+  "seed_metrics": [
+    {
+      "seed": 2024,
+      "maximum_mae_mm": 15.944927277852138,
+      "maximum_time_mae_h": 3.301911314984709,
+      "minimum_mae_mm": 9.743055874458355,
+      "minimum_time_mae_h": 4.0241207951070335
+    },
+    {
+      "seed": 2025,
+      "maximum_mae_mm": 16.576653038522842,
+      "maximum_time_mae_h": 3.3697629969418963,
+      "minimum_mae_mm": 10.195578109473422,
+      "minimum_time_mae_h": 4.257683486238532
+    },
+    {
+      "seed": 2026,
+      "maximum_mae_mm": 15.834278093573797,
+      "maximum_time_mae_h": 3.5165137614678894,
+      "minimum_mae_mm": 10.575535285367959,
+      "minimum_time_mae_h": 3.940749235474006
+    },
+    {
+      "seed": 2027,
+      "maximum_mae_mm": 16.876733668134055,
+      "maximum_time_mae_h": 3.593539755351682,
+      "minimum_mae_mm": 10.388806095364723,
+      "minimum_time_mae_h": 4.116475535168195
+    },
+    {
+      "seed": 2028,
+      "maximum_mae_mm": 15.238844350620738,
+      "maximum_time_mae_h": 3.5001911314984713,
+      "minimum_mae_mm": 9.765888307964595,
+      "minimum_time_mae_h": 4.161467889908257
+    }
+  ],
+  "summary": {
+    "maximum_mae_mm": {
+      "mean": 16.094287285740712,
+      "sample_std": 0.6454833204645846
+    },
+    "maximum_time_mae_h": {
+      "mean": 3.4563837920489293,
+      "sample_std": 0.11801627302707998
+    },
+    "minimum_mae_mm": {
+      "mean": 10.13377273452581,
+      "sample_std": 0.371488454358616
+    },
+    "minimum_time_mae_h": {
+      "mean": 4.1000993883792045,
+      "sample_std": 0.12250738439808667
+    }
+  },
+  "truth_source": "${RESULTS}\\d1_bestday_overlay_baseline8_20261017\\predictions_seed2024_full109.npz"
+}

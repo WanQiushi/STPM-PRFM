@@ -1,0 +1,14 @@
+{
+  "check_type": "Static AST, frozen JSON configuration and prepared data-contract inspection only; no model imports, model calls or training.",
+  "python_files_parsed": 18,
+  "configuration_files_read": 180,
+  "protocol_files_read": 5,
+  "baseline_frozen_configuration_match": true,
+  "label_boundaries_and_oof_purging": true,
+  "outer_validation_windows": 26,
+  "outer_test_windows": 39,
+  "training_started": false,
+  "model_forward_executed": false,
+  "a2_1m_default_trainable": false,
+  "a2_1m_coverage_candidate_trainable": true
+}

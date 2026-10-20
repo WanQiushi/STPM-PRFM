@@ -1,0 +1,278 @@
+{
+  "created_beijing": "2026-10-15T14:43:39.908125+08:00",
+  "scope": "D1 current fixed-A2 missing five core ablations; no historical A0 metrics reused",
+  "gpu_indices": [
+    0
+  ],
+  "max_workers_per_gpu": 2,
+  "max_cpu_validations": 2,
+  "runs": [
+    {
+      "arm": "S1",
+      "name": "No temperature ODE",
+      "seed": 2024,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S1/seed2024/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2024",
+      "action": "new temperature training and fixed-H1 validation"
+    },
+    {
+      "arm": "S2",
+      "name": "No temperature residual",
+      "seed": 2024,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S2/seed2024/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S2_seed2024",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S4",
+      "name": "No thermal lag",
+      "seed": 2024,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S4/seed2024/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S5",
+      "name": "No BW physical rate",
+      "seed": 2024,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S5/seed2024/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S6",
+      "name": "No forecast-temperature adaptation",
+      "seed": 2024,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S6/seed2024/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S1",
+      "name": "No temperature ODE",
+      "seed": 2025,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S1/seed2025/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2025",
+      "action": "new temperature training and fixed-H1 validation"
+    },
+    {
+      "arm": "S2",
+      "name": "No temperature residual",
+      "seed": 2025,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S2/seed2025/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S2_seed2025",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S4",
+      "name": "No thermal lag",
+      "seed": 2025,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S4/seed2025/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S5",
+      "name": "No BW physical rate",
+      "seed": 2025,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S5/seed2025/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S6",
+      "name": "No forecast-temperature adaptation",
+      "seed": 2025,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S6/seed2025/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S1",
+      "name": "No temperature ODE",
+      "seed": 2026,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S1/seed2026/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2026",
+      "action": "new temperature training and fixed-H1 validation"
+    },
+    {
+      "arm": "S2",
+      "name": "No temperature residual",
+      "seed": 2026,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S2/seed2026/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S2_seed2026",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S4",
+      "name": "No thermal lag",
+      "seed": 2026,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S4/seed2026/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S5",
+      "name": "No BW physical rate",
+      "seed": 2026,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S5/seed2026/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S6",
+      "name": "No forecast-temperature adaptation",
+      "seed": 2026,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S6/seed2026/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S1",
+      "name": "No temperature ODE",
+      "seed": 2027,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S1/seed2027/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2027",
+      "action": "new temperature training and fixed-H1 validation"
+    },
+    {
+      "arm": "S2",
+      "name": "No temperature residual",
+      "seed": 2027,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S2/seed2027/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S2_seed2027",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S4",
+      "name": "No thermal lag",
+      "seed": 2027,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S4/seed2027/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S5",
+      "name": "No BW physical rate",
+      "seed": 2027,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S5/seed2027/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S6",
+      "name": "No forecast-temperature adaptation",
+      "seed": 2027,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S6/seed2027/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S1",
+      "name": "No temperature ODE",
+      "seed": 2028,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S1/seed2028/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2028",
+      "action": "new temperature training and fixed-H1 validation"
+    },
+    {
+      "arm": "S2",
+      "name": "No temperature residual",
+      "seed": 2028,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S2/seed2028/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S2_seed2028",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S4",
+      "name": "No thermal lag",
+      "seed": 2028,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S4/seed2028/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S5",
+      "name": "No BW physical rate",
+      "seed": 2028,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S5/seed2028/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    },
+    {
+      "arm": "S6",
+      "name": "No forecast-temperature adaptation",
+      "seed": 2028,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S6/seed2028/metrics.json",
+      "temperature_source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028",
+      "action": "reuse completed weights, new fixed-A2-input validation"
+    }
+  ],
+  "references": [
+    {
+      "arm": "S0",
+      "seed": 2024,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/evaluation_A2/seed2024/metrics.json"
+    },
+    {
+      "arm": "S3",
+      "seed": 2024,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/evaluation_A2/seed2024/metrics.json"
+    },
+    {
+      "arm": "S0",
+      "seed": 2025,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/evaluation_A2/seed2025/metrics.json"
+    },
+    {
+      "arm": "S3",
+      "seed": 2025,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/evaluation_A2/seed2025/metrics.json"
+    },
+    {
+      "arm": "S0",
+      "seed": 2026,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/evaluation_A2/seed2026/metrics.json"
+    },
+    {
+      "arm": "S3",
+      "seed": 2026,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/evaluation_A2/seed2026/metrics.json"
+    },
+    {
+      "arm": "S0",
+      "seed": 2027,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/evaluation_A2/seed2027/metrics.json"
+    },
+    {
+      "arm": "S3",
+      "seed": 2027,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/evaluation_A2/seed2027/metrics.json"
+    },
+    {
+      "arm": "S0",
+      "seed": 2028,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/evaluation_A2/seed2028/metrics.json"
+    },
+    {
+      "arm": "S3",
+      "seed": 2028,
+      "metrics": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/evaluation_A2/seed2028/metrics.json"
+    }
+  ],
+  "names": {
+    "S0": "Full fixed A2",
+    "S1": "No temperature ODE",
+    "S2": "No temperature residual",
+    "S3": "No trend supervision",
+    "S4": "No thermal lag",
+    "S5": "No BW physical rate",
+    "S6": "No forecast-temperature adaptation"
+  },
+  "contract": "D1 original304train/66temperatureval,26commonvalidation,1minute1440nodes,4bearings;original A2 recipe,5temperature seeds;shared corresponding H1 per intervention;no test scoring",
+  "reuse_report": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/reuse_report.json",
+  "new_training_count": 5,
+  "new_validation_count": 25,
+  "reused_reference_count": 10,
+  "gpu_admission": "GPU0 only; existing owner-aware gate waits for external processes; never use GPU1"
+}

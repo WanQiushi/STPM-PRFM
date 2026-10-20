@@ -1,0 +1,46 @@
+{
+  "check_type": "Final static AST, frozen training configuration equality and formal chronological budget contract; no model imports or forward calls.",
+  "checked_beijing": "2026-10-13T20:44:48.815408+08:00",
+  "python_files_parsed": 16,
+  "configuration_files_read": 180,
+  "baseline_configurations_selected": 160,
+  "a2_configurations_excluded": 20,
+  "baseline_frozen_configuration_match": true,
+  "label_boundaries_and_oof_purging": true,
+  "outer_validation_windows": 26,
+  "outer_test_windows": 39,
+  "training_started": false,
+  "model_forward_executed": false,
+  "a2_1m_default_trainable": true,
+  "a2_1m_coverage_candidate_trainable": true,
+  "formal_counts": {
+    "9m": {
+      "train": 87,
+      "val": 26,
+      "test": 39,
+      "h1": 30,
+      "oof": 65
+    },
+    "6m": {
+      "train": 49,
+      "val": 26,
+      "test": 39,
+      "h1": 13,
+      "oof": 36
+    },
+    "3m": {
+      "train": 29,
+      "val": 26,
+      "test": 39,
+      "h1": 5,
+      "oof": 21
+    },
+    "1m": {
+      "train": 20,
+      "val": 26,
+      "test": 39,
+      "h1": 5,
+      "oof": 15
+    }
+  }
+}

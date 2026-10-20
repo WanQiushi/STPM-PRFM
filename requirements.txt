@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+torch
+matplotlib
+Pillow
+einops
+reformer-pytorch
+tqdm
+scikit-learn
+psutil
+torchdiffeq
+openpyxl

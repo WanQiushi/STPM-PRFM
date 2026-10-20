@@ -1,0 +1,60 @@
+{
+  "config_fields": [
+    "protocol_path",
+    "model",
+    "seed",
+    "run_name",
+    "output",
+    "record_dir",
+    "model_args",
+    "batch_size",
+    "micro_batch_size",
+    "epochs",
+    "patience",
+    "lr",
+    "grad_clip",
+    "torch_threads"
+  ],
+  "protocol_fields": [
+    "data_path",
+    "origins",
+    "mean",
+    "std",
+    "history_points",
+    "forecast_points",
+    "channel_names"
+  ],
+  "models": [
+    "DLinear",
+    "iTransformer",
+    "LSTM",
+    "TimeXer",
+    "PatchTST",
+    "TimesNet",
+    "SegRNN",
+    "ModernTCN"
+  ],
+  "seeds": [
+    2024,
+    2025,
+    2026,
+    2027,
+    2028
+  ],
+  "default_training": {
+    "batch_size": 16,
+    "epochs": 300,
+    "patience": 60,
+    "lr": 0.0001,
+    "grad_clip": 1.0,
+    "torch_threads": 2,
+    "micro_batch_size": {
+      "TimeXer": 4,
+      "TimesNet": 4,
+      "other_models": 16
+    }
+  },
+  "model_args_source": "Frozen per-model seed configuration copied unchanged by project preparation.",
+  "model_forward_input": "history only",
+  "syntax_check": "ast.parse, no imports or execution"
+}

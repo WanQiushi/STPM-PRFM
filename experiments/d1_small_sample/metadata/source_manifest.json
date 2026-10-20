@@ -1,0 +1,104 @@
+{
+  "version": "d1_small_sample_code_v2_baseline_queue_20261013",
+  "scope": {
+    "months": [
+      9,
+      6,
+      3,
+      1
+    ],
+    "models": [
+      "A2",
+      "DLinear",
+      "iTransformer",
+      "LSTM-Patch-Direct",
+      "TimeXer",
+      "PatchTST",
+      "TimesNet-LR",
+      "SegRNN",
+      "ModernTCN"
+    ],
+    "seeds": [
+      2024,
+      2025,
+      2026,
+      2027,
+      2028
+    ],
+    "jobs": 180
+  },
+  "training_started": false,
+  "model_calls_executed": false,
+  "code_and_dataset_provenance": {
+    "baseline_archive": "${RESULTS}\\baseline_joint5_1min_frozen_20261009",
+    "baseline_actual_configs": "metadata/frozen_baseline_configs/",
+    "tsl_source_commit": "4e938a1767106324dd753b2a44832bf870a0252e",
+    "moderntcn_source_commit": "56a9a2c018385cd5acef015378cae7f084d1b11c",
+    "a2_source": "${RESULTS}\\va_A2_fixed_20261009\\temperature\\seed2024\\frozen_source",
+    "h1_source": "${RESULTS}\\va_1_20261004\\completed_20261006_1340\\va_1_20261004\\frozen_project",
+    "temperature_original_configs": [
+      "metadata/v9_original_config.json",
+      "metadata/v11_original_config.json",
+      "metadata/a2_original_config.json"
+    ],
+    "oof_temperature_producer": "original shape_ode_residual_temperature_v11_20261002; 15 min; learned scalar heads; trend weight 0",
+    "dataset": "${WORKSPACE}/data/mainbridge_temperature_v2/minute_complete.npz",
+    "dataset_version": "mainbridge_temperature_v2",
+    "dataset_shape": [
+      1051200,
+      5
+    ],
+    "dataset_read_method": "Read-only SSH runtime /usr/bin/python3; NPZ arrays values,valid_observed,input_available_at; no remote file writes.",
+    "dataset_preparation_code": "prepare_protocols.py",
+    "readonly_preparation_invocation": "metadata/read_only_protocol_preparation.py",
+    "original_arrays_modified": false,
+    "raw_dataset_in_package": false
+  },
+  "retained_fixed_settings": {
+    "static_hours": 43.312984466552734,
+    "noise_hours": 7.376662731170654,
+    "source": "Original full-data frequency setting; retained as frozen method hyperparameters, not re-estimated.",
+    "h1_component_teacher": "Original FFT of history and filled future displacement targets; point loss masked."
+  },
+  "weights": "Every trainable initialization, temperature producer, STPM and response weight is trained fresh inside the declared budget/fold; no old checkpoint loaded.",
+  "one_month": {
+    "default": "coverage30",
+    "default_a2_trainable": true,
+    "reason": "User selected a covered 30-day interval because latest30 has zero H1 pretraining windows under original measured-temperature rule.",
+    "candidate": "coverage30",
+    "candidate_dates": [
+      "2023-03-22",
+      "2023-04-20"
+    ],
+    "candidate_a2_trainable": true,
+    "candidate_approval_status": "approved_by_user",
+    "selection_basis": "Observed-data coverage only, not model performance.",
+    "selected_dates": [
+      "2023-03-22",
+      "2023-04-20"
+    ],
+    "latest30_a2_trainable": false
+  },
+  "entry_points": {
+    "data_preparation": "prepare_protocols.py",
+    "config_preparation": "build_configs.py",
+    "job_selection": "run_experiments.py",
+    "a2": "a2/train.py",
+    "baseline": "baseline/train.py",
+    "aggregation": "aggregate_results.py"
+  },
+  "metrics": {
+    "temperature": [
+      "RMSE (deg C)",
+      "MAE (deg C)"
+    ],
+    "displacement": [
+      "Pooled observed-point RMSE/MAE (mm)",
+      "Four per-channel RMSE/MAE (mm)"
+    ],
+    "seed_group": "Mean and sample standard deviation ddof=1 over five full retrainings",
+    "selection": "Original baseline joint standardized validation RMSE; temperature validation MSE and H1 validation displacement RMSE for A2 stages; no test selection."
+  },
+  "review": "metadata/static_review.json",
+  "baseline_launch_authorized": true
+}

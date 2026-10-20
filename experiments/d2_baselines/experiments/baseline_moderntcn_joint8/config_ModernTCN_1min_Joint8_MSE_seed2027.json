@@ -1,0 +1,110 @@
+{
+  "data": "data/minute_synthetic.npz",
+  "split_days": [
+    280,
+    60,
+    60
+  ],
+  "sample_minutes": 1,
+  "history_days": 30,
+  "horizon_days": 1,
+  "train_stride": 720,
+  "validation_stride": 1440,
+  "test_stride": 1440,
+  "run_name": "ModernTCN_D21_1min_Joint8_MSE_seed2027",
+  "model": "ModernTCN",
+  "seed": 2027,
+  "output": "outputs/baselines/ModernTCN_D21_1min_Joint8_MSE_seed2027",
+  "model_args": {
+    "seq_len": 43200,
+    "pred_len": 1440,
+    "label_len": 1440,
+    "enc_in": 8,
+    "c_out": 8,
+    "freq": "t",
+    "stem_ratio": 6,
+    "downsample_ratio": 2,
+    "ffn_ratio": 8,
+    "patch_size": 240,
+    "patch_stride": 120,
+    "num_blocks": [
+      3
+    ],
+    "large_size": [
+      51
+    ],
+    "small_size": [
+      5
+    ],
+    "dims": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "dw_dims": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "small_kernel_merged": false,
+    "dropout": 0.1,
+    "head_dropout": 0.0,
+    "use_multi_scale": false,
+    "revin": true,
+    "affine": false,
+    "subtract_last": false,
+    "kernel_size": 375,
+    "decomposition": false,
+    "individual": false
+  },
+  "batch_size": 16,
+  "micro_batch_size": 16,
+  "epochs": 300,
+  "patience": 60,
+  "lr": 0.0001,
+  "grad_clip": 1.0,
+  "torch_threads": 2,
+  "first_difference_weight": 0.0,
+  "second_difference_weight": 0.0,
+  "gpu_budget_mib": 16384,
+  "input_channels": 8,
+  "input_policy": "Historical values only; no future observed/predicted temperature, displacement, latent state, or calendar",
+  "task": "Past 30 days of noisy simulated temperature plus seven deflections -> 24h joint eight-channel forecast",
+  "test_policy": "Evaluate after validation-selected checkpoint; no configuration search.",
+  "official_source_commit": "56a9a2c018385cd5acef015378cae7f084d1b11c",
+  "min_training_observed_points": 1080,
+  "output_channels": 8,
+  "channel_names": [
+    "SIM_T",
+    "SIM_D01",
+    "SIM_D02",
+    "SIM_D03",
+    "SIM_D04",
+    "SIM_D05",
+    "SIM_D06",
+    "SIM_D07"
+  ],
+  "channel_units": [
+    "degC",
+    "mm",
+    "mm",
+    "mm",
+    "mm",
+    "mm",
+    "mm",
+    "mm"
+  ],
+  "normalization_policy": "Eight channels fitted on first280-day valid simulated observations only",
+  "checkpoint_selection": "Joint eight-channel standardized validation RMSE",
+  "loss_policy": "Observed-entry masked standardized MSE across eight channels; derivative weights remain zero",
+  "reference_experiment": "baseline_joint5_1min_frozen_20261009",
+  "forecast_target_policy": "Future temperature and seven deflections are labels only",
+  "protocol": "data/protocol.json",
+  "source_repository": "https://github.com/luodhhh/ModernTCN",
+  "source_policy": "Official long-term architecture; local relative-import adaptation only; no temporal marks; shared head zero initialization follows existing baseline protocol.",
+  "trainer": "experiments/baseline_moderntcn_joint8/train.py",
+  "dataset_version": "synthetic_deflection_abaqus_D2_1_20261012",
+  "training_origin_policy": "499 train origins, startsday30, same expanded coverage as vd2.1-2 temperature"
+}

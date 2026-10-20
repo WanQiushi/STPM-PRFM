@@ -1,0 +1,20 @@
+{
+  "data": "data/mainbridge_temperature_v2/minute_complete.npz",
+  "split_days": [
+    511,
+    110,
+    109
+  ],
+  "train_stride": 720,
+  "width": 32,
+  "latent_dim": 8,
+  "batch_size": 32,
+  "seed": 2026,
+  "sample_minutes": 1,
+  "ablation": "A1",
+  "run_name": "warm_A1_seed2026",
+  "model": "shared_time_readout",
+  "epochs": 80,
+  "patience": 12,
+  "lr": 0.001
+}

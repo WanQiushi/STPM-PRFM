@@ -1,0 +1,194 @@
+\begin{table}[H]
+\centering
+\caption{Chronological data split for D1.}
+\label{tab:d1_chronological_split}
+\manuscripttablestyle
+\begin{tabular*}{\manuscripttablewidth}{@{\extracolsep{\fill}}>{\centering\arraybackslash}m{0.20\linewidth}>{\centering\arraybackslash}m{0.56\linewidth}>{\centering\arraybackslash}m{0.12\linewidth}}
+\toprule
+Split & Period & Days \\
+\midrule
+Training & 2022/01/01-2023/05/26 & 511 \\
+Validation & 2023/05/27-2023/09/13 & 110 \\
+Test & 2023/09/14-2023/12/31 & 109 \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{D1 displacement forecasting performance and parameter counts.}
+\label{tab:d1_overall_performance}
+\manuscripttablestyle
+\setlength{\tabcolsep}{2.85pt}
+\begin{tabular}{lrrrr}
+\toprule
+Method & Parameters & MSE (mm$^2$) & MAE (mm) & RMSE (mm) \\
+\midrule
+Proposed & \textbf{91,531} & $\mathbf{284.119\pm15.789}$ & $\mathbf{11.765\pm0.405}$ & $\mathbf{16.851\pm0.470}$ \\
+PCFNet & 17,040,587 & $313.531\pm8.346$ & $12.788\pm0.146$ & $17.706\pm0.236$ \\
+ModernTCN & 34,381,461 & $435.012\pm14.804$ & $15.619\pm0.445$ & $20.855\pm0.356$ \\
+LSTM & 519,456 & $336.023\pm24.565$ & $12.458\pm0.585$ & $18.321\pm0.666$ \\
+DLinear & 124,418,880 & $588.877\pm38.555$ & $18.212\pm0.636$ & $24.256\pm0.790$ \\
+TimeXer & 19,563,552 & $636.307\pm16.598$ & $18.764\pm0.427$ & $25.223\pm0.328$ \\
+PatchTST & 33,228,000 & $631.118\pm33.261$ & $18.977\pm0.648$ & $25.115\pm0.662$ \\
+iTransformer & 2,925,536 & $686.486\pm72.177$ & $20.771\pm1.013$ & $26.173\pm1.358$ \\
+TimesNet-LR & 5,694,165 & $742.854\pm91.186$ & $21.227\pm1.309$ & $27.215\pm1.665$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{D1 daily extrema errors.}
+\label{tab:d1_extrema_errors}
+\manuscripttablestyle
+\begin{tabular*}{\manuscripttablewidth}{@{\extracolsep{\fill}}lrrrr@{}}
+\toprule
+\multicolumn{5}{c}{Daily extrema (109 days)} \\
+\cmidrule(lr){2-5}
+ & \multicolumn{2}{c}{Maximum} & \multicolumn{2}{c}{Minimum} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Method & MAE (mm) & Time MAE (h) & MAE (mm) & Time MAE (h) \\
+\midrule
+Proposed & $\mathbf{16.09\pm0.65}$ & $3.46\pm0.12$ & $\mathbf{10.13\pm0.37}$ & $4.10\pm0.12$ \\
+PCFNet & $18.69\pm0.80$ & $\mathbf{3.23\pm0.03}$ & $14.02\pm0.90$ & $4.08\pm0.19$ \\
+ModernTCN & $20.71\pm0.58$ & $3.48\pm0.31$ & $12.24\pm0.80$ & $4.51\pm0.36$ \\
+LSTM & $16.56\pm0.62$ & $3.71\pm0.50$ & $10.20\pm0.12$ & $\mathbf{3.78\pm0.33}$ \\
+DLinear & $33.98\pm9.17$ & $4.36\pm0.74$ & $31.40\pm2.82$ & $5.88\pm1.14$ \\
+TimeXer & $21.75\pm0.70$ & $3.51\pm0.46$ & $15.68\pm0.31$ & $5.30\pm0.67$ \\
+PatchTST & $21.79\pm0.17$ & $3.48\pm0.34$ & $16.82\pm1.22$ & $4.84\pm1.49$ \\
+iTransformer & $23.94\pm0.70$ & $3.91\pm0.16$ & $20.54\pm1.68$ & $5.33\pm0.17$ \\
+TimesNet-LR & $22.14\pm0.77$ & $4.76\pm0.77$ & $23.52\pm3.26$ & $5.83\pm1.02$ \\
+\bottomrule
+\end{tabular*}
+
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{D1 test displacement RMSE (mm) with limited training data.}
+\label{tab:d1_small_sample_budgets}
+\manuscripttablestyle
+\setlength{\tabcolsep}{2.2pt}
+\begin{tabular*}{\manuscripttablewidth}{@{\extracolsep{\fill}}lrrrr@{}}
+\toprule
+Method & 9 months & 6 months & 3 months & 1 month \\
+\midrule
+Proposed & $16.369\pm0.255$ & $\mathbf{18.792\pm0.781}$ & $\mathbf{18.496\pm1.025}$ & $\mathbf{17.736\pm1.057}$ \\
+PCFNet & $\mathbf{16.057\pm0.072}$ & $20.130\pm1.318$ & $20.870\pm0.662$ & $22.270\pm1.294$ \\
+ModernTCN & $19.959\pm1.175$ & $32.645\pm1.574$ & $34.128\pm1.983$ & $41.177\pm1.698$ \\
+LSTM & $20.214\pm1.338$ & $20.804\pm0.005$ & $20.796\pm0.002$ & $20.783\pm0.002$ \\
+DLinear & $21.438\pm1.194$ & $46.578\pm2.056$ & $80.064\pm2.035$ & $45.197\pm5.505$ \\
+TimeXer & $23.561\pm0.524$ & $36.936\pm1.453$ & $44.295\pm0.739$ & $47.944\pm2.259$ \\
+PatchTST & $23.468\pm0.736$ & $36.724\pm3.254$ & $44.604\pm2.103$ & $47.230\pm2.916$ \\
+iTransformer & $22.471\pm2.307$ & $29.595\pm1.470$ & $34.713\pm0.471$ & $45.110\pm0.559$ \\
+TimesNet-LR & $23.898\pm2.057$ & $36.741\pm3.181$ & $35.365\pm1.179$ & $38.235\pm2.400$ \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{D1 displacement forecasting ablations under the fixed-response protocol.}
+\label{tab:d1_ablation}
+\manuscripttablestyle
+\begin{tabular*}{\manuscripttablewidth}{@{\extracolsep{\fill}}lrr@{}}
+\toprule
+Model configuration & RMSE (mm) & Increase (\%) \\
+\midrule
+Full model (ablation reference) & $\mathbf{16.781\pm0.449}$ & --- \\
+Without residual temperature correction & $18.919\pm0.097$ & 12.74 \\
+Without trend supervision & $17.302\pm0.221$ & 3.11 \\
+Without thermal lag & $17.016\pm0.406$ & 1.40 \\
+Without the Bouc--Wen physical rate term & $17.137\pm0.394$ & 2.12 \\
+Without forecast-temperature adaptation & $17.354\pm0.363$ & 3.42 \\
+Without LF historical anchoring & $18.352\pm0.487$ & 9.36 \\
+Historical-mean LF/MF representation & $17.624\pm0.538$ & 5.03 \\
+Without the neural memory residual & $16.861\pm0.337$ & 0.48 \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{D1 response prediction with measured future temperature. Results are mean $\pm$ sample standard deviation over five seeds on 60 common test days. Percentage changes use PRFM's mean RMSE as the reference.}
+\label{tab:d1_known_temperature}
+\manuscripttablestyle
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular*}{\manuscripttablewidth}{@{\extracolsep{\fill}}lrr@{}}
+\toprule
+Method & RMSE (mm) & Change vs.\ PRFM (\%) \\
+\midrule
+Ours & $5.8882\pm0.1857$ & 0.00 \\
+PCFNet & $10.8741\pm0.2892$ & +84.67 \\
+ModernTCN & $7.1527\pm0.1427$ & +21.47 \\
+LSTM & $\mathbf{5.4108\pm0.3068}$ & $-8.11$ \\
+DLinear & $7.3449\pm0.2051$ & +24.74 \\
+TimeXer & $8.8607\pm0.5693$ & +50.48 \\
+PatchTST & $9.1442\pm0.3837$ & +55.30 \\
+iTransformer & $9.1917\pm0.2874$ & +56.10 \\
+TimesNet-LR & $9.3649\pm4.5296$ & +59.04 \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Chronological data split for D2.}
+\label{tab:d2_chronological_split}
+\manuscripttablestyle
+\begin{tabular*}{\manuscripttablewidth}{@{\extracolsep{\fill}}p{0.25\linewidth}p{0.40\linewidth}p{0.15\linewidth}}
+\toprule
+Split & Simulation days & Days \\
+\midrule
+Training & 1--280 & 280 \\
+Validation & 281--340 & 60 \\
+Test & 341--400 & 60 \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{D2 deflection forecasting performance and parameter counts.}
+\label{tab:d2_overall_performance}
+\manuscripttablestyle
+\setlength{\tabcolsep}{2.65pt}
+\begin{tabular*}{\manuscripttablewidth}{@{\extracolsep{\fill}}lrrrr}
+\toprule
+Method & Parameters & MSE (mm$^2$) & MAE (mm) & RMSE (mm) \\
+\midrule
+Proposed & \textbf{99,259} & $\mathbf{439.995\pm20.214}$ & $14.352\pm0.690$ & $\mathbf{20.972\pm0.475}$ \\
+PCFNet & 17,040,773 & $523.716\pm36.931$ & $15.271\pm0.677$ & $22.874\pm0.803$ \\
+ModernTCN & 35,136,021 & $497.832\pm17.239$ & $14.706\pm0.169$ & $22.309\pm0.386$ \\
+LSTM & 801,024 & $478.843\pm17.621$ & $\mathbf{13.928\pm0.329}$ & $21.879\pm0.406$ \\
+DLinear & 124,418,880 & $2829.707\pm703.168$ & $36.666\pm4.015$ & $52.877\pm6.491$ \\
+TimeXer & 19,563,744 & $547.968\pm23.976$ & $16.051\pm0.344$ & $23.404\pm0.514$ \\
+PatchTST & 33,228,000 & $518.195\pm19.967$ & $15.356\pm0.370$ & $22.761\pm0.434$ \\
+iTransformer & 2,925,536 & $514.229\pm22.358$ & $15.728\pm0.473$ & $22.672\pm0.496$ \\
+TimesNet-LR & 5,694,360 & $495.069\pm42.762$ & $15.023\pm0.924$ & $22.234\pm0.946$ \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Comparison methods and their implementations.}
+\label{tab:baseline_methods}
+\small
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.23\linewidth}>{\raggedright\arraybackslash}p{0.69\linewidth}}
+\hline
+Method & Principle and implementation \\
+\hline
+PCFNet & Sequence decomposition and period--channel fusion model dependencies across periods and variables. \\
+ModernTCN & Convolutional blocks extract temporal features. \\
+LSTM & A two-layer unidirectional LSTM encodes minute-level inputs; a linear head predicts the full horizon. \\
+DLinear & Separate linear maps predict trend and seasonal components. \\
+TimeXer & Attention connects endogenous histories with external drivers. \\
+PatchTST & A channel-independent Transformer processes temporal patches. \\
+iTransformer & Attention models dependencies between variable tokens. \\
+TimesNet-LR & Multiperiod representations use a low-rank temporal mapping. \\
+\hline
+\end{tabular}
+\end{table}

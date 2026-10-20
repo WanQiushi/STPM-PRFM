@@ -1,0 +1,7 @@
+{
+  "version": "va-1",
+  "gpu": 0,
+  "controller_log": "${WORKSPACE}/outputs/va_1_20261004_controller.log",
+  "output": "${WORKSPACE}/outputs/va_1_20261004",
+  "launched_utc": "2026-10-06T05:27:52.298097+00:00"
+}

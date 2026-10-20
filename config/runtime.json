@@ -1,0 +1,21 @@
+{
+  "paths": {
+    "WORKSPACE": "workspace",
+    "DATA": "data",
+    "OUTPUTS": "outputs",
+    "RESULTS": "outputs/results",
+    "RECORDS": "outputs/records",
+    "ASSETS": "data/private_assets",
+    "FE_MODEL": "data/finite_element/bridge_model",
+    "FE_WORK": "outputs/finite_element",
+    "TOOLS": "tools/external",
+    "MANUSCRIPT": "manuscript",
+    "TEMP": "tmp",
+    "CONDA": "tools/external/conda",
+    "COMPILER": "tools/external/compiler",
+    "MSVC": "tools/external/msvc",
+    "ABAQUS": "tools/external/abaqus"
+  },
+  "physical_gpu": 0,
+  "private_d1": {}
+}

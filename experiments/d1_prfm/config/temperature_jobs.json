@@ -1,0 +1,52 @@
+[
+  {
+    "key": "S0_seed2024",
+    "family": "framework",
+    "model": "S0",
+    "seed": 2024,
+    "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024/best.pt",
+    "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024/frozen_source",
+    "python": "${PYTHON}",
+    "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024"
+  },
+  {
+    "key": "S0_seed2025",
+    "family": "framework",
+    "model": "S0",
+    "seed": 2025,
+    "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025/best.pt",
+    "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025/frozen_source",
+    "python": "${PYTHON}",
+    "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025"
+  },
+  {
+    "key": "S0_seed2026",
+    "family": "framework",
+    "model": "S0",
+    "seed": 2026,
+    "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026/best.pt",
+    "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026/frozen_source",
+    "python": "${PYTHON}",
+    "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026"
+  },
+  {
+    "key": "S0_seed2027",
+    "family": "framework",
+    "model": "S0",
+    "seed": 2027,
+    "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027/best.pt",
+    "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027/frozen_source",
+    "python": "${PYTHON}",
+    "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027"
+  },
+  {
+    "key": "S0_seed2028",
+    "family": "framework",
+    "model": "S0",
+    "seed": 2028,
+    "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028/best.pt",
+    "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028/frozen_source",
+    "python": "${PYTHON}",
+    "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "baseline_and_final_temperature": {
+    "train": 499,
+    "val": 60,
+    "test": 60
+  },
+  "H1_identification": {
+    "train": 199,
+    "val": 60,
+    "test": 60
+  },
+  "H1_adaptation": {
+    "train": 137,
+    "val": 60
+  },
+  "dataset_split_days": [
+    280,
+    60,
+    60
+  ],
+  "normalization_interval_minutes": [
+    0,
+    403200
+  ],
+  "forecast_horizon_minutes": 1440,
+  "evaluation": {
+    "main_response_minutes": 15,
+    "baseline_native_minutes": 1,
+    "temperature_native_minutes": 1,
+    "sampling_common_minutes": 30
+  }
+}

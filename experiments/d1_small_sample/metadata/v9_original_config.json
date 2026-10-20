@@ -1,0 +1,19 @@
+{
+  "run_name": "v9_1min_seed2024",
+  "model": "latent_ode",
+  "data": "data/mainbridge_temperature_v2/minute_complete.npz",
+  "split_days": [
+    511,
+    110,
+    109
+  ],
+  "train_stride": 720,
+  "width": 32,
+  "latent_dim": 8,
+  "batch_size": 32,
+  "epochs": 80,
+  "patience": 12,
+  "lr": 0.001,
+  "seed": 2024,
+  "sample_minutes": 1
+}

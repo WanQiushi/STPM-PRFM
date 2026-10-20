@@ -1,0 +1,6 @@
+{
+  "temperature_mean": "${PRIVATE_D1:stat_0059}",
+  "temperature_std": "${PRIVATE_D1:stat_0060}",
+  "h1_mean": "${PRIVATE_D1:stat_0061}",
+  "h1_std": "${PRIVATE_D1:stat_0062}"
+}

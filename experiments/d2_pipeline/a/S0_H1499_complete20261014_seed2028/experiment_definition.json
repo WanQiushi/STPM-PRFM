@@ -1,0 +1,22 @@
+{
+  "arm": "S0",
+  "label": "Fixed A2 / vd2.1-2 full framework",
+  "family": "main",
+  "seed": 2028,
+  "paired_reference": "S0",
+  "temperature_action": "full",
+  "response_action": "train",
+  "temperature_dt": 1,
+  "response_evaluation_dt": 15,
+  "H1_training_dt": 15,
+  "temperature_windows": 499,
+  "H1_identification_windows": 499,
+  "adaptation_windows": 137,
+  "input_policy": "Past observed temperature/responses and original known calendar only; future temperature forecast input to deployed H1",
+  "latent_truth_used_as_input": false,
+  "test_policy": "Validation-only selection then fixed held-out evaluation",
+  "scope": "Full method only; ablations, legacy and sampling cancelled by user",
+  "run_name": "S0_H1499_seed2028",
+  "temperature_reference": "../S0_seed2028",
+  "change": "H1 identification origin coverage only; original model, losses, seed,300/80 epoch caps and OOF137 unchanged"
+}

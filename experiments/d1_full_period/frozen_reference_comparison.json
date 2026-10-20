@@ -1,0 +1,556 @@
+{
+  "version": "baseline9_frozen_20261016",
+  "statistics": {
+    "D1": {
+      "A2": {
+        "validation": {
+          "temperature_rmse_c": {
+            "mean": 1.9975258082521148,
+            "sample_std": 0.02589365049781718
+          },
+          "response_rmse_mm": {
+            "mean": 14.805009068062255,
+            "sample_std": 0.23558132459362296
+          }
+        },
+        "test": {
+          "temperature_rmse_c": {
+            "mean": 2.3096191486912514,
+            "sample_std": 0.096620276880569
+          },
+          "response_rmse_mm": {
+            "mean": 15.91120763880722,
+            "sample_std": 0.5272663822076242
+          }
+        }
+      },
+      "Mamba": {
+        "validation": {
+          "temperature_rmse_c": {
+            "mean": 2.0258393754110644,
+            "sample_std": 0.013394401868321292
+          },
+          "response_rmse_mm": {
+            "mean": 15.791034686959835,
+            "sample_std": 0.07057858184908579
+          }
+        },
+        "test": {
+          "temperature_rmse_c": {
+            "mean": 2.41989381429164,
+            "sample_std": 0.021427929581675637
+          },
+          "response_rmse_mm": {
+            "mean": 16.207259744942696,
+            "sample_std": 0.14996253697967685
+          }
+        }
+      },
+      "PCFNet": {
+        "validation": {
+          "temperature_rmse_c": {
+            "mean": 2.12923313086018,
+            "sample_std": 0.017846837476917985
+          },
+          "response_rmse_mm": {
+            "mean": 15.718311223511922,
+            "sample_std": 0.06307851199173264
+          }
+        },
+        "test": {
+          "temperature_rmse_c": {
+            "mean": 2.4878066111988253,
+            "sample_std": 0.019931445270827734
+          },
+          "response_rmse_mm": {
+            "mean": 17.19048658152389,
+            "sample_std": 0.15035045125976526
+          }
+        }
+      },
+      "ModernTCN": {
+        "validation": {
+          "temperature_rmse_c": {
+            "mean": 2.2281322762173086,
+            "sample_std": 0.055326216808132794
+          },
+          "response_rmse_mm": {
+            "mean": 16.89377619320746,
+            "sample_std": 0.24175088884864465
+          }
+        },
+        "test": {
+          "temperature_rmse_c": {
+            "mean": 2.623828420830674,
+            "sample_std": 0.042757091267194305
+          },
+          "response_rmse_mm": {
+            "mean": 17.91439726366496,
+            "sample_std": 0.5024626810371855
+          }
+        }
+      },
+      "VanillaLSTM": {
+        "validation": {
+          "temperature_rmse_c": {
+            "mean": 2.002354679230329,
+            "sample_std": 0.07012055259125065
+          },
+          "response_rmse_mm": {
+            "mean": 15.595504199652334,
+            "sample_std": 0.19303953008018485
+          }
+        },
+        "test": {
+          "temperature_rmse_c": {
+            "mean": 2.7663562813847937,
+            "sample_std": 0.05132682663748169
+          },
+          "response_rmse_mm": {
+            "mean": 18.783334462905632,
+            "sample_std": 0.42954133965775565
+          }
+        }
+      },
+      "DLinear": {
+        "validation": {
+          "temperature_rmse_c": {
+            "mean": 3.3070960410202184,
+            "sample_std": 0.19905926181964628
+          },
+          "response_rmse_mm": {
+            "mean": 24.013261816987548,
+            "sample_std": 1.2018552437338326
+          }
+        },
+        "test": {
+          "temperature_rmse_c": {
+            "mean": 3.089512906814477,
+            "sample_std": 0.16038945240843733
+          },
+          "response_rmse_mm": {
+            "mean": 20.522939561299033,
+            "sample_std": 0.5537167972063353
+          }
+        }
+      },
+      "TimeXer": {
+        "validation": {
+          "temperature_rmse_c": {
+            "mean": 2.1467858765275287,
+            "sample_std": 0.015428161001778264
+          },
+          "response_rmse_mm": {
+            "mean": 17.02912665161299,
+            "sample_std": 0.452030916694329
+          }
+        },
+        "test": {
+          "temperature_rmse_c": {
+            "mean": 3.1635571696305878,
+            "sample_std": 0.08760076726579016
+          },
+          "response_rmse_mm": {
+            "mean": 22.85060812326128,
+            "sample_std": 0.8658002979326566
+          }
+        }
+      },
+      "PatchTST": {
+        "validation": {
+          "temperature_rmse_c": {
+            "mean": 2.1154123153774944,
+            "sample_std": 0.046898296292373874
+          },
+          "response_rmse_mm": {
+            "mean": 16.931901631171627,
+            "sample_std": 0.3314761926334873
+          }
+        },
+        "test": {
+          "temperature_rmse_c": {
+            "mean": 3.209661474512893,
+            "sample_std": 0.0867489199320536
+          },
+          "response_rmse_mm": {
+            "mean": 23.465336259430597,
+            "sample_std": 0.5608970276738527
+          }
+        }
+      },
+      "iTransformer": {
+        "validation": {
+          "temperature_rmse_c": {
+            "mean": 2.2871530933672974,
+            "sample_std": 0.014160531239985806
+          },
+          "response_rmse_mm": {
+            "mean": 18.17885389190881,
+            "sample_std": 0.2567869859393472
+          }
+        },
+        "test": {
+          "temperature_rmse_c": {
+            "mean": 3.2292248707352207,
+            "sample_std": 0.1515554682611155
+          },
+          "response_rmse_mm": {
+            "mean": 24.05977509605301,
+            "sample_std": 1.527894685344307
+          }
+        }
+      },
+      "TimesNet": {
+        "validation": {
+          "temperature_rmse_c": {
+            "mean": 2.2626097668495184,
+            "sample_std": 0.07172739680884854
+          },
+          "response_rmse_mm": {
+            "mean": 18.311363029851382,
+            "sample_std": 0.7336914907611087
+          }
+        },
+        "test": {
+          "temperature_rmse_c": {
+            "mean": 3.437226931407119,
+            "sample_std": 0.2294601806413188
+          },
+          "response_rmse_mm": {
+            "mean": 26.099861771124168,
+            "sample_std": 2.1263153694659787
+          }
+        }
+      }
+    },
+    "D21": {
+      "A2": {
+        "validation": {
+          "temperature_rmse_c": {
+            "mean": 0.9240391911055552,
+            "sample_std": 0.09387702812414886
+          },
+          "response_rmse_mm": {
+            "mean": 19.41216118678147,
+            "sample_std": 0.24828888753360978
+          }
+        },
+        "test": {
+          "temperature_rmse_c": {
+            "mean": 0.9405169850438501,
+            "sample_std": 0.061543494499244664
+          },
+          "response_rmse_mm": {
+            "mean": 20.97176272065197,
+            "sample_std": 0.47521842814859633
+          }
+        }
+      },
+      "Mamba": {
+        "validation": {
+          "temperature_rmse_c": {
+            "mean": 0.82597203629132,
+            "sample_std": 0.010817245757940255
+          },
+          "response_rmse_mm": {
+            "mean": 18.287932102506566,
+            "sample_std": 0.144099858314026
+          }
+        },
+        "test": {
+          "temperature_rmse_c": {
+            "mean": 0.8419993157091995,
+            "sample_std": 0.007321642551569471
+          },
+          "response_rmse_mm": {
+            "mean": 19.260993778929976,
+            "sample_std": 0.1638817865147893
+          }
+        }
+      },
+      "PCFNet": {
+        "validation": {
+          "temperature_rmse_c": {
+            "mean": 0.990127852652904,
+            "sample_std": 0.0149636916186616
+          },
+          "response_rmse_mm": {
+            "mean": 20.475721930882074,
+            "sample_std": 0.19122435467953494
+          }
+        },
+        "test": {
+          "temperature_rmse_c": {
+            "mean": 0.9880750060755933,
+            "sample_std": 0.005262310762313899
+          },
+          "response_rmse_mm": {
+            "mean": 22.87358423831594,
+            "sample_std": 0.8028072597347307
+          }
+        }
+      },
+      "ModernTCN": {
+        "validation": {
+          "response_rmse_mm": {
+            "mean": 20.225879895261095,
+            "sample_std": 0.2730588297640435
+          },
+          "response_mae_mm": {
+            "mean": 13.838011446357537,
+            "sample_std": 0.28201996711736765
+          },
+          "response_mse_mm2": {
+            "mean": 409.14586643713676,
+            "sample_std": 11.029058781726743
+          },
+          "temperature_rmse_c": {
+            "mean": 0.9219042333871105,
+            "sample_std": 0.005048995707287782
+          }
+        },
+        "test": {
+          "response_rmse_mm": {
+            "mean": 22.309490691909954,
+            "sample_std": 0.38580626353559516
+          },
+          "response_mae_mm": {
+            "mean": 14.705789353318533,
+            "sample_std": 0.16947457734294336
+          },
+          "response_mse_mm2": {
+            "mean": 497.83245211080356,
+            "sample_std": 17.238962294014787
+          },
+          "temperature_rmse_c": {
+            "mean": 0.9365501024089831,
+            "sample_std": 0.017587001894473514
+          }
+        }
+      },
+      "VanillaLSTM": {
+        "validation": {
+          "temperature_rmse_c": {
+            "mean": 0.9627732525271088,
+            "sample_std": 0.06198669051627114
+          },
+          "response_rmse_mm": {
+            "mean": 20.395636386863767,
+            "sample_std": 0.670386929004305
+          }
+        },
+        "test": {
+          "temperature_rmse_c": {
+            "mean": 0.9622525766080045,
+            "sample_std": 0.03793695413819149
+          },
+          "response_rmse_mm": {
+            "mean": 21.8794563442394,
+            "sample_std": 0.4064056891604093
+          }
+        }
+      },
+      "DLinear": {
+        "validation": {
+          "response_rmse_mm": {
+            "mean": 28.090275793177646,
+            "sample_std": 2.1389162302766622
+          },
+          "response_mae_mm": {
+            "mean": 19.967092793716375,
+            "sample_std": 1.4336174723743125
+          },
+          "response_mse_mm2": {
+            "mean": 792.7235642488948,
+            "sample_std": 121.17182618531415
+          },
+          "temperature_rmse_c": {
+            "mean": 1.2169524836850034,
+            "sample_std": 0.06305271394886917
+          }
+        },
+        "test": {
+          "response_rmse_mm": {
+            "mean": 52.87718292775801,
+            "sample_std": 6.4914115401498735
+          },
+          "response_mae_mm": {
+            "mean": 36.665554558792095,
+            "sample_std": 4.01464578143969
+          },
+          "response_mse_mm2": {
+            "mean": 2829.7072134024556,
+            "sample_std": 703.1677480513049
+          },
+          "temperature_rmse_c": {
+            "mean": 1.9925314275997987,
+            "sample_std": 0.20143557340387244
+          }
+        }
+      },
+      "TimeXer": {
+        "validation": {
+          "response_rmse_mm": {
+            "mean": 21.274786663553506,
+            "sample_std": 0.2356085100374111
+          },
+          "response_mae_mm": {
+            "mean": 15.055571726281425,
+            "sample_std": 0.21537489670484714
+          },
+          "response_mse_mm2": {
+            "mean": 452.6609566757156,
+            "sample_std": 10.037655719839403
+          },
+          "temperature_rmse_c": {
+            "mean": 0.9619797380128127,
+            "sample_std": 0.01773507308505726
+          }
+        },
+        "test": {
+          "response_rmse_mm": {
+            "mean": 23.40419253685338,
+            "sample_std": 0.5141763895411421
+          },
+          "response_mae_mm": {
+            "mean": 16.050657815446574,
+            "sample_std": 0.3436170088318762
+          },
+          "response_mse_mm2": {
+            "mean": 547.9677301897527,
+            "sample_std": 23.97564601132812
+          },
+          "temperature_rmse_c": {
+            "mean": 0.9967969077662282,
+            "sample_std": 0.004248700943526248
+          }
+        }
+      },
+      "PatchTST": {
+        "validation": {
+          "response_rmse_mm": {
+            "mean": 21.11723165194533,
+            "sample_std": 0.39228632560929116
+          },
+          "response_mae_mm": {
+            "mean": 14.884130203625432,
+            "sample_std": 0.4760144011997423
+          },
+          "response_mse_mm2": {
+            "mean": 446.0605834909296,
+            "sample_std": 16.4806769342529
+          },
+          "temperature_rmse_c": {
+            "mean": 0.9645250638681778,
+            "sample_std": 0.04071245889183466
+          }
+        },
+        "test": {
+          "response_rmse_mm": {
+            "mean": 22.760582496067467,
+            "sample_std": 0.43406984679183364
+          },
+          "response_mae_mm": {
+            "mean": 15.356069918770817,
+            "sample_std": 0.36984565227850563
+          },
+          "response_mse_mm2": {
+            "mean": 518.1948488658079,
+            "sample_std": 19.96680052262819
+          },
+          "temperature_rmse_c": {
+            "mean": 0.9583207426146686,
+            "sample_std": 0.031223845936355122
+          }
+        }
+      },
+      "iTransformer": {
+        "validation": {
+          "response_rmse_mm": {
+            "mean": 22.414870726734716,
+            "sample_std": 0.40237534629364924
+          },
+          "response_mae_mm": {
+            "mean": 16.554160944402057,
+            "sample_std": 0.3261183803141401
+          },
+          "response_mse_mm2": {
+            "mean": 502.55595443167294,
+            "sample_std": 18.108403686440855
+          },
+          "temperature_rmse_c": {
+            "mean": 0.9830266367760515,
+            "sample_std": 0.021334136178092114
+          }
+        },
+        "test": {
+          "response_rmse_mm": {
+            "mean": 22.67226729694476,
+            "sample_std": 0.49602329486369245
+          },
+          "response_mae_mm": {
+            "mean": 15.727873282800582,
+            "sample_std": 0.4725692785572095
+          },
+          "response_mse_mm2": {
+            "mean": 514.2285356713486,
+            "sample_std": 22.358064850979417
+          },
+          "temperature_rmse_c": {
+            "mean": 0.9631009511690447,
+            "sample_std": 0.026866474347913893
+          }
+        }
+      },
+      "TimesNet": {
+        "validation": {
+          "response_rmse_mm": {
+            "mean": 21.81978922690035,
+            "sample_std": 1.492181963876087
+          },
+          "response_mae_mm": {
+            "mean": 15.558871526557116,
+            "sample_std": 1.1085271842111872
+          },
+          "response_mse_mm2": {
+            "mean": 477.88448751701037,
+            "sample_std": 68.04265748344254
+          },
+          "temperature_rmse_c": {
+            "mean": 0.9796285111002465,
+            "sample_std": 0.03705657053147729
+          }
+        },
+        "test": {
+          "response_rmse_mm": {
+            "mean": 22.234069923041364,
+            "sample_std": 0.9455765590087084
+          },
+          "response_mae_mm": {
+            "mean": 15.023244299141732,
+            "sample_std": 0.9238602807006443
+          },
+          "response_mse_mm2": {
+            "mean": 495.06915736584995,
+            "sample_std": 42.76169985020255
+          },
+          "temperature_rmse_c": {
+            "mean": 0.9744524139389281,
+            "sample_std": 0.04158835772148614
+          }
+        }
+      }
+    }
+  },
+  "selection_manifest": "${RESULTS}\\baseline9_frozen_20261016\\manifest.json",
+  "sources": {
+    "D1": "${RESULTS}\\d1_A2_test39_20261016\\comparison_all_baselines.json",
+    "D21_old": "${RESULTS}\\d21_suite_20261013\\a2_five_seed_completed_20261014_1202\\complete_comparison.json",
+    "D21_new": "${RESULTS}\\baseline_lstm_mamba_pcfnet_20261015\\final_A2_comparison_20261016\\comparison.json"
+  },
+  "historical_exclusions_preserved": [
+    "SegRNN",
+    "LSTM-Patch-Direct"
+  ],
+  "training_performed": false
+}

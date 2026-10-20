@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "if-bridge-thermal"
+version = "0.1.0"
+description = "Experiment code and public synthetic data for bridge thermal-response forecasting"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["if_release"]

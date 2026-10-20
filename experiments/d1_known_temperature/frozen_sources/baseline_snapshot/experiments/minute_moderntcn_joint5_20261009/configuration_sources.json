@@ -1,0 +1,17 @@
+{
+  "prepared_at": "2026-10-09T20:13:56.354358+08:00",
+  "repository": "${WORKSPACE}/vendor/ModernTCN_20261009",
+  "commit": "56a9a2c018385cd5acef015378cae7f084d1b11c",
+  "official_config_reference": "ModernTCN-Long-term-forecasting/scripts/ETTm1.sh, first command: three blocks, width64, ffn_ratio8, kernel51/5, shared head, no multi-scale fusion",
+  "adaptations": [
+    "patch_size240/patch_stride120 match existing patch baselines in physical minutes",
+    "dropout0.1 and training settings follow existing baseline suite",
+    "relative imports in local copy of ModernTCN.py",
+    "zero forecast-head initialization follows existing baseline suite"
+  ],
+  "copies": {
+    "training_and_metrics": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007/train.py",
+    "data_interface": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007/data.py",
+    "frozen_protocol": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007/dataset/protocol.json"
+  }
+}

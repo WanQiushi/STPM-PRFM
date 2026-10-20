@@ -1,0 +1,101 @@
+{
+  "data": "data/mainbridge_temperature_v2/minute_complete.npz",
+  "split_days": [
+    511,
+    110,
+    109
+  ],
+  "sample_minutes": 1,
+  "history_days": 30,
+  "horizon_days": 1,
+  "train_stride": 720,
+  "validation_stride": 1440,
+  "test_stride": 1440,
+  "run_name": "ModernTCN_1min_Joint5_MSE_seed2026",
+  "model": "ModernTCN",
+  "seed": 2026,
+  "output": "outputs/minute_moderntcn_joint5_20261009/ModernTCN_1min_Joint5_MSE_seed2026",
+  "model_args": {
+    "seq_len": 43200,
+    "pred_len": 1440,
+    "label_len": 1440,
+    "enc_in": 5,
+    "c_out": 5,
+    "freq": "t",
+    "stem_ratio": 6,
+    "downsample_ratio": 2,
+    "ffn_ratio": 8,
+    "patch_size": 240,
+    "patch_stride": 120,
+    "num_blocks": [
+      3
+    ],
+    "large_size": [
+      51
+    ],
+    "small_size": [
+      5
+    ],
+    "dims": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "dw_dims": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "small_kernel_merged": false,
+    "dropout": 0.1,
+    "head_dropout": 0.0,
+    "use_multi_scale": false,
+    "revin": true,
+    "affine": false,
+    "subtract_last": false,
+    "kernel_size": 375,
+    "decomposition": false,
+    "individual": false
+  },
+  "batch_size": 16,
+  "micro_batch_size": 16,
+  "epochs": 300,
+  "patience": 60,
+  "lr": 0.0001,
+  "grad_clip": 1.0,
+  "torch_threads": 2,
+  "first_difference_weight": 0.0,
+  "second_difference_weight": 0.0,
+  "gpu_budget_mib": 16384,
+  "input_channels": 5,
+  "input_policy": "Past 30 days of temperature and four displacements only; no future values or calendar marks.",
+  "task": "1min_temperature_four_support_joint_24h_forecast",
+  "test_policy": "Evaluate after validation-selected checkpoint; no configuration search.",
+  "official_source_commit": "56a9a2c018385cd5acef015378cae7f084d1b11c",
+  "min_training_observed_points": 1080,
+  "output_channels": 5,
+  "channel_names": [
+    "Temperature",
+    "Pier1",
+    "Pier2",
+    "Pier3",
+    "Pier4"
+  ],
+  "channel_units": [
+    "degC",
+    "mm",
+    "mm",
+    "mm",
+    "mm"
+  ],
+  "normalization_policy": "Train-only observed mean/std independently for five channels.",
+  "checkpoint_selection": "Joint five-channel standardized validation RMSE; physical metrics reported separately.",
+  "loss_policy": "Observed-entry masked standardized MSE across five channels; equal weight per valid normalized entry; derivative weights zero.",
+  "reference_experiment": "minute_joint5_forecast_20261007",
+  "forecast_target_policy": "Future temperature and four displacements are targets only, never model inputs.",
+  "protocol": "experiments/minute_moderntcn_joint5_20261009/dataset/protocol.json",
+  "source_repository": "https://github.com/luodhhh/ModernTCN",
+  "source_policy": "Official long-term architecture; local relative-import adaptation only; no temporal marks; shared head zero initialization follows existing baseline protocol."
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "figure": 1,
+    "name": "fig01_frequency_motivation",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "source": "figures/framework_20261017/frequency_motivation.pdf"
+  },
+  {
+    "figure": 2,
+    "name": "fig02_framework_overview",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "source": "figures/framework_20261017/framework_overview.pdf"
+  },
+  {
+    "figure": 3,
+    "name": "fig03_stpm_architecture",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "source": "figures/framework_20261017/stpm_architecture.pdf"
+  },
+  {
+    "figure": 4,
+    "name": "fig04_prfm_architecture",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "source": "figures/framework_20261017/prfm_architecture.pdf"
+  },
+  {
+    "figure": 5,
+    "name": "fig05_d1_full_test",
+    "formats": [
+      "pdf",
+      "png",
+      "svg"
+    ],
+    "source": "figures/d1_independent_prfm_20261020/d1_full109_forecast.pdf"
+  },
+  {
+    "figure": 6,
+    "name": "fig06_d1_components",
+    "formats": [
+      "pdf",
+      "png",
+      "svg"
+    ],
+    "source": "figures/d1_independent_prfm_20261020/d1_components_20231114_4x4.pdf"
+  },
+  {
+    "figure": 7,
+    "name": "fig07_d2_observations",
+    "formats": [
+      "pdf",
+      "png",
+      "svg"
+    ],
+    "source": "figures/d2_original_dataset_20261019/d2_400day_observations.pdf"
+  },
+  {
+    "figure": 8,
+    "name": "fig08_d2_full_test",
+    "formats": [
+      "pdf",
+      "png",
+      "svg"
+    ],
+    "source": "figures/fullperiod_forecasts_20261020/d2_full60_forecast.pdf"
+  },
+  {
+    "figure": 9,
+    "name": "fig09_d2_components",
+    "formats": [
+      "pdf",
+      "png",
+      "svg"
+    ],
+    "source": "figures/fullperiod_forecasts_20261020/d2_day391_components_7x4.pdf"
+  }
+]

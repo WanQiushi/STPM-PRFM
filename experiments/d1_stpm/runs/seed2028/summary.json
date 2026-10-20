@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "base_best_epoch": 2,
+  "residual_best_epoch": 13,
+  "version": "va core ablation temperature",
+  "sample_minutes": 1,
+  "arm": "A2",
+  "trend_weight": 3.0,
+  "base_epochs_completed": 14,
+  "residual_epochs_completed": 25,
+  "base_rmse_celsius": 2.3161317433844237,
+  "final_rmse_celsius": 1.9120269848185845,
+  "base_seconds": 870.2760148048401,
+  "residual_seconds": 2.130810260772705,
+  "parameters": {
+    "base": 7577,
+    "residual": 70768,
+    "total": 78345
+  },
+  "gpu_max_allocated_bytes": 1158585856,
+  "test_evaluated": false,
+  "h1_used_in_training": false
+}

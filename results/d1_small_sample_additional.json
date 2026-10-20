@@ -1,0 +1,4511 @@
+{
+  "seed_std_ddof": 1,
+  "planned_jobs": 40,
+  "selected_models": [
+    "PCFNet",
+    "VanillaLSTM"
+  ],
+  "statuses": [
+    {
+      "month": 9,
+      "budget": "9m",
+      "model": "PCFNet",
+      "seed": 2024,
+      "entry": "baseline/train.py",
+      "config": "configs/9m/PCFNet_seed2024.json",
+      "output": "outputs/9m/PCFNet_seed2024",
+      "status": "completed"
+    },
+    {
+      "month": 9,
+      "budget": "9m",
+      "model": "VanillaLSTM",
+      "seed": 2024,
+      "entry": "baseline/train.py",
+      "config": "configs/9m/VanillaLSTM_seed2024.json",
+      "output": "outputs/9m/VanillaLSTM_seed2024",
+      "status": "completed"
+    },
+    {
+      "month": 9,
+      "budget": "9m",
+      "model": "PCFNet",
+      "seed": 2025,
+      "entry": "baseline/train.py",
+      "config": "configs/9m/PCFNet_seed2025.json",
+      "output": "outputs/9m/PCFNet_seed2025",
+      "status": "completed"
+    },
+    {
+      "month": 9,
+      "budget": "9m",
+      "model": "VanillaLSTM",
+      "seed": 2025,
+      "entry": "baseline/train.py",
+      "config": "configs/9m/VanillaLSTM_seed2025.json",
+      "output": "outputs/9m/VanillaLSTM_seed2025",
+      "status": "completed"
+    },
+    {
+      "month": 9,
+      "budget": "9m",
+      "model": "PCFNet",
+      "seed": 2026,
+      "entry": "baseline/train.py",
+      "config": "configs/9m/PCFNet_seed2026.json",
+      "output": "outputs/9m/PCFNet_seed2026",
+      "status": "completed"
+    },
+    {
+      "month": 9,
+      "budget": "9m",
+      "model": "VanillaLSTM",
+      "seed": 2026,
+      "entry": "baseline/train.py",
+      "config": "configs/9m/VanillaLSTM_seed2026.json",
+      "output": "outputs/9m/VanillaLSTM_seed2026",
+      "status": "completed"
+    },
+    {
+      "month": 9,
+      "budget": "9m",
+      "model": "PCFNet",
+      "seed": 2027,
+      "entry": "baseline/train.py",
+      "config": "configs/9m/PCFNet_seed2027.json",
+      "output": "outputs/9m/PCFNet_seed2027",
+      "status": "completed"
+    },
+    {
+      "month": 9,
+      "budget": "9m",
+      "model": "VanillaLSTM",
+      "seed": 2027,
+      "entry": "baseline/train.py",
+      "config": "configs/9m/VanillaLSTM_seed2027.json",
+      "output": "outputs/9m/VanillaLSTM_seed2027",
+      "status": "completed"
+    },
+    {
+      "month": 9,
+      "budget": "9m",
+      "model": "PCFNet",
+      "seed": 2028,
+      "entry": "baseline/train.py",
+      "config": "configs/9m/PCFNet_seed2028.json",
+      "output": "outputs/9m/PCFNet_seed2028",
+      "status": "completed"
+    },
+    {
+      "month": 9,
+      "budget": "9m",
+      "model": "VanillaLSTM",
+      "seed": 2028,
+      "entry": "baseline/train.py",
+      "config": "configs/9m/VanillaLSTM_seed2028.json",
+      "output": "outputs/9m/VanillaLSTM_seed2028",
+      "status": "completed"
+    },
+    {
+      "month": 6,
+      "budget": "6m",
+      "model": "PCFNet",
+      "seed": 2024,
+      "entry": "baseline/train.py",
+      "config": "configs/6m/PCFNet_seed2024.json",
+      "output": "outputs/6m/PCFNet_seed2024",
+      "status": "completed"
+    },
+    {
+      "month": 6,
+      "budget": "6m",
+      "model": "VanillaLSTM",
+      "seed": 2024,
+      "entry": "baseline/train.py",
+      "config": "configs/6m/VanillaLSTM_seed2024.json",
+      "output": "outputs/6m/VanillaLSTM_seed2024",
+      "status": "completed"
+    },
+    {
+      "month": 6,
+      "budget": "6m",
+      "model": "PCFNet",
+      "seed": 2025,
+      "entry": "baseline/train.py",
+      "config": "configs/6m/PCFNet_seed2025.json",
+      "output": "outputs/6m/PCFNet_seed2025",
+      "status": "completed"
+    },
+    {
+      "month": 6,
+      "budget": "6m",
+      "model": "VanillaLSTM",
+      "seed": 2025,
+      "entry": "baseline/train.py",
+      "config": "configs/6m/VanillaLSTM_seed2025.json",
+      "output": "outputs/6m/VanillaLSTM_seed2025",
+      "status": "completed"
+    },
+    {
+      "month": 6,
+      "budget": "6m",
+      "model": "PCFNet",
+      "seed": 2026,
+      "entry": "baseline/train.py",
+      "config": "configs/6m/PCFNet_seed2026.json",
+      "output": "outputs/6m/PCFNet_seed2026",
+      "status": "completed"
+    },
+    {
+      "month": 6,
+      "budget": "6m",
+      "model": "VanillaLSTM",
+      "seed": 2026,
+      "entry": "baseline/train.py",
+      "config": "configs/6m/VanillaLSTM_seed2026.json",
+      "output": "outputs/6m/VanillaLSTM_seed2026",
+      "status": "completed"
+    },
+    {
+      "month": 6,
+      "budget": "6m",
+      "model": "PCFNet",
+      "seed": 2027,
+      "entry": "baseline/train.py",
+      "config": "configs/6m/PCFNet_seed2027.json",
+      "output": "outputs/6m/PCFNet_seed2027",
+      "status": "completed"
+    },
+    {
+      "month": 6,
+      "budget": "6m",
+      "model": "VanillaLSTM",
+      "seed": 2027,
+      "entry": "baseline/train.py",
+      "config": "configs/6m/VanillaLSTM_seed2027.json",
+      "output": "outputs/6m/VanillaLSTM_seed2027",
+      "status": "completed"
+    },
+    {
+      "month": 6,
+      "budget": "6m",
+      "model": "PCFNet",
+      "seed": 2028,
+      "entry": "baseline/train.py",
+      "config": "configs/6m/PCFNet_seed2028.json",
+      "output": "outputs/6m/PCFNet_seed2028",
+      "status": "completed"
+    },
+    {
+      "month": 6,
+      "budget": "6m",
+      "model": "VanillaLSTM",
+      "seed": 2028,
+      "entry": "baseline/train.py",
+      "config": "configs/6m/VanillaLSTM_seed2028.json",
+      "output": "outputs/6m/VanillaLSTM_seed2028",
+      "status": "completed"
+    },
+    {
+      "month": 3,
+      "budget": "3m",
+      "model": "PCFNet",
+      "seed": 2024,
+      "entry": "baseline/train.py",
+      "config": "configs/3m/PCFNet_seed2024.json",
+      "output": "outputs/3m/PCFNet_seed2024",
+      "status": "completed"
+    },
+    {
+      "month": 3,
+      "budget": "3m",
+      "model": "VanillaLSTM",
+      "seed": 2024,
+      "entry": "baseline/train.py",
+      "config": "configs/3m/VanillaLSTM_seed2024.json",
+      "output": "outputs/3m/VanillaLSTM_seed2024",
+      "status": "completed"
+    },
+    {
+      "month": 3,
+      "budget": "3m",
+      "model": "PCFNet",
+      "seed": 2025,
+      "entry": "baseline/train.py",
+      "config": "configs/3m/PCFNet_seed2025.json",
+      "output": "outputs/3m/PCFNet_seed2025",
+      "status": "completed"
+    },
+    {
+      "month": 3,
+      "budget": "3m",
+      "model": "VanillaLSTM",
+      "seed": 2025,
+      "entry": "baseline/train.py",
+      "config": "configs/3m/VanillaLSTM_seed2025.json",
+      "output": "outputs/3m/VanillaLSTM_seed2025",
+      "status": "completed"
+    },
+    {
+      "month": 3,
+      "budget": "3m",
+      "model": "PCFNet",
+      "seed": 2026,
+      "entry": "baseline/train.py",
+      "config": "configs/3m/PCFNet_seed2026.json",
+      "output": "outputs/3m/PCFNet_seed2026",
+      "status": "completed"
+    },
+    {
+      "month": 3,
+      "budget": "3m",
+      "model": "VanillaLSTM",
+      "seed": 2026,
+      "entry": "baseline/train.py",
+      "config": "configs/3m/VanillaLSTM_seed2026.json",
+      "output": "outputs/3m/VanillaLSTM_seed2026",
+      "status": "completed"
+    },
+    {
+      "month": 3,
+      "budget": "3m",
+      "model": "PCFNet",
+      "seed": 2027,
+      "entry": "baseline/train.py",
+      "config": "configs/3m/PCFNet_seed2027.json",
+      "output": "outputs/3m/PCFNet_seed2027",
+      "status": "completed"
+    },
+    {
+      "month": 3,
+      "budget": "3m",
+      "model": "VanillaLSTM",
+      "seed": 2027,
+      "entry": "baseline/train.py",
+      "config": "configs/3m/VanillaLSTM_seed2027.json",
+      "output": "outputs/3m/VanillaLSTM_seed2027",
+      "status": "completed"
+    },
+    {
+      "month": 3,
+      "budget": "3m",
+      "model": "PCFNet",
+      "seed": 2028,
+      "entry": "baseline/train.py",
+      "config": "configs/3m/PCFNet_seed2028.json",
+      "output": "outputs/3m/PCFNet_seed2028",
+      "status": "completed"
+    },
+    {
+      "month": 3,
+      "budget": "3m",
+      "model": "VanillaLSTM",
+      "seed": 2028,
+      "entry": "baseline/train.py",
+      "config": "configs/3m/VanillaLSTM_seed2028.json",
+      "output": "outputs/3m/VanillaLSTM_seed2028",
+      "status": "completed"
+    },
+    {
+      "month": 1,
+      "budget": "1m",
+      "model": "PCFNet",
+      "seed": 2024,
+      "entry": "baseline/train.py",
+      "config": "configs/1m/PCFNet_seed2024.json",
+      "output": "outputs/1m/PCFNet_seed2024",
+      "status": "completed"
+    },
+    {
+      "month": 1,
+      "budget": "1m",
+      "model": "VanillaLSTM",
+      "seed": 2024,
+      "entry": "baseline/train.py",
+      "config": "configs/1m/VanillaLSTM_seed2024.json",
+      "output": "outputs/1m/VanillaLSTM_seed2024",
+      "status": "completed"
+    },
+    {
+      "month": 1,
+      "budget": "1m",
+      "model": "PCFNet",
+      "seed": 2025,
+      "entry": "baseline/train.py",
+      "config": "configs/1m/PCFNet_seed2025.json",
+      "output": "outputs/1m/PCFNet_seed2025",
+      "status": "completed"
+    },
+    {
+      "month": 1,
+      "budget": "1m",
+      "model": "VanillaLSTM",
+      "seed": 2025,
+      "entry": "baseline/train.py",
+      "config": "configs/1m/VanillaLSTM_seed2025.json",
+      "output": "outputs/1m/VanillaLSTM_seed2025",
+      "status": "completed"
+    },
+    {
+      "month": 1,
+      "budget": "1m",
+      "model": "PCFNet",
+      "seed": 2026,
+      "entry": "baseline/train.py",
+      "config": "configs/1m/PCFNet_seed2026.json",
+      "output": "outputs/1m/PCFNet_seed2026",
+      "status": "completed"
+    },
+    {
+      "month": 1,
+      "budget": "1m",
+      "model": "VanillaLSTM",
+      "seed": 2026,
+      "entry": "baseline/train.py",
+      "config": "configs/1m/VanillaLSTM_seed2026.json",
+      "output": "outputs/1m/VanillaLSTM_seed2026",
+      "status": "completed"
+    },
+    {
+      "month": 1,
+      "budget": "1m",
+      "model": "PCFNet",
+      "seed": 2027,
+      "entry": "baseline/train.py",
+      "config": "configs/1m/PCFNet_seed2027.json",
+      "output": "outputs/1m/PCFNet_seed2027",
+      "status": "completed"
+    },
+    {
+      "month": 1,
+      "budget": "1m",
+      "model": "VanillaLSTM",
+      "seed": 2027,
+      "entry": "baseline/train.py",
+      "config": "configs/1m/VanillaLSTM_seed2027.json",
+      "output": "outputs/1m/VanillaLSTM_seed2027",
+      "status": "completed"
+    },
+    {
+      "month": 1,
+      "budget": "1m",
+      "model": "PCFNet",
+      "seed": 2028,
+      "entry": "baseline/train.py",
+      "config": "configs/1m/PCFNet_seed2028.json",
+      "output": "outputs/1m/PCFNet_seed2028",
+      "status": "completed"
+    },
+    {
+      "month": 1,
+      "budget": "1m",
+      "model": "VanillaLSTM",
+      "seed": 2028,
+      "entry": "baseline/train.py",
+      "config": "configs/1m/VanillaLSTM_seed2028.json",
+      "output": "outputs/1m/VanillaLSTM_seed2028",
+      "status": "completed"
+    }
+  ],
+  "per_seed": [
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "PCFNet",
+      "seed": 2024,
+      "split": "validation",
+      "joint_standardized_rmse": 0.21291430923048585,
+      "temperature_rmse_c": 2.1411108670592323,
+      "temperature_mae_c": 1.544134847393081,
+      "temperature_mse_c2": 4.584355745039137,
+      "pooled_rmse_mm": 15.604652778104617,
+      "pooled_mae_mm": 10.809195804825988,
+      "pooled_mse_mm2": 243.50518832520817,
+      "rmse_mm": [
+        17.623050830918327,
+        14.437517528909977,
+        13.58816663258707,
+        16.439701188877034
+      ],
+      "mae_mm": [
+        12.2036515367897,
+        10.131047153040766,
+        9.462871329968797,
+        11.437042539386178
+      ],
+      "mse_mm2": [
+        310.5719205891312,
+        208.44191239758283,
+        184.63827243495265,
+        270.263775179565
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 131.11285209655762
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "PCFNet",
+      "seed": 2024,
+      "split": "test",
+      "joint_standardized_rmse": 0.22481599037235986,
+      "temperature_rmse_c": 2.4258076336329335,
+      "temperature_mae_c": 1.7817882356556445,
+      "temperature_mse_c2": 5.8845426753918115,
+      "pooled_rmse_mm": 16.02843100321445,
+      "pooled_mae_mm": 11.319584912219614,
+      "pooled_mse_mm2": 256.91060042480615,
+      "rmse_mm": [
+        18.217294988301536,
+        14.548430345506008,
+        13.924484351266722,
+        16.97059261538131
+      ],
+      "mae_mm": [
+        12.888174927923496,
+        10.352142270209473,
+        9.911184490607717,
+        12.081841246609583
+      ],
+      "mse_mm2": [
+        331.86983669079626,
+        211.65682551804005,
+        193.89126444867185,
+        288.0010137172346
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 131.11285209655762
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "VanillaLSTM",
+      "seed": 2024,
+      "split": "validation",
+      "joint_standardized_rmse": 0.27615383686423967,
+      "temperature_rmse_c": 2.5696942324468095,
+      "temperature_mae_c": 1.8469514842377794,
+      "temperature_mse_c2": 6.603328448270398,
+      "pooled_rmse_mm": 20.71135237602222,
+      "pooled_mae_mm": 15.73619186079061,
+      "pooled_mse_mm2": 428.96011724376126,
+      "rmse_mm": [
+        22.993180125409992,
+        19.28185321779841,
+        18.344910181204526,
+        21.878751463309534
+      ],
+      "mae_mm": [
+        17.659543443327745,
+        14.559366686021013,
+        13.942321704170322,
+        16.78074277592822
+      ],
+      "mse_mm2": [
+        528.6863322795491,
+        371.7898635127229,
+        336.53572955646143,
+        478.6797655932691
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 412.8910322189331
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "VanillaLSTM",
+      "seed": 2024,
+      "split": "test",
+      "joint_standardized_rmse": 0.28806039580258536,
+      "temperature_rmse_c": 3.0052748246795082,
+      "temperature_mae_c": 2.261866548688527,
+      "temperature_mse_c2": 9.031676771852448,
+      "pooled_rmse_mm": 20.802879269728393,
+      "pooled_mae_mm": 15.531181071785461,
+      "pooled_mse_mm2": 432.7597859108953,
+      "rmse_mm": [
+        23.302047742100854,
+        18.930420735468843,
+        18.333472870329775,
+        22.155880919221843
+      ],
+      "mae_mm": [
+        17.40931284783717,
+        14.10896626549375,
+        13.854429325650115,
+        16.717432658291262
+      ],
+      "mse_mm2": [
+        542.9854289751474,
+        358.36082922186876,
+        336.11622748711784,
+        490.88305930673863
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 412.8910322189331
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "PCFNet",
+      "seed": 2025,
+      "split": "validation",
+      "joint_standardized_rmse": 0.2169346707896323,
+      "temperature_rmse_c": 2.1747491653251987,
+      "temperature_mae_c": 1.5557382783988862,
+      "temperature_mse_c2": 4.7295339320826475,
+      "pooled_rmse_mm": 15.912912857869644,
+      "pooled_mae_mm": 11.043342178998573,
+      "pooled_mse_mm2": 253.22079562215305,
+      "rmse_mm": [
+        17.94911576669291,
+        14.783470800460783,
+        13.850707055110988,
+        16.739492358238387
+      ],
+      "mae_mm": [
+        12.43200033600252,
+        10.401046140042196,
+        9.670177744151426,
+        11.667966750272027
+      ],
+      "mse_mm2": [
+        322.170756806144,
+        218.55100890807657,
+        191.8420859265013,
+        280.2106044115214
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 131.24724340438843
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "PCFNet",
+      "seed": 2025,
+      "split": "test",
+      "joint_standardized_rmse": 0.22338109822222266,
+      "temperature_rmse_c": 2.4020266863343585,
+      "temperature_mae_c": 1.7269552283964644,
+      "temperature_mse_c2": 5.769732201862419,
+      "pooled_rmse_mm": 15.954404452318185,
+      "pooled_mae_mm": 11.056149380150009,
+      "pooled_mse_mm2": 254.54302142815033,
+      "rmse_mm": [
+        18.134962873988737,
+        14.429385133214433,
+        13.858707043694274,
+        16.938893759338303
+      ],
+      "mae_mm": [
+        12.562256832331402,
+        10.00271124145225,
+        9.72347153245601,
+        11.90205341451284
+      ],
+      "mse_mm2": [
+        328.87687844094984,
+        208.2071553226297,
+        192.06376092294127,
+        286.9261217901501
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 131.24724340438843
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "VanillaLSTM",
+      "seed": 2025,
+      "split": "validation",
+      "joint_standardized_rmse": 0.22811802201146159,
+      "temperature_rmse_c": 2.193558560124228,
+      "temperature_mae_c": 1.5452793550497195,
+      "temperature_mse_c2": 4.811699156694275,
+      "pooled_rmse_mm": 16.940312576562228,
+      "pooled_mae_mm": 12.354488119173725,
+      "pooled_mse_mm2": 286.97419019163243,
+      "rmse_mm": [
+        18.79234460753395,
+        15.689801739759103,
+        15.009194066859651,
+        17.977846159098767
+      ],
+      "mae_mm": [
+        13.795026979887266,
+        11.478929466731783,
+        10.954314240887937,
+        13.187611545572578
+      ],
+      "mse_mm2": [
+        353.15221584831033,
+        246.16987863294776,
+        225.27590653665496,
+        323.20295252022225
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 1314.2976639270782
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "VanillaLSTM",
+      "seed": 2025,
+      "split": "test",
+      "joint_standardized_rmse": 0.24924556413386167,
+      "temperature_rmse_c": 2.6644289582027954,
+      "temperature_mae_c": 1.9603697076381978,
+      "temperature_mse_c2": 7.099181673309633,
+      "pooled_rmse_mm": 17.82147904860593,
+      "pooled_mae_mm": 12.738432560886844,
+      "pooled_mse_mm2": 317.6051154799001,
+      "rmse_mm": [
+        20.031830671311425,
+        16.19771407118284,
+        15.638703297196264,
+        18.975673048578507
+      ],
+      "mae_mm": [
+        14.261224705516728,
+        11.561463243438961,
+        11.349672970106907,
+        13.755083608889942
+      ],
+      "mse_mm2": [
+        401.2742400440931,
+        262.3659411317946,
+        244.5690408177373,
+        360.0761676465487
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 1314.2976639270782
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "PCFNet",
+      "seed": 2026,
+      "split": "validation",
+      "joint_standardized_rmse": 0.21912000547284866,
+      "temperature_rmse_c": 2.164786327199689,
+      "temperature_mae_c": 1.5377982953165512,
+      "temperature_mse_c2": 4.686299842430719,
+      "pooled_rmse_mm": 16.15828729591505,
+      "pooled_mae_mm": 11.100969115171335,
+      "pooled_mse_mm2": 261.0902483373296,
+      "rmse_mm": [
+        18.239321562496766,
+        14.968851315257313,
+        14.079904325215635,
+        17.007810455307624
+      ],
+      "mae_mm": [
+        12.48331197240341,
+        10.446426923984342,
+        9.74253846876741,
+        11.729441719061123
+      ],
+      "mse_mm2": [
+        332.6728510601595,
+        224.06650969828058,
+        198.24370580722595,
+        289.26561648367135
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 147.0127718448639
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "PCFNet",
+      "seed": 2026,
+      "split": "test",
+      "joint_standardized_rmse": 0.22500434412229212,
+      "temperature_rmse_c": 2.3937335322831457,
+      "temperature_mae_c": 1.7198240807920133,
+      "temperature_mse_c2": 5.729960223576745,
+      "pooled_rmse_mm": 16.14318633271192,
+      "pooled_mae_mm": 11.110934590867386,
+      "pooled_mse_mm2": 260.6024649726569,
+      "rmse_mm": [
+        18.329331440355233,
+        14.626712516069041,
+        14.04396650921308,
+        17.120792694106697
+      ],
+      "mae_mm": [
+        12.660624908395981,
+        10.069398068027274,
+        9.753187553237595,
+        11.922331490630501
+      ],
+      "mse_mm2": [
+        335.96439105039485,
+        213.94071902773075,
+        197.23299531189863,
+        293.12154247457727
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 147.0127718448639
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "VanillaLSTM",
+      "seed": 2026,
+      "split": "validation",
+      "joint_standardized_rmse": 0.27640529747156833,
+      "temperature_rmse_c": 2.5694998907710858,
+      "temperature_mae_c": 1.8481910618376642,
+      "temperature_mse_c2": 6.602329688672621,
+      "pooled_rmse_mm": 20.736868155973013,
+      "pooled_mae_mm": 15.747297283298124,
+      "pooled_mse_mm2": 430.01770091820754,
+      "rmse_mm": [
+        23.02763907535358,
+        19.297211290490477,
+        18.369947903572434,
+        21.90460485398391
+      ],
+      "mae_mm": [
+        17.673559610923256,
+        14.566623289515269,
+        13.954212271929999,
+        16.791997205076488
+      ],
+      "mse_mm2": [
+        530.2721613847511,
+        372.3823635898331,
+        337.4549859799653,
+        479.81171380917533
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 449.32981729507446
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "VanillaLSTM",
+      "seed": 2026,
+      "split": "test",
+      "joint_standardized_rmse": 0.2882838714315413,
+      "temperature_rmse_c": 3.00540961564106,
+      "temperature_mae_c": 2.2631094445971005,
+      "temperature_mse_c2": 9.032486957787745,
+      "pooled_rmse_mm": 20.825797320591423,
+      "pooled_mae_mm": 15.542547127391217,
+      "pooled_mse_mm2": 433.71383403835296,
+      "rmse_mm": [
+        23.332192523422115,
+        18.944674210649755,
+        18.35623629675651,
+        22.179163303573674
+      ],
+      "mae_mm": [
+        17.42515163757424,
+        14.116681422817058,
+        13.86549854373933,
+        16.728209236584473
+      ],
+      "mse_mm2": [
+        544.3912079500349,
+        358.90068094765786,
+        336.95141098236115,
+        491.9152848465891
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 449.32981729507446
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "PCFNet",
+      "seed": 2027,
+      "split": "validation",
+      "joint_standardized_rmse": 0.2163830914188634,
+      "temperature_rmse_c": 2.0270357771793113,
+      "temperature_mae_c": 1.3967149053370111,
+      "temperature_mse_c2": 4.108874041964934,
+      "pooled_rmse_mm": 16.26066760954949,
+      "pooled_mae_mm": 10.55438641898404,
+      "pooled_mse_mm2": 264.4093111082519,
+      "rmse_mm": [
+        18.565009565953428,
+        14.876382096964853,
+        14.067972071441071,
+        17.135833989470026
+      ],
+      "mae_mm": [
+        12.070759882246413,
+        9.897707054293194,
+        9.165770589641644,
+        11.080834201298027
+      ],
+      "mse_mm2": [
+        344.65958018394224,
+        221.30674429489642,
+        197.907838202846,
+        293.6368065146762
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 227.66539120674133
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "PCFNet",
+      "seed": 2027,
+      "split": "test",
+      "joint_standardized_rmse": 0.22412354346477134,
+      "temperature_rmse_c": 2.375780511457368,
+      "temperature_mae_c": 1.6686557560266022,
+      "temperature_mse_c2": 5.644333038620632,
+      "pooled_rmse_mm": 16.103649928007858,
+      "pooled_mae_mm": 10.937779948296146,
+      "pooled_mse_mm2": 259.32754100382743,
+      "rmse_mm": [
+        18.268011930588738,
+        14.614661146054397,
+        14.00023188092514,
+        17.08359585292113
+      ],
+      "mae_mm": [
+        12.489629974220655,
+        9.982196017745554,
+        9.584875149364143,
+        11.649774388298885
+      ],
+      "mse_mm2": [
+        333.72025989613246,
+        213.58832041399202,
+        196.0064927196727,
+        291.84924726594403
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 227.66539120674133
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "VanillaLSTM",
+      "seed": 2027,
+      "split": "validation",
+      "joint_standardized_rmse": 0.2761370642669426,
+      "temperature_rmse_c": 2.5669823856646095,
+      "temperature_mae_c": 1.84606765889477,
+      "temperature_mse_c2": 6.589398568312371,
+      "pooled_rmse_mm": 20.716723581290573,
+      "pooled_mae_mm": 15.732428244303415,
+      "pooled_mse_mm2": 429.1826359436009,
+      "rmse_mm": [
+        23.005059274817313,
+        19.282631088076236,
+        18.34952290073201,
+        21.882037523536347
+      ],
+      "mae_mm": [
+        17.65656769202592,
+        14.555870677506677,
+        13.939271689694921,
+        16.77520752808975
+      ],
+      "mse_mm2": [
+        529.2327522378581,
+        371.8198616788441,
+        336.7049906844884,
+        478.82356618145263
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 451.0703501701355
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "VanillaLSTM",
+      "seed": 2027,
+      "split": "test",
+      "joint_standardized_rmse": 0.2880289015859758,
+      "temperature_rmse_c": 3.0029722422287484,
+      "temperature_mae_c": 2.260931984249776,
+      "temperature_mse_c2": 9.017842287596356,
+      "pooled_rmse_mm": 20.806736326568473,
+      "pooled_mae_mm": 15.525374818675802,
+      "pooled_mse_mm2": 432.92027656334403,
+      "rmse_mm": [
+        23.311177135351855,
+        18.93083304614583,
+        18.336676424284555,
+        22.157557343669882
+      ],
+      "mae_mm": [
+        17.405083209307605,
+        14.104095644494661,
+        13.848686430136299,
+        16.708865466437064
+      ],
+      "mse_mm2": [
+        543.4109794357512,
+        358.3764398210469,
+        336.233702288913,
+        490.9573474380192
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 451.0703501701355
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "PCFNet",
+      "seed": 2028,
+      "split": "validation",
+      "joint_standardized_rmse": 0.21319146230450925,
+      "temperature_rmse_c": 2.063522765928786,
+      "temperature_mae_c": 1.4474335046063147,
+      "temperature_mse_c2": 4.258126205506387,
+      "pooled_rmse_mm": 15.848956003737667,
+      "pooled_mae_mm": 10.392645901416943,
+      "pooled_mse_mm2": 251.18940640841225,
+      "rmse_mm": [
+        18.02384811654226,
+        14.570123725690664,
+        13.723627007879701,
+        16.70797369592399
+      ],
+      "mae_mm": [
+        11.833458335569103,
+        9.794781132933313,
+        9.032570272223026,
+        10.907417670164762
+      ],
+      "mse_mm2": [
+        324.859100928184,
+        212.288505381934,
+        188.33793825140515,
+        279.1563850236879
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 253.37303137779236
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "PCFNet",
+      "seed": 2028,
+      "split": "test",
+      "joint_standardized_rmse": 0.22464031012664618,
+      "temperature_rmse_c": 2.407932441882507,
+      "temperature_mae_c": 1.7302879122201589,
+      "temperature_mse_c2": 5.798138644670254,
+      "pooled_rmse_mm": 16.05437632492092,
+      "pooled_mae_mm": 11.136653274739661,
+      "pooled_mse_mm2": 257.7429991821814,
+      "rmse_mm": [
+        18.162298948427235,
+        14.61384117880214,
+        13.985613405874318,
+        17.024945569181842
+      ],
+      "mae_mm": [
+        12.655969146794453,
+        10.239181223131526,
+        9.76889990027372,
+        11.836086365646631
+      ],
+      "mse_mm2": [
+        329.8691030920411,
+        213.56435399925311,
+        195.59738233857146,
+        289.84877163360443
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 253.37303137779236
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "VanillaLSTM",
+      "seed": 2028,
+      "split": "validation",
+      "joint_standardized_rmse": 0.27630345746265217,
+      "temperature_rmse_c": 2.569132753880366,
+      "temperature_mae_c": 1.8471642765592255,
+      "temperature_mse_c2": 6.6004431070609115,
+      "pooled_rmse_mm": 20.727885420933596,
+      "pooled_mae_mm": 15.740750338034154,
+      "pooled_mse_mm2": 429.6452340233516,
+      "rmse_mm": [
+        23.017259567180304,
+        19.28879786660233,
+        18.361231440721294,
+        21.89622723747615
+      ],
+      "mae_mm": [
+        17.66647578840379,
+        14.560959132015924,
+        13.94727139092362,
+        16.78549896214918
+      ],
+      "mse_mm2": [
+        529.7942379829532,
+        372.0577231386426,
+        337.13482001973216,
+        479.4447672351925
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 456.23723006248474
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "VanillaLSTM",
+      "seed": 2028,
+      "split": "test",
+      "joint_standardized_rmse": 0.2881555723961651,
+      "temperature_rmse_c": 3.0047002752854772,
+      "temperature_mae_c": 2.261972372179618,
+      "temperature_mse_c2": 9.028223744300622,
+      "pooled_rmse_mm": 20.814785753357597,
+      "pooled_mae_mm": 15.533856553403046,
+      "pooled_mse_mm2": 433.2553059581784,
+      "rmse_mm": [
+        23.319918978864337,
+        18.934825349054726,
+        18.345478222731348,
+        22.168081799184883
+      ],
+      "mae_mm": [
+        17.415025292031903,
+        14.108749385784868,
+        13.857370414231225,
+        16.71968420579599
+      ],
+      "mse_mm2": [
+        543.8186211807971,
+        358.5276109992055,
+        336.5565712207101,
+        491.42385065535206
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 456.23723006248474
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "PCFNet",
+      "seed": 2024,
+      "split": "validation",
+      "joint_standardized_rmse": 0.30614439924834536,
+      "temperature_rmse_c": 2.2550048484088463,
+      "temperature_mae_c": 1.6474771901063283,
+      "temperature_mse_c2": 5.085046866347404,
+      "pooled_rmse_mm": 17.679870705724184,
+      "pooled_mae_mm": 12.655585772564514,
+      "pooled_mse_mm2": 312.57782817112417,
+      "rmse_mm": [
+        19.92988261934068,
+        16.22824526892008,
+        15.489182909904818,
+        18.70058913644095
+      ],
+      "mae_mm": [
+        14.272441719655333,
+        11.72918614622516,
+        11.168037496583645,
+        13.450259886446863
+      ],
+      "mse_mm2": [
+        397.20022122069776,
+        263.3559445082269,
+        239.9147872164875,
+        349.71203404997334
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 99.27169895172119
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "PCFNet",
+      "seed": 2024,
+      "split": "test",
+      "joint_standardized_rmse": 0.3645881833098571,
+      "temperature_rmse_c": 2.814785720670883,
+      "temperature_mae_c": 2.0702042382614008,
+      "temperature_mse_c2": 7.923018653292703,
+      "pooled_rmse_mm": 20.76102047939596,
+      "pooled_mae_mm": 15.271606535945223,
+      "pooled_mse_mm2": 431.0199713458985,
+      "rmse_mm": [
+        23.469557547599642,
+        18.769367831995826,
+        18.291198520019922,
+        21.9844478497114
+      ],
+      "mae_mm": [
+        17.338271705006918,
+        13.798092683389443,
+        13.557893523348808,
+        16.347373671356614
+      ],
+      "mse_mm2": [
+        550.8201314800913,
+        352.28916881275967,
+        334.56794329877897,
+        483.3159472566802
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 99.27169895172119
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "VanillaLSTM",
+      "seed": 2024,
+      "split": "validation",
+      "joint_standardized_rmse": 0.35687794074357637,
+      "temperature_rmse_c": 2.565732234022883,
+      "temperature_mae_c": 1.8450261552025768,
+      "temperature_mse_c2": 6.582981896704054,
+      "pooled_rmse_mm": 20.709738953139528,
+      "pooled_mae_mm": 15.722964549786836,
+      "pooled_mse_mm2": 428.89328750718465,
+      "rmse_mm": [
+        22.99545551464541,
+        19.27185671803257,
+        18.346281081302767,
+        21.87790505935952
+      ],
+      "mae_mm": [
+        17.643327187664777,
+        14.545400773866723,
+        13.933116336728316,
+        16.76722727593752
+      ],
+      "mse_mm2": [
+        528.790974326036,
+        371.4044613603771,
+        336.5860295141678,
+        478.6427297863489
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 309.22876739501953
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "VanillaLSTM",
+      "seed": 2024,
+      "split": "test",
+      "joint_standardized_rmse": 0.37169255487758807,
+      "temperature_rmse_c": 3.0020752800135786,
+      "temperature_mae_c": 2.2601279534866063,
+      "temperature_mse_c2": 9.012455986868606,
+      "pooled_rmse_mm": 20.80143897770949,
+      "pooled_mae_mm": 15.515098812939625,
+      "pooled_mse_mm2": 432.69986354337175,
+      "rmse_mm": [
+        23.303408756600593,
+        18.922580982716514,
+        18.334773041737094,
+        22.15484498719428
+      ],
+      "mae_mm": [
+        17.391792393926487,
+        14.092940521052244,
+        13.841097789909217,
+        16.700082789255724
+      ],
+      "mse_mm2": [
+        543.0488596772092,
+        358.0640710474647,
+        336.16390249200924,
+        490.8371564066076
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 309.22876739501953
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "PCFNet",
+      "seed": 2025,
+      "split": "validation",
+      "joint_standardized_rmse": 0.29873672689735764,
+      "temperature_rmse_c": 2.2775599424586392,
+      "temperature_mae_c": 1.6777438090577401,
+      "temperature_mse_c2": 5.1872792914921995,
+      "pooled_rmse_mm": 17.062522356959196,
+      "pooled_mae_mm": 11.637063528940024,
+      "pooled_mse_mm2": 291.1296691817324,
+      "rmse_mm": [
+        19.2212005999149,
+        15.803807075984615,
+        14.910839575457587,
+        17.967988693216242
+      ],
+      "mae_mm": [
+        13.04406493164094,
+        11.063544880516071,
+        10.228699912396674,
+        12.209672026710168
+      ],
+      "mse_mm2": [
+        369.45455250216895,
+        249.76031809494137,
+        222.33313684503216,
+        322.8486176795467
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 104.3913471698761
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "PCFNet",
+      "seed": 2025,
+      "split": "test",
+      "joint_standardized_rmse": 0.3552390361875232,
+      "temperature_rmse_c": 2.7952447108784626,
+      "temperature_mae_c": 2.016271486649365,
+      "temperature_mse_c2": 7.813392993694021,
+      "pooled_rmse_mm": 20.084687433460182,
+      "pooled_mae_mm": 14.25921783298748,
+      "pooled_mse_mm2": 403.3946692997934,
+      "rmse_mm": [
+        22.730723328212925,
+        18.307951101728605,
+        17.681779332516555,
+        21.111395498528466
+      ],
+      "mae_mm": [
+        16.230965563544718,
+        13.058246122617236,
+        12.613216140110866,
+        15.076728022518878
+      ],
+      "mse_mm2": [
+        516.6857830237632,
+        335.18107354328566,
+        312.6453203638096,
+        445.6910198952879
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 104.3913471698761
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "VanillaLSTM",
+      "seed": 2025,
+      "split": "validation",
+      "joint_standardized_rmse": 0.3569202165715803,
+      "temperature_rmse_c": 2.566218763047438,
+      "temperature_mae_c": 1.8446619761872871,
+      "temperature_mse_c2": 6.585478739816723,
+      "pooled_rmse_mm": 20.7118081370873,
+      "pooled_mae_mm": 15.717159360784912,
+      "pooled_mse_mm2": 428.9789963075156,
+      "rmse_mm": [
+        22.998942469958962,
+        19.275366520113344,
+        18.346913546216953,
+        21.878447869133783
+      ],
+      "mae_mm": [
+        17.636446049445635,
+        14.541192346540324,
+        13.927866396504287,
+        16.76034690367271
+      ],
+      "mse_mm2": [
+        528.951354736482,
+        371.5397544847064,
+        336.60923667235915,
+        478.6664811624046
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 311.55714535713196
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "VanillaLSTM",
+      "seed": 2025,
+      "split": "test",
+      "joint_standardized_rmse": 0.3717440776162146,
+      "temperature_rmse_c": 3.0026624030387326,
+      "temperature_mae_c": 2.260063386527621,
+      "temperature_mse_c2": 9.015981506622335,
+      "pooled_rmse_mm": 20.803906911531012,
+      "pooled_mae_mm": 15.510721659324114,
+      "pooled_mse_mm2": 432.8025427836478,
+      "rmse_mm": [
+        23.30733019842512,
+        18.92596757567022,
+        18.335778453366277,
+        22.15608872258736
+      ],
+      "mae_mm": [
+        17.387721053621757,
+        14.089363577807934,
+        13.836353327662314,
+        16.694885868308347
+      ],
+      "mse_mm2": [
+        543.2316409784196,
+        358.19224867532057,
+        336.200771490931,
+        490.89226748316275
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 311.55714535713196
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "PCFNet",
+      "seed": 2026,
+      "split": "validation",
+      "joint_standardized_rmse": 0.29876660755408463,
+      "temperature_rmse_c": 2.249635233377741,
+      "temperature_mae_c": 1.5943976877722497,
+      "temperature_mse_c2": 5.060858683254525,
+      "pooled_rmse_mm": 17.13933108237045,
+      "pooled_mae_mm": 11.506175315394678,
+      "pooled_mse_mm2": 293.7566699511098,
+      "rmse_mm": [
+        19.36827470319863,
+        15.821923531522907,
+        14.950327369424283,
+        18.053368003707426
+      ],
+      "mae_mm": [
+        12.935436397889887,
+        10.777205490521444,
+        10.120332600798967,
+        12.189537241184315
+      ],
+      "mse_mm2": [
+        375.13006497856395,
+        250.33326423735832,
+        223.51228845295682,
+        325.9240962772871
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 113.24648475646973
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "PCFNet",
+      "seed": 2026,
+      "split": "test",
+      "joint_standardized_rmse": 0.3347922275428545,
+      "temperature_rmse_c": 2.641240360271344,
+      "temperature_mae_c": 1.8482159005798573,
+      "temperature_mse_c2": 6.976150640726299,
+      "pooled_rmse_mm": 18.91229141464208,
+      "pooled_mae_mm": 13.07369946537303,
+      "pooled_mse_mm2": 357.6747665523445,
+      "rmse_mm": [
+        21.357044020830642,
+        17.123593545832257,
+        16.710314467260154,
+        19.989225276165566
+      ],
+      "mae_mm": [
+        14.873454114404792,
+        11.871029500667467,
+        11.601581865833454,
+        13.90382522086823
+      ],
+      "mse_mm2": [
+        456.1233293076978,
+        293.2174559228681,
+        279.23460959472396,
+        399.5691271412964
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 113.24648475646973
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "VanillaLSTM",
+      "seed": 2026,
+      "split": "validation",
+      "joint_standardized_rmse": 0.3568155784273191,
+      "temperature_rmse_c": 2.566030253515742,
+      "temperature_mae_c": 1.8447448096761412,
+      "temperature_mse_c2": 6.584511261958064,
+      "pooled_rmse_mm": 20.704406637547525,
+      "pooled_mae_mm": 15.71459360703766,
+      "pooled_mse_mm2": 428.672454212922,
+      "rmse_mm": [
+        22.989463677596653,
+        19.268141053733938,
+        18.340985274947506,
+        21.87172763969614
+      ],
+      "mae_mm": [
+        17.633176321135902,
+        14.538709356852294,
+        13.925746726744054,
+        16.757957732895335
+      ],
+      "mse_mm2": [
+        528.5154401835358,
+        371.26125966658725,
+        336.3917408558413,
+        478.37246994504807
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 296.2535123825073
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "VanillaLSTM",
+      "seed": 2026,
+      "split": "test",
+      "joint_standardized_rmse": 0.37165065738952396,
+      "temperature_rmse_c": 3.00252135037061,
+      "temperature_mae_c": 2.2601430738686124,
+      "temperature_mse_c2": 9.015134459431351,
+      "pooled_rmse_mm": 20.796959999769964,
+      "pooled_mae_mm": 15.506896486427394,
+      "pooled_mse_mm2": 432.5135452320319,
+      "rmse_mm": [
+        23.29869952542769,
+        18.91983810529795,
+        18.329843867682385,
+        22.149317969819016
+      ],
+      "mae_mm": [
+        17.382448495232545,
+        14.086570493066658,
+        13.833155912033734,
+        16.690879818931034
+      ],
+      "mse_mm2": [
+        542.8293995761645,
+        357.96027393068425,
+        335.9831762136135,
+        490.5922865281476
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 296.2535123825073
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "PCFNet",
+      "seed": 2027,
+      "split": "validation",
+      "joint_standardized_rmse": 0.29960215573893545,
+      "temperature_rmse_c": 2.242685072182016,
+      "temperature_mae_c": 1.5684559040063928,
+      "temperature_mse_c2": 5.029636332988055,
+      "pooled_rmse_mm": 17.221183843668864,
+      "pooled_mae_mm": 11.312756966976686,
+      "pooled_mse_mm2": 296.5691729774415,
+      "rmse_mm": [
+        19.426064816710124,
+        15.77109312491015,
+        15.083284379346125,
+        18.235952714468905
+      ],
+      "mae_mm": [
+        12.707163155939227,
+        10.522216750245168,
+        9.991338910480707,
+        12.028234266432387
+      ],
+      "mse_mm2": [
+        377.3719942630229,
+        248.7273783545882,
+        227.50546766822683,
+        332.5499714043458
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 104.92162156105042
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "PCFNet",
+      "seed": 2027,
+      "split": "test",
+      "joint_standardized_rmse": 0.3857425594806549,
+      "temperature_rmse_c": 2.957310033880203,
+      "temperature_mae_c": 2.123342570039594,
+      "temperature_mse_c2": 8.74568263648853,
+      "pooled_rmse_mm": 22.005519595440475,
+      "pooled_mae_mm": 15.643395269923971,
+      "pooled_mse_mm2": 484.2428926653147,
+      "rmse_mm": [
+        24.880350386490274,
+        20.00893925818144,
+        19.466039271534004,
+        23.12656167147193
+      ],
+      "mae_mm": [
+        17.82431350794323,
+        14.254333443923375,
+        13.894430310540903,
+        16.541076274139872
+      ],
+      "mse_mm2": [
+        619.0318353545268,
+        400.3576502375943,
+        378.92668492090405,
+        534.8378547443945
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 104.92162156105042
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "VanillaLSTM",
+      "seed": 2027,
+      "split": "validation",
+      "joint_standardized_rmse": 0.3569549398519922,
+      "temperature_rmse_c": 2.5661666292903234,
+      "temperature_mae_c": 1.844769638136119,
+      "temperature_mse_c2": 6.58521116928326,
+      "pooled_rmse_mm": 20.714544182318257,
+      "pooled_mae_mm": 15.719952966258552,
+      "pooled_mse_mm2": 429.0923406812151,
+      "rmse_mm": [
+        23.00250129634911,
+        19.277583417352126,
+        18.349250970349463,
+        21.881152159471835
+      ],
+      "mae_mm": [
+        17.640125162020126,
+        14.543666189760131,
+        13.930140657192302,
+        16.763092463670997
+      ],
+      "mse_mm2": [
+        529.1150658885425,
+        371.6252224129697,
+        336.69501117287064,
+        478.784819825959
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 291.72381711006165
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "VanillaLSTM",
+      "seed": 2027,
+      "split": "test",
+      "joint_standardized_rmse": 0.37176298041539874,
+      "temperature_rmse_c": 3.0026162002398427,
+      "temperature_mae_c": 2.260188446598085,
+      "temperature_mse_c2": 9.015704045942751,
+      "pooled_rmse_mm": 20.80551609245918,
+      "pooled_mae_mm": 15.513159605522292,
+      "pooled_mse_mm2": 432.8694998735778,
+      "rmse_mm": [
+        23.30960026547292,
+        18.927754153712954,
+        18.336954483624158,
+        22.157179288817154
+      ],
+      "mae_mm": [
+        17.391070553678123,
+        14.092285876024874,
+        13.838042318081833,
+        16.696574150904095
+      ],
+      "mse_mm2": [
+        543.3374645361351,
+        358.259877303398,
+        336.24389973450417,
+        490.94059403678784
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 291.72381711006165
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "PCFNet",
+      "seed": 2028,
+      "split": "validation",
+      "joint_standardized_rmse": 0.2866900614971976,
+      "temperature_rmse_c": 2.138100781517487,
+      "temperature_mae_c": 1.496129828949257,
+      "temperature_mse_c2": 4.571474951925689,
+      "pooled_rmse_mm": 16.49086087452705,
+      "pooled_mae_mm": 10.866282716116544,
+      "pooled_mse_mm2": 271.9484923830071,
+      "rmse_mm": [
+        18.555378185766212,
+        15.170319608182956,
+        14.455667092021447,
+        17.443549703357224
+      ],
+      "mae_mm": [
+        12.136831688881886,
+        10.156140208590918,
+        9.618582926128683,
+        11.55169670891287
+      ],
+      "mse_mm2": [
+        344.3020596168086,
+        230.13859701442027,
+        208.96631107535177,
+        304.27742625349396
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 149.22487354278564
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "PCFNet",
+      "seed": 2028,
+      "split": "test",
+      "joint_standardized_rmse": 0.3352207325640632,
+      "temperature_rmse_c": 2.659026931700983,
+      "temperature_mae_c": 1.9140649650695738,
+      "temperature_mse_c2": 7.070424223511144,
+      "pooled_rmse_mm": 18.886220927641105,
+      "pooled_mae_mm": 12.923869050162079,
+      "pooled_mse_mm2": 356.6893409276688,
+      "rmse_mm": [
+        21.30297532953896,
+        17.322858347293494,
+        16.640853997877134,
+        19.82198346009676
+      ],
+      "mae_mm": [
+        14.728555489125128,
+        11.893929029245255,
+        11.372308480622696,
+        13.642808750945697
+      ],
+      "mse_mm2": [
+        453.81675789094555,
+        300.0814213203959,
+        276.91802177866333,
+        392.9110282923495
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 149.22487354278564
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "VanillaLSTM",
+      "seed": 2028,
+      "split": "validation",
+      "joint_standardized_rmse": 0.3570307037828304,
+      "temperature_rmse_c": 2.5668929594875416,
+      "temperature_mae_c": 1.8451516381747857,
+      "temperature_mse_c2": 6.5889394654667095,
+      "pooled_rmse_mm": 20.718524875054758,
+      "pooled_mae_mm": 15.724078657150297,
+      "pooled_mse_mm2": 429.2572729982628,
+      "rmse_mm": [
+        23.008876327732725,
+        19.285193569473943,
+        18.350332033607994,
+        21.881903476034953
+      ],
+      "mae_mm": [
+        17.64586283372437,
+        14.549321556934284,
+        13.932510310570331,
+        16.765827904679814
+      ],
+      "mse_mm2": [
+        529.4083898648994,
+        371.9186910120792,
+        336.7346857436597,
+        478.8176997345106
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 293.99564719200134
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "VanillaLSTM",
+      "seed": 2028,
+      "split": "test",
+      "joint_standardized_rmse": 0.3718393708736099,
+      "temperature_rmse_c": 3.0032483166149095,
+      "temperature_mae_c": 2.260606013336937,
+      "temperature_mse_c2": 9.019500451250288,
+      "pooled_rmse_mm": 20.80976083626967,
+      "pooled_mae_mm": 15.517757421905706,
+      "pooled_mse_mm2": 433.046146062743,
+      "rmse_mm": [
+        23.315825099384362,
+        18.934425679846626,
+        18.33864944914515,
+        22.159157230108598
+      ],
+      "mae_mm": [
+        17.397459274308954,
+        14.09874662490667,
+        13.840409028869061,
+        16.69948108112356
+      ],
+      "mse_mm2": [
+        543.6277000650817,
+        358.5124758256354,
+        336.3060636186318,
+        491.02824914867415
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 293.99564719200134
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "PCFNet",
+      "seed": 2024,
+      "split": "validation",
+      "joint_standardized_rmse": 0.302756989029971,
+      "temperature_rmse_c": 2.2308542719151108,
+      "temperature_mae_c": 1.6007796099944613,
+      "temperature_mse_c2": 4.976710782521899,
+      "pooled_rmse_mm": 17.124029780206673,
+      "pooled_mae_mm": 11.916928019359228,
+      "pooled_mse_mm2": 293.23239591340496,
+      "rmse_mm": [
+        19.32612190435498,
+        15.744308245936462,
+        14.980273764347018,
+        18.08357544288657
+      ],
+      "mae_mm": [
+        13.436396290338104,
+        11.091551022063847,
+        10.498666765169176,
+        12.63879219362875
+      ],
+      "mse_mm2": [
+        373.4989878619894,
+        247.8832421430629,
+        224.4086020547836,
+        327.0157007985702
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 75.26562976837158
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "PCFNet",
+      "seed": 2024,
+      "split": "test",
+      "joint_standardized_rmse": 0.3725184516115244,
+      "temperature_rmse_c": 2.831794805872133,
+      "temperature_mae_c": 2.0975975829773934,
+      "temperature_mse_c2": 8.019061822564392,
+      "pooled_rmse_mm": 20.85162195269624,
+      "pooled_mae_mm": 15.443168196530188,
+      "pooled_mse_mm2": 434.79013805816385,
+      "rmse_mm": [
+        23.563388502834805,
+        18.953008911621698,
+        18.428585037757877,
+        21.948399324959045
+      ],
+      "mae_mm": [
+        17.576587508213027,
+        14.020251119537368,
+        13.711293205430012,
+        16.41110417280006
+      ],
+      "mse_mm2": [
+        555.2332777355274,
+        359.2165468040115,
+        339.61274649387354,
+        481.73223292786264
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 75.26562976837158
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "VanillaLSTM",
+      "seed": 2024,
+      "split": "validation",
+      "joint_standardized_rmse": 0.3624448289974774,
+      "temperature_rmse_c": 2.5648935791471676,
+      "temperature_mae_c": 1.8433556906977855,
+      "temperature_mse_c2": 6.5786790723503685,
+      "pooled_rmse_mm": 20.708002746901226,
+      "pooled_mae_mm": 15.709477276405421,
+      "pooled_mse_mm2": 428.8213777656688,
+      "rmse_mm": [
+        22.995055488032374,
+        19.26926803631097,
+        18.344469760298754,
+        21.875548193825484
+      ],
+      "mae_mm": [
+        17.626781334247084,
+        14.533286814612323,
+        13.922119699741456,
+        16.752939724016933
+      ],
+      "mse_mm2": [
+        528.7725768976878,
+        371.30469065519554,
+        336.5195707865154,
+        478.5396087803814
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 185.31117010116577
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "VanillaLSTM",
+      "seed": 2024,
+      "split": "test",
+      "joint_standardized_rmse": 0.3779410534765002,
+      "temperature_rmse_c": 3.00157410507089,
+      "temperature_mae_c": 2.2589804005762724,
+      "temperature_mse_c2": 9.009447108232115,
+      "pooled_rmse_mm": 20.798907134018155,
+      "pooled_mae_mm": 15.50180435867855,
+      "pooled_mse_mm2": 432.5945379695113,
+      "rmse_mm": [
+        23.30194412881307,
+        18.920189192040095,
+        18.331954851944907,
+        22.15116537145912
+      ],
+      "mae_mm": [
+        17.37748406707868,
+        14.080859587607474,
+        13.82883303031536,
+        16.685545013199754
+      ],
+      "mse_mm2": [
+        542.9806001823259,
+        357.97355906259077,
+        336.06056869374646,
+        490.67412731372957
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 185.31117010116577
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "PCFNet",
+      "seed": 2025,
+      "split": "validation",
+      "joint_standardized_rmse": 0.30453553993109994,
+      "temperature_rmse_c": 2.22629487456764,
+      "temperature_mae_c": 1.5920595216549986,
+      "temperature_mse_c2": 4.956388868526143,
+      "pooled_rmse_mm": 17.272094916744948,
+      "pooled_mae_mm": 12.137036654142063,
+      "pooled_mse_mm2": 298.32526281304666,
+      "rmse_mm": [
+        19.500315849465675,
+        15.803715995020793,
+        15.12269969745487,
+        18.28828901926075
+      ],
+      "mae_mm": [
+        13.712582414821505,
+        11.202048514181717,
+        10.707489226482938,
+        12.92369172295176
+      ],
+      "mse_mm2": [
+        380.26231822892225,
+        249.75743925127605,
+        228.6960461394016,
+        334.4615152520133
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 72.91821527481079
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "PCFNet",
+      "seed": 2025,
+      "split": "test",
+      "joint_standardized_rmse": 0.38335245111890026,
+      "temperature_rmse_c": 2.899292049118198,
+      "temperature_mae_c": 2.1226315627531207,
+      "temperature_mse_c2": 8.405894386079998,
+      "pooled_rmse_mm": 21.50119066248841,
+      "pooled_mae_mm": 15.773788197866764,
+      "pooled_mse_mm2": 462.3011999046787,
+      "rmse_mm": [
+        24.31500557263572,
+        19.534661829879155,
+        18.966063791502453,
+        22.650701380532926
+      ],
+      "mae_mm": [
+        17.945086296130444,
+        14.304338979924886,
+        14.00850862328698,
+        16.784389772654073
+      ],
+      "mse_mm2": [
+        591.219495997306,
+        381.60301280773757,
+        359.71157574334035,
+        513.0542730300762
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 72.91821527481079
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "VanillaLSTM",
+      "seed": 2025,
+      "split": "validation",
+      "joint_standardized_rmse": 0.36238087569911864,
+      "temperature_rmse_c": 2.5644865192498942,
+      "temperature_mae_c": 1.8429449326015614,
+      "temperature_mse_c2": 6.576591107414439,
+      "pooled_rmse_mm": 20.704265144753933,
+      "pooled_mae_mm": 15.706214729834416,
+      "pooled_mse_mm2": 428.66659518427264,
+      "rmse_mm": [
+        22.99114013467988,
+        19.265939870605003,
+        18.340838551054915,
+        21.87148877631599
+      ],
+      "mae_mm": [
+        17.623149583126168,
+        14.530731126328824,
+        13.91892345982374,
+        16.749273425552488
+      ],
+      "mse_mm2": [
+        528.592524692488,
+        371.17643909776746,
+        336.38635875586215,
+        478.3620212925162
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 172.06001901626587
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "VanillaLSTM",
+      "seed": 2025,
+      "split": "test",
+      "joint_standardized_rmse": 0.37788237052126733,
+      "temperature_rmse_c": 3.001210305231859,
+      "temperature_mae_c": 2.2586004052425204,
+      "temperature_mse_c2": 9.007263296229906,
+      "pooled_rmse_mm": 20.795411241462077,
+      "pooled_mae_mm": 15.497579222167813,
+      "pooled_mse_mm2": 432.44912870152734,
+      "rmse_mm": [
+        23.298307431978298,
+        18.917319191808815,
+        18.328428830878565,
+        22.14720987830425
+      ],
+      "mae_mm": [
+        17.372960900574142,
+        14.077693951770488,
+        13.824510673311607,
+        16.680600274652846
+      ],
+      "mse_mm2": [
+        542.8111291949751,
+        357.8649654047781,
+        335.93130340858056,
+        490.49890539365725
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 172.06001901626587
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "PCFNet",
+      "seed": 2026,
+      "split": "validation",
+      "joint_standardized_rmse": 0.30391871439636364,
+      "temperature_rmse_c": 2.227351561097801,
+      "temperature_mae_c": 1.6133837384351788,
+      "temperature_mse_c2": 4.961094976724811,
+      "pooled_rmse_mm": 17.21578731860678,
+      "pooled_mae_mm": 12.087410779231986,
+      "pooled_mse_mm2": 296.383332999502,
+      "rmse_mm": [
+        19.394782155394648,
+        15.836373887817015,
+        15.084279114279521,
+        18.191425462241575
+      ],
+      "mae_mm": [
+        13.624140592691163,
+        11.227414614915725,
+        10.664465984927546,
+        12.831308634158775
+      ],
+      "mse_mm2": [
+        376.1575748552147,
+        250.7907379147326,
+        227.53547639748936,
+        330.9279603482911
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 68.51464176177979
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "PCFNet",
+      "seed": 2026,
+      "split": "test",
+      "joint_standardized_rmse": 0.37048861452520837,
+      "temperature_rmse_c": 2.835675114218542,
+      "temperature_mae_c": 2.106671640379937,
+      "temperature_mse_c2": 8.04105335339834,
+      "pooled_rmse_mm": 20.685305963667982,
+      "pooled_mae_mm": 15.191194735916685,
+      "pooled_mse_mm2": 427.88188281055824,
+      "rmse_mm": [
+        23.369390974258113,
+        18.8525900395416,
+        18.248907954016513,
+        21.76064572166351
+      ],
+      "mae_mm": [
+        17.243720876281238,
+        13.834727216381557,
+        13.48333174587872,
+        16.150690599764236
+      ],
+      "mse_mm2": [
+        546.1284345077365,
+        355.42015119902317,
+        333.02264151416716,
+        473.52570222375255
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 68.51464176177979
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "VanillaLSTM",
+      "seed": 2026,
+      "split": "validation",
+      "joint_standardized_rmse": 0.3623851077306803,
+      "temperature_rmse_c": 2.564443145491021,
+      "temperature_mae_c": 1.8426443713175231,
+      "temperature_mse_c2": 6.576368646455881,
+      "pooled_rmse_mm": 20.704653463972583,
+      "pooled_mae_mm": 15.704673431172637,
+      "pooled_mse_mm2": 428.6826750631919,
+      "rmse_mm": [
+        22.991250605575956,
+        19.266022389967087,
+        18.341601107369737,
+        21.872131652689337
+      ],
+      "mae_mm": [
+        17.620971749497055,
+        14.529047866197311,
+        13.918087252287684,
+        16.74780691229461
+      ],
+      "mse_mm2": [
+        528.5976044083967,
+        371.1796187307132,
+        336.41433118186677,
+        478.39014303257477
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 171.91017365455627
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "VanillaLSTM",
+      "seed": 2026,
+      "split": "test",
+      "joint_standardized_rmse": 0.37787198611007605,
+      "temperature_rmse_c": 3.001083574282091,
+      "temperature_mae_c": 2.2582534597407795,
+      "temperature_mse_c2": 9.00650261982577,
+      "pooled_rmse_mm": 20.79493136835479,
+      "pooled_mae_mm": 15.49563697490557,
+      "pooled_mse_mm2": 432.4291706145859,
+      "rmse_mm": [
+        23.29740297876729,
+        18.91660490688837,
+        18.328536364861492,
+        22.146928711540212
+      ],
+      "mae_mm": [
+        17.370258524318995,
+        14.075335336195504,
+        13.823484430581166,
+        16.679004971493097
+      ],
+      "mse_mm2": [
+        542.7689855550751,
+        357.8379412033132,
+        335.9352452780501,
+        490.48645135404416
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 171.91017365455627
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "PCFNet",
+      "seed": 2027,
+      "split": "validation",
+      "joint_standardized_rmse": 0.3055310322203562,
+      "temperature_rmse_c": 2.2211085510332342,
+      "temperature_mae_c": 1.5949157369357712,
+      "temperature_mse_c2": 4.933323195472954,
+      "pooled_rmse_mm": 17.353097560939858,
+      "pooled_mae_mm": 12.065547690550611,
+      "pooled_mse_mm2": 301.1299949594968,
+      "rmse_mm": [
+        19.554207701345643,
+        15.943861162620411,
+        15.194367908132135,
+        18.35631091545298
+      ],
+      "mae_mm": [
+        13.590120192760509,
+        11.21977371413428,
+        10.63239574782801,
+        12.817609292773987
+      ],
+      "mse_mm2": [
+        382.36703882736526,
+        254.2067087729155,
+        230.8688161276757,
+        336.95415042477816
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 70.1654303073883
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "PCFNet",
+      "seed": 2027,
+      "split": "test",
+      "joint_standardized_rmse": 0.38146527071278175,
+      "temperature_rmse_c": 2.8650574736354173,
+      "temperature_mae_c": 2.1384424131062487,
+      "temperature_mse_c2": 8.20855432723416,
+      "pooled_rmse_mm": 21.439334209094223,
+      "pooled_mae_mm": 16.03722226643574,
+      "pooled_mse_mm2": 459.6450513292378,
+      "rmse_mm": [
+        24.174713871784185,
+        19.433726595951292,
+        19.03219175885363,
+        22.606453603198663
+      ],
+      "mae_mm": [
+        18.202208317808257,
+        14.525515609791002,
+        14.30711856219258,
+        17.064762286981132
+      ],
+      "mse_mm2": [
+        584.4167907826346,
+        377.66972940618456,
+        362.2243231457761,
+        511.05174451357385
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 70.1654303073883
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "VanillaLSTM",
+      "seed": 2027,
+      "split": "validation",
+      "joint_standardized_rmse": 0.3623702754156526,
+      "temperature_rmse_c": 2.564371634313733,
+      "temperature_mae_c": 1.842730013946398,
+      "temperature_mse_c2": 6.576001878872887,
+      "pooled_rmse_mm": 20.70375471920138,
+      "pooled_mae_mm": 15.70443244547253,
+      "pooled_mse_mm2": 428.6454594728535,
+      "rmse_mm": [
+        22.990776276740547,
+        19.26563427844681,
+        18.340299497462706,
+        21.870659267851064
+      ],
+      "mae_mm": [
+        17.62145371114727,
+        14.529409313707507,
+        13.917154275533337,
+        16.746930494792355
+      ],
+      "mse_mm2": [
+        528.5757938071359,
+        371.1646641508647,
+        336.3665856566307,
+        478.3257368104396
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 179.7556173801422
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "VanillaLSTM",
+      "seed": 2027,
+      "split": "test",
+      "joint_standardized_rmse": 0.3778776109727018,
+      "temperature_rmse_c": 3.001112045010218,
+      "temperature_mae_c": 2.258422626600273,
+      "temperature_mse_c2": 9.006673506705413,
+      "pooled_rmse_mm": 20.7953358588373,
+      "pooled_mae_mm": 15.496308940169262,
+      "pooled_mse_mm2": 432.44599348184454,
+      "rmse_mm": [
+        23.298394071278327,
+        18.91715824836089,
+        18.328308882174916,
+        22.14706523076184
+      ],
+      "mae_mm": [
+        17.37176366524731,
+        14.076333747815715,
+        13.823340887391918,
+        16.679247494029383
+      ],
+      "mse_mm2": [
+        542.8151663005772,
+        357.8588761935285,
+        335.9269064804119,
+        490.4924983356199
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 179.7556173801422
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "PCFNet",
+      "seed": 2028,
+      "split": "validation",
+      "joint_standardized_rmse": 0.29777936225509566,
+      "temperature_rmse_c": 2.2105313423378545,
+      "temperature_mae_c": 1.6048395801890107,
+      "temperature_mse_c2": 4.886448815457997,
+      "pooled_rmse_mm": 16.79584555419024,
+      "pooled_mae_mm": 11.615140703454763,
+      "pooled_mse_mm2": 282.100427880212,
+      "rmse_mm": [
+        18.912203123500895,
+        15.511410522386935,
+        14.696154820564415,
+        17.720978953114994
+      ],
+      "mae_mm": [
+        13.055783263260844,
+        10.881502069446002,
+        10.225338894953213,
+        12.29572714068938
+      ],
+      "mse_mm2": [
+        357.67142698455694,
+        240.60385639401613,
+        215.9769665099987,
+        314.0330950567446
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 70.48301672935486
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "PCFNet",
+      "seed": 2028,
+      "split": "test",
+      "joint_standardized_rmse": 0.35556173898448673,
+      "temperature_rmse_c": 2.712978368261398,
+      "temperature_mae_c": 2.015474590327443,
+      "temperature_mse_c2": 7.360251626654278,
+      "pooled_rmse_mm": 19.871307437254107,
+      "pooled_mae_mm": 14.714697174127101,
+      "pooled_mse_mm2": 394.8688592658704,
+      "rmse_mm": [
+        22.422452926574554,
+        18.061492367729382,
+        17.60605955796052,
+        20.918230013000816
+      ],
+      "mae_mm": [
+        16.695669577033065,
+        13.359887511815016,
+        13.109319556702392,
+        15.646747649120723
+      ],
+      "mse_mm2": [
+        502.76639524445176,
+        326.2175065495468,
+        309.973333158453,
+        437.5723468768081
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 70.48301672935486
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "VanillaLSTM",
+      "seed": 2028,
+      "split": "validation",
+      "joint_standardized_rmse": 0.3623911104476728,
+      "temperature_rmse_c": 2.5645343706824475,
+      "temperature_mae_c": 1.8427759885477155,
+      "temperature_mse_c2": 6.576836538411617,
+      "pooled_rmse_mm": 20.70485482173705,
+      "pooled_mae_mm": 15.705235646121416,
+      "pooled_mse_mm2": 428.691013189208,
+      "rmse_mm": [
+        22.9918433985225,
+        19.26748871302823,
+        18.34120551000988,
+        21.871309149401867
+      ],
+      "mae_mm": [
+        17.62230109149803,
+        14.531261141661112,
+        13.917479307766431,
+        16.74711817142591
+      ],
+      "mse_mm2": [
+        528.6248628621827,
+        371.2361213066702,
+        336.3998195604167,
+        478.35416390870984
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 179.16383004188538
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "VanillaLSTM",
+      "seed": 2028,
+      "split": "test",
+      "joint_standardized_rmse": 0.37789400314084476,
+      "temperature_rmse_c": 3.001225089048682,
+      "temperature_mae_c": 2.2585238532494367,
+      "temperature_mse_c2": 9.007352035135268,
+      "pooled_rmse_mm": 20.79626938350473,
+      "pooled_mae_mm": 15.497073765432194,
+      "pooled_mse_mm2": 432.4848202712961,
+      "rmse_mm": [
+        23.299606606977044,
+        18.91844718178607,
+        18.32904310701949,
+        22.14754136833235
+      ],
+      "mae_mm": [
+        17.37279758888558,
+        14.07771122076267,
+        13.82374634488667,
+        16.679425324552447
+      ],
+      "mse_mm2": [
+        542.8716680398883,
+        357.9076437700294,
+        335.9538212189787,
+        490.5135886619928
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 179.16383004188538
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "PCFNet",
+      "seed": 2024,
+      "split": "validation",
+      "joint_standardized_rmse": 0.38058484257286135,
+      "temperature_rmse_c": 2.367953664063471,
+      "temperature_mae_c": 1.7494293960608422,
+      "temperature_mse_c2": 5.6072045551516165,
+      "pooled_rmse_mm": 18.061638776108115,
+      "pooled_mae_mm": 12.512347928939317,
+      "pooled_mse_mm2": 326.22279527861224,
+      "rmse_mm": [
+        20.27932407103105,
+        16.613172176281466,
+        15.899309012382325,
+        19.097818631004348
+      ],
+      "mae_mm": [
+        13.992420506975286,
+        11.705305155841877,
+        11.097975113284473,
+        13.251463606795745
+      ],
+      "mse_mm2": [
+        411.25098477789925,
+        275.99748975877264,
+        252.78802707122182,
+        364.7266764627368
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 59.24059724807739
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "PCFNet",
+      "seed": 2024,
+      "split": "test",
+      "joint_standardized_rmse": 0.5096221180731489,
+      "temperature_rmse_c": 3.251644387952379,
+      "temperature_mae_c": 2.4132660934517935,
+      "temperature_mse_c2": 10.5731912257022,
+      "pooled_rmse_mm": 23.983600661036064,
+      "pooled_mae_mm": 17.560266997310443,
+      "pooled_mse_mm2": 575.2131006680496,
+      "rmse_mm": [
+        27.007702080847945,
+        22.042632660835757,
+        21.260514891976747,
+        25.073849336667394
+      ],
+      "mae_mm": [
+        19.873229941423318,
+        16.144138764080108,
+        15.622134562620658,
+        18.534400003276417
+      ],
+      "mse_mm2": [
+        729.4159716878384,
+        485.87765462054324,
+        452.0094934719651,
+        628.6979205578958
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 59.24059724807739
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "VanillaLSTM",
+      "seed": 2024,
+      "split": "validation",
+      "joint_standardized_rmse": 0.430969651591762,
+      "temperature_rmse_c": 2.5634165616672924,
+      "temperature_mae_c": 1.841576978042238,
+      "temperature_mse_c2": 6.571104468630163,
+      "pooled_rmse_mm": 20.69126270135714,
+      "pooled_mae_mm": 15.693871918280802,
+      "pooled_mse_mm2": 428.1283521765731,
+      "rmse_mm": [
+        22.97869273401032,
+        19.256423513653502,
+        18.32718069514667,
+        21.85517227747988
+      ],
+      "mae_mm": [
+        17.610189051252274,
+        14.521465427084308,
+        13.906825427900808,
+        16.73422491199578
+      ],
+      "mse_mm2": [
+        528.0203197640587,
+        370.8098465371875,
+        335.88555223255673,
+        477.64855527832503
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 149.1695294380188
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "VanillaLSTM",
+      "seed": 2024,
+      "split": "test",
+      "joint_standardized_rmse": 0.448776308053017,
+      "temperature_rmse_c": 3.0000661835750293,
+      "temperature_mae_c": 2.257202475605962,
+      "temperature_mse_c2": 9.000397105830443,
+      "pooled_rmse_mm": 20.78403396228267,
+      "pooled_mae_mm": 15.484591793458447,
+      "pooled_mse_mm2": 431.97606774531954,
+      "rmse_mm": [
+        23.286824050104997,
+        18.908363660332387,
+        18.316670431117856,
+        22.133820344460865
+      ],
+      "mae_mm": [
+        17.359112604304396,
+        14.067182905118793,
+        13.811892273830098,
+        16.665510877596073
+      ],
+      "mse_mm2": [
+        542.2761743405484,
+        357.52621631137845,
+        335.50041568218717,
+        489.90600304086973
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 149.1695294380188
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "PCFNet",
+      "seed": 2025,
+      "split": "validation",
+      "joint_standardized_rmse": 0.3663416117537388,
+      "temperature_rmse_c": 2.2835304882901086,
+      "temperature_mae_c": 1.6854626789902067,
+      "temperature_mse_c2": 5.2145114909504615,
+      "pooled_rmse_mm": 17.37548637099317,
+      "pooled_mae_mm": 12.39900121495712,
+      "pooled_mse_mm2": 301.9075266285693,
+      "rmse_mm": [
+        19.526102820728525,
+        16.057783366008493,
+        15.240642899249906,
+        18.333307349437067
+      ],
+      "mae_mm": [
+        13.91576019893983,
+        11.614891275561991,
+        10.946932139622664,
+        13.116098829691405
+      ],
+      "mse_mm2": [
+        381.2686913656625,
+        257.852406629659,
+        232.27719598245656,
+        336.1101583689231
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 59.068777322769165
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "PCFNet",
+      "seed": 2025,
+      "split": "test",
+      "joint_standardized_rmse": 0.4377167042878867,
+      "temperature_rmse_c": 2.8389102007074207,
+      "temperature_mae_c": 2.151637100745253,
+      "temperature_mse_c2": 8.059411127680647,
+      "pooled_rmse_mm": 20.491524500146554,
+      "pooled_mae_mm": 15.26245934851867,
+      "pooled_mse_mm2": 419.9025763401064,
+      "rmse_mm": [
+        23.065413962569686,
+        18.713331936486952,
+        18.154090937015784,
+        21.555944760330433
+      ],
+      "mae_mm": [
+        17.247568693084833,
+        13.943714908318215,
+        13.591057679675625,
+        16.217412848900157
+      ],
+      "mse_mm2": [
+        532.0133212647046,
+        350.18879216514256,
+        329.5710177494386,
+        464.658754510417
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 59.068777322769165
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "VanillaLSTM",
+      "seed": 2025,
+      "split": "validation",
+      "joint_standardized_rmse": 0.43090227149694205,
+      "temperature_rmse_c": 2.5631303540994548,
+      "temperature_mae_c": 1.8418933024931181,
+      "temperature_mse_c2": 6.569637212105997,
+      "pooled_rmse_mm": 20.687752575065684,
+      "pooled_mae_mm": 15.701127243836266,
+      "pooled_mse_mm2": 427.98310660713685,
+      "rmse_mm": [
+        22.97324874045454,
+        19.251632611671,
+        18.32512471028217,
+        21.853554512438368
+      ],
+      "mae_mm": [
+        17.61832673057941,
+        14.52691124649136,
+        13.91308466656344,
+        16.743403494971773
+      ],
+      "mse_mm2": [
+        527.7701576907962,
+        370.62535821475427,
+        335.81019564739427,
+        477.5778448281154
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 141.72699069976807
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "VanillaLSTM",
+      "seed": 2025,
+      "split": "test",
+      "joint_standardized_rmse": 0.44868036771055636,
+      "temperature_rmse_c": 2.999453160176748,
+      "temperature_mae_c": 2.2569916561102406,
+      "temperature_mse_c2": 8.99671926009428,
+      "pooled_rmse_mm": 20.7795044236221,
+      "pooled_mae_mm": 15.49045452937021,
+      "pooled_mse_mm2": 431.7878040913305,
+      "rmse_mm": [
+        23.280816562689314,
+        18.90288366450915,
+        18.31369636275603,
+        22.130453841284346
+      ],
+      "mae_mm": [
+        17.36466947966271,
+        14.071561099926612,
+        13.818016406447153,
+        16.67303376191837
+      ],
+      "mse_mm2": [
+        541.996419825589,
+        357.3190108339669,
+        335.3914744672235,
+        489.756987221217
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 141.72699069976807
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "PCFNet",
+      "seed": 2026,
+      "split": "validation",
+      "joint_standardized_rmse": 0.3705434138054682,
+      "temperature_rmse_c": 2.2951083830368595,
+      "temperature_mae_c": 1.6729621446590814,
+      "temperature_mse_c2": 5.267522489886067,
+      "pooled_rmse_mm": 17.61105133935731,
+      "pooled_mae_mm": 12.268943041345954,
+      "pooled_mse_mm2": 310.1491292774789,
+      "rmse_mm": [
+        19.78340335948704,
+        16.210699357378644,
+        15.476400703301724,
+        18.622165710713336
+      ],
+      "mae_mm": [
+        13.763597535558151,
+        11.438530790204664,
+        10.856901809780153,
+        13.014499733027234
+      ],
+      "mse_mm2": [
+        391.38304848416306,
+        262.7867736553163,
+        239.5189787291581,
+        346.78505575726757
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 54.02203893661499
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "PCFNet",
+      "seed": 2026,
+      "split": "test",
+      "joint_standardized_rmse": 0.4667973273949662,
+      "temperature_rmse_c": 3.0162037109331803,
+      "temperature_mae_c": 2.2557826289559415,
+      "temperature_mse_c2": 9.097484825847088,
+      "pooled_rmse_mm": 21.880822248244847,
+      "pooled_mae_mm": 16.06538107873495,
+      "pooled_mse_mm2": 478.77038225928675,
+      "rmse_mm": [
+        24.673968817583784,
+        20.068391544574062,
+        19.337838322136424,
+        22.92476263201603
+      ],
+      "mae_mm": [
+        18.19311762172002,
+        14.735587329472319,
+        14.266994125644112,
+        17.00602496945024
+      ],
+      "mse_mm2": [
+        608.8047372110968,
+        402.74033918633165,
+        373.9519909730881,
+        525.5447417342785
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 54.02203893661499
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "VanillaLSTM",
+      "seed": 2026,
+      "split": "validation",
+      "joint_standardized_rmse": 0.43100951659493975,
+      "temperature_rmse_c": 2.5640377850113456,
+      "temperature_mae_c": 1.8421841561601595,
+      "temperature_mse_c2": 6.574289762965886,
+      "pooled_rmse_mm": 20.69226339033029,
+      "pooled_mae_mm": 15.695247135439256,
+      "pooled_mse_mm2": 428.16976421480314,
+      "rmse_mm": [
+        22.978450388848323,
+        19.25854046902512,
+        18.327373524575822,
+        21.85719211124436
+      ],
+      "mae_mm": [
+        17.61119591892586,
+        14.523209785538008,
+        13.907345745167552,
+        16.736455208488728
+      ],
+      "mse_mm2": [
+        528.0091822727637,
+        370.8913809970783,
+        335.8926203093228,
+        477.7368469878426
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 138.2456727027893
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "VanillaLSTM",
+      "seed": 2026,
+      "split": "test",
+      "joint_standardized_rmse": 0.44881561468647363,
+      "temperature_rmse_c": 3.000702811562838,
+      "temperature_mae_c": 2.2578742853991947,
+      "temperature_mse_c2": 9.00421736332112,
+      "pooled_rmse_mm": 20.784806491298763,
+      "pooled_mae_mm": 15.485944724502346,
+      "pooled_mse_mm2": 432.00818088073515,
+      "rmse_mm": [
+        23.287103807704625,
+        18.910461983873088,
+        18.316454882258608,
+        22.13476770703397
+      ],
+      "mae_mm": [
+        17.360027200135537,
+        14.06929580878055,
+        13.812425139062917,
+        16.66733947014501
+      ],
+      "mse_mm2": [
+        542.2892037508112,
+        357.6055724435093,
+        335.49251945381513,
+        489.9479414443539
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 138.2456727027893
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "PCFNet",
+      "seed": 2027,
+      "split": "validation",
+      "joint_standardized_rmse": 0.37215693666354666,
+      "temperature_rmse_c": 2.3062239760857834,
+      "temperature_mae_c": 1.6688201108911762,
+      "temperature_mse_c2": 5.318669027872921,
+      "pooled_rmse_mm": 17.68682739113693,
+      "pooled_mae_mm": 12.100039400188944,
+      "pooled_mse_mm2": 312.82386316387164,
+      "rmse_mm": [
+        19.872651787925744,
+        16.25608932685018,
+        15.543987115860345,
+        18.718274674082874
+      ],
+      "mae_mm": [
+        13.577176855030745,
+        11.295615290896,
+        10.695462874952469,
+        12.82967533915525
+      ],
+      "mse_mm2": [
+        394.92228908414825,
+        264.2604402025324,
+        241.61553545803238,
+        350.37380677441234
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 56.299928426742554
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "PCFNet",
+      "seed": 2027,
+      "split": "test",
+      "joint_standardized_rmse": 0.48595561993913483,
+      "temperature_rmse_c": 3.0852692633451424,
+      "temperature_mae_c": 2.309174066395148,
+      "temperature_mse_c2": 9.518886427342277,
+      "pooled_rmse_mm": 22.913076695891725,
+      "pooled_mae_mm": 16.958129133735543,
+      "pooled_mse_mm2": 525.0090836718165,
+      "rmse_mm": [
+        25.777425068084916,
+        20.94402585355971,
+        20.347015181360003,
+        24.06088241613126
+      ],
+      "mae_mm": [
+        19.190915279227465,
+        15.489520665920516,
+        15.110171527814494,
+        17.984491729693715
+      ],
+      "mse_mm2": [
+        664.4756431407327,
+        438.6522189545776,
+        414.00102679049445,
+        578.9260626428945
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 56.299928426742554
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "VanillaLSTM",
+      "seed": 2027,
+      "split": "validation",
+      "joint_standardized_rmse": 0.43095396488785015,
+      "temperature_rmse_c": 2.5630403173142384,
+      "temperature_mae_c": 1.8412633711437294,
+      "temperature_mse_c2": 6.569175668178272,
+      "pooled_rmse_mm": 20.691114167825628,
+      "pooled_mae_mm": 15.692846210271785,
+      "pooled_mse_mm2": 428.1222055059944,
+      "rmse_mm": [
+        22.976960089854927,
+        19.254430939191483,
+        18.328403282500346,
+        21.8571667949142
+      ],
+      "mae_mm": [
+        17.607998814802688,
+        14.51963043406968,
+        13.906504266446014,
+        16.734471802722076
+      ],
+      "mse_mm2": [
+        527.9406949707861,
+        370.73311079209424,
+        335.9303668859695,
+        477.73574030069994
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 133.90055203437805
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "VanillaLSTM",
+      "seed": 2027,
+      "split": "test",
+      "joint_standardized_rmse": 0.448754337915779,
+      "temperature_rmse_c": 2.99979036479307,
+      "temperature_mae_c": 2.2569634151698925,
+      "temperature_mse_c2": 8.99874223270534,
+      "pooled_rmse_mm": 20.78334450399825,
+      "pooled_mae_mm": 15.483284942320692,
+      "pooled_mse_mm2": 431.94740877187434,
+      "rmse_mm": [
+        23.2853215398232,
+        18.90677578212241,
+        18.316896731536822,
+        22.134101340635752
+      ],
+      "mae_mm": [
+        17.3568939490207,
+        14.065194695885854,
+        13.811249853791246,
+        16.665249929743236
+      ],
+      "mse_mm2": [
+        542.2061992129543,
+        357.4661704754505,
+        335.5087058737844,
+        489.9184421575333
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 133.90055203437805
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "PCFNet",
+      "seed": 2028,
+      "split": "validation",
+      "joint_standardized_rmse": 0.37184704681300884,
+      "temperature_rmse_c": 2.310171602253011,
+      "temperature_mae_c": 1.7179318588944463,
+      "temperature_mse_c2": 5.336892831856243,
+      "pooled_rmse_mm": 17.65240894919742,
+      "pooled_mae_mm": 12.42356758847352,
+      "pooled_mse_mm2": 311.60754170970506,
+      "rmse_mm": [
+        19.797822583705923,
+        16.29055900269204,
+        15.518201144730696,
+        18.658993606283495
+      ],
+      "mae_mm": [
+        13.921923198146887,
+        11.634807382914177,
+        10.979884061523734,
+        13.155379467930924
+      ],
+      "mse_mm2": [
+        391.9537790558963,
+        265.38231262019065,
+        240.81456676832107,
+        348.1580423993284
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 55.225937366485596
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "PCFNet",
+      "seed": 2028,
+      "split": "test",
+      "joint_standardized_rmse": 0.4703340689394134,
+      "temperature_rmse_c": 3.0263643888645806,
+      "temperature_mae_c": 2.3108527173640083,
+      "temperature_mse_c2": 9.158881414187686,
+      "pooled_rmse_mm": 22.08017486239366,
+      "pooled_mae_mm": 16.656957895934617,
+      "pooled_mse_mm2": 487.5341219538808,
+      "rmse_mm": [
+        24.864467791533286,
+        20.160117821583267,
+        19.569250928412654,
+        23.21185312089523
+      ],
+      "mae_mm": [
+        18.835686585250563,
+        15.214682864645022,
+        14.823126807323137,
+        17.698994362084687
+      ],
+      "mse_mm2": [
+        618.2417585561961,
+        406.43035058011924,
+        382.9555818991795,
+        538.7901253060137
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 17040587,
+      "elapsed_seconds": 55.225937366485596
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "VanillaLSTM",
+      "seed": 2028,
+      "split": "validation",
+      "joint_standardized_rmse": 0.4309972365664699,
+      "temperature_rmse_c": 2.564082069599334,
+      "temperature_mae_c": 1.8421123120255645,
+      "temperature_mse_c2": 6.574516859640802,
+      "pooled_rmse_mm": 20.69138618947638,
+      "pooled_mae_mm": 15.694625106321345,
+      "pooled_mse_mm2": 428.13346244205377,
+      "rmse_mm": [
+        22.97659393255151,
+        19.255756812954708,
+        18.328308628441718,
+        21.857493979008026
+      ],
+      "mae_mm": [
+        17.60955005256057,
+        14.521588725344982,
+        13.907820762790815,
+        16.7367619769316
+      ],
+      "mse_mm2": [
+        527.9238687413629,
+        370.78417043965163,
+        335.9268971794112,
+        477.7500430423721
+      ],
+      "windows": 26,
+      "measured_counts": [
+        37426,
+        33482,
+        33431,
+        33415,
+        33399
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 106.80507731437683
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "VanillaLSTM",
+      "seed": 2028,
+      "split": "test",
+      "joint_standardized_rmse": 0.4488127499733258,
+      "temperature_rmse_c": 3.0007327182923995,
+      "temperature_mae_c": 2.2578038443782837,
+      "temperature_mse_c2": 9.004396846630492,
+      "pooled_rmse_mm": 20.784516690853156,
+      "pooled_mae_mm": 15.485611628355368,
+      "pooled_mse_mm2": 431.99613407235336,
+      "rmse_mm": [
+        23.285881201639665,
+        18.908351833838946,
+        18.317852184569656,
+        22.135798335746824
+      ],
+      "mae_mm": [
+        17.358660299511588,
+        14.067588871453054,
+        13.813332608493761,
+        16.668350092565518
+      ],
+      "mse_mm2": [
+        542.2322633368755,
+        357.5257690722406,
+        335.5437086557433,
+        489.99356796085186
+      ],
+      "windows": 39,
+      "measured_counts": [
+        56142,
+        50290,
+        50243,
+        46837,
+        46819
+      ],
+      "parameters": 519456,
+      "elapsed_seconds": 106.80507731437683
+    }
+  ],
+  "groups": [
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "PCFNet",
+      "split": "validation",
+      "n_seeds": 5,
+      "complete_five_seed_group": true,
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "temperature_rmse_c_mean": 2.1142409805384434,
+      "temperature_rmse_c_std": 0.06541243781390611,
+      "temperature_mae_c_mean": 1.496363966210369,
+      "temperature_mae_c_std": 0.07044198866982625,
+      "pooled_rmse_mm_mean": 15.957095309035294,
+      "pooled_rmse_mm_std": 0.26004629067446056,
+      "pooled_mae_mm_mean": 10.780107883879376,
+      "pooled_mae_mm_std": 0.3058460799921688,
+      "joint_standardized_rmse_mean": 0.2157087078432679,
+      "joint_standardized_rmse_std": 0.0026334349517309753,
+      "parameters_mean": 17040587,
+      "parameters_std": 0.0,
+      "elapsed_seconds_mean": 178.08225798606873,
+      "elapsed_seconds_std": 58.077844974355784,
+      "rmse_mm_channel1_mean": 18.080069168520737,
+      "rmse_mm_channel1_std": 0.34989422512024615,
+      "mae_mm_channel1_mean": 12.204636412602229,
+      "mae_mm_channel1_std": 0.26695106364508164,
+      "rmse_mm_channel2_mean": 14.727269093456718,
+      "rmse_mm_channel2_std": 0.21932049912349305,
+      "mae_mm_channel2_mean": 10.134201680858762,
+      "mae_mm_channel2_std": 0.29147750154852464,
+      "rmse_mm_channel3_mean": 13.862075418446892,
+      "rmse_mm_channel3_std": 0.21457288352852946,
+      "mae_mm_channel3_mean": 9.41478568095046,
+      "mae_mm_channel3_std": 0.30945773535232596,
+      "rmse_mm_channel4_mean": 16.80616233756341,
+      "rmse_mm_channel4_std": 0.27282092590532375,
+      "mae_mm_channel4_mean": 11.364540576036424,
+      "mae_mm_channel4_std": 0.3605299849600975,
+      "rmse_increase_vs_9m_percent": 0.0
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "PCFNet",
+      "split": "test",
+      "n_seeds": 5,
+      "complete_five_seed_group": true,
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "temperature_rmse_c_mean": 2.4010561611180625,
+      "temperature_rmse_c_std": 0.018393884220206762,
+      "temperature_mae_c_mean": 1.7255022426181768,
+      "temperature_mae_c_std": 0.04017739219061907,
+      "pooled_rmse_mm_mean": 16.056809608234666,
+      "pooled_rmse_mm_std": 0.07237581802082022,
+      "pooled_mae_mm_mean": 11.112220421254563,
+      "pooled_mae_mm_std": 0.1388993251053694,
+      "joint_standardized_rmse_mean": 0.22439305726165842,
+      "joint_standardized_rmse_std": 0.0006539068751672309,
+      "parameters_mean": 17040587,
+      "parameters_std": 0.0,
+      "elapsed_seconds_mean": 178.08225798606873,
+      "elapsed_seconds_std": 58.077844974355784,
+      "rmse_mm_channel1_mean": 18.222380036332297,
+      "rmse_mm_channel1_std": 0.07873726516942202,
+      "mae_mm_channel1_mean": 12.651331157933198,
+      "mae_mm_channel1_std": 0.15023678345948685,
+      "rmse_mm_channel2_mean": 14.566606063929203,
+      "rmse_mm_channel2_std": 0.08263348768868513,
+      "mae_mm_channel2_mean": 10.129125764113216,
+      "mae_mm_channel2_std": 0.16045633801607273,
+      "rmse_mm_channel3_mean": 13.962600638194706,
+      "rmse_mm_channel3_std": 0.07213326760186303,
+      "mae_mm_channel3_mean": 9.748323725187836,
+      "mae_mm_channel3_std": 0.11651580701774485,
+      "rmse_mm_channel4_mean": 17.027764098185855,
+      "rmse_mm_channel4_std": 0.07573962664041632,
+      "mae_mm_channel4_mean": 11.878417381139688,
+      "mae_mm_channel4_std": 0.15647516829881883,
+      "rmse_increase_vs_9m_percent": 0.0
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "VanillaLSTM",
+      "split": "validation",
+      "n_seeds": 5,
+      "complete_five_seed_group": true,
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "temperature_rmse_c_mean": 2.4937735645774195,
+      "temperature_rmse_c_std": 0.16782879079937923,
+      "temperature_mae_c_mean": 1.7867307673158317,
+      "temperature_mae_c_std": 0.1349775562605927,
+      "pooled_rmse_mm_mean": 19.966628422156326,
+      "pooled_rmse_mm_std": 1.6917908838158442,
+      "pooled_mae_mm_mean": 15.062231169120006,
+      "pooled_mae_mm_std": 1.5136845280154114,
+      "joint_standardized_rmse_mean": 0.2666235356153729,
+      "joint_standardized_rmse_std": 0.021525520894859568,
+      "parameters_mean": 519456,
+      "parameters_std": 0.0,
+      "elapsed_seconds_mean": 616.7652187347412,
+      "elapsed_seconds_std": 390.3123218316799,
+      "rmse_mm_channel1_mean": 22.167096530059027,
+      "rmse_mm_channel1_std": 1.8865879828838379,
+      "mae_mm_channel1_mean": 16.890234702913595,
+      "mae_mm_channel1_std": 1.7302861881255804,
+      "rmse_mm_channel2_mean": 18.56805904054531,
+      "rmse_mm_channel2_std": 1.6090065170088828,
+      "mae_mm_channel2_mean": 13.944349850358133,
+      "mae_mm_channel2_std": 1.3782173574487904,
+      "rmse_mm_channel3_mean": 17.686961298617984,
+      "rmse_mm_channel3_std": 1.4969496387028767,
+      "mae_mm_channel3_mean": 13.34747825952136,
+      "mae_mm_channel3_std": 1.3378312832725694,
+      "rmse_mm_channel4_mean": 21.10789344748094,
+      "rmse_mm_channel4_std": 1.74978115690703,
+      "mae_mm_channel4_mean": 16.064211603363244,
+      "mae_mm_channel4_std": 1.6080801717204438,
+      "rmse_increase_vs_9m_percent": 0.0
+    },
+    {
+      "budget": "9m",
+      "month": 9,
+      "model": "VanillaLSTM",
+      "split": "test",
+      "n_seeds": 5,
+      "complete_five_seed_group": true,
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "temperature_rmse_c_mean": 2.9365571832075177,
+      "temperature_rmse_c_std": 0.1521274002345141,
+      "temperature_mae_c_mean": 2.201650011470644,
+      "temperature_mae_c_std": 0.13488200194086766,
+      "pooled_rmse_mm_mean": 20.214335543770364,
+      "pooled_rmse_mm_std": 1.3376762098861508,
+      "pooled_mae_mm_mean": 14.974278426428475,
+      "pooled_mae_mm_std": 1.2498911473699905,
+      "joint_standardized_rmse_mean": 0.2803548610700259,
+      "joint_standardized_rmse_std": 0.017390908700556262,
+      "parameters_mean": 519456,
+      "parameters_std": 0.0,
+      "elapsed_seconds_mean": 616.7652187347412,
+      "elapsed_seconds_std": 390.3123218316799,
+      "rmse_mm_channel1_mean": 22.659433410210116,
+      "rmse_mm_channel1_std": 1.468916711993161,
+      "mae_mm_channel1_mean": 16.78315953845353,
+      "mae_mm_channel1_std": 1.409824502081664,
+      "rmse_mm_channel2_mean": 18.3876934825004,
+      "rmse_mm_channel2_std": 1.2242491667993316,
+      "mae_mm_channel2_mean": 13.59999119240586,
+      "mae_mm_channel2_std": 1.1395807141107221,
+      "rmse_mm_channel3_mean": 17.80211342225969,
+      "rmse_mm_channel3_std": 1.2094152824656998,
+      "mae_mm_channel3_mean": 13.355131536772776,
+      "mae_mm_channel3_std": 1.1211018184341155,
+      "rmse_mm_channel4_mean": 21.527271282845756,
+      "rmse_mm_channel4_std": 1.4264173185878457,
+      "mae_mm_channel4_mean": 16.125855035199745,
+      "mae_mm_channel4_std": 1.3253194021308607,
+      "rmse_increase_vs_9m_percent": 0.0
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "PCFNet",
+      "split": "validation",
+      "n_seeds": 5,
+      "complete_five_seed_group": true,
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "temperature_rmse_c_mean": 2.2325971755889458,
+      "temperature_rmse_c_std": 0.054418250084823074,
+      "temperature_mae_c_mean": 1.5968408839783936,
+      "temperature_mae_c_std": 0.07082321597730268,
+      "pooled_rmse_mm_mean": 17.11875377264995,
+      "pooled_rmse_mm_std": 0.4251996652546504,
+      "pooled_mae_mm_mean": 11.595572859998489,
+      "pooled_mae_mm_std": 0.660528143742979,
+      "joint_standardized_rmse_mean": 0.29798799018718414,
+      "joint_standardized_rmse_std": 0.007034603463427675,
+      "parameters_mean": 17040587,
+      "parameters_std": 0.0,
+      "elapsed_seconds_mean": 114.21120519638062,
+      "elapsed_seconds_std": 20.203975346524906,
+      "rmse_mm_channel1_mean": 19.300160184986108,
+      "rmse_mm_channel1_std": 0.49446353521946773,
+      "mae_mm_channel1_mean": 13.019187578801455,
+      "mae_mm_channel1_std": 0.7832927679823867,
+      "rmse_mm_channel2_mean": 15.759077721904141,
+      "rmse_mm_channel2_std": 0.378433938904128,
+      "mae_mm_channel2_mean": 10.849658695219752,
+      "mae_mm_channel2_std": 0.5942961010364329,
+      "rmse_mm_channel3_mean": 14.977860265230852,
+      "rmse_mm_channel3_std": 0.37097864970543,
+      "mae_mm_channel3_mean": 10.225398369277736,
+      "mae_mm_channel3_std": 0.5750276194491849,
+      "rmse_mm_channel4_mean": 18.08028965023815,
+      "rmse_mm_channel4_std": 0.454911112774532,
+      "mae_mm_channel4_mean": 12.28588002593732,
+      "mae_mm_channel4_std": 0.7029005141675976,
+      "rmse_increase_vs_9m_percent": 7.279886728237406
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "PCFNet",
+      "split": "test",
+      "n_seeds": 5,
+      "complete_five_seed_group": true,
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "temperature_rmse_c_mean": 2.7735215514803753,
+      "temperature_rmse_c_std": 0.12899628394081483,
+      "temperature_mae_c_mean": 1.9944198321199582,
+      "temperature_mae_c_std": 0.11255480623794589,
+      "pooled_rmse_mm_mean": 20.12994797011596,
+      "pooled_rmse_mm_std": 1.3179163851646214,
+      "pooled_mae_mm_mean": 14.234357630878357,
+      "pooled_mae_mm_std": 1.2375780870616317,
+      "joint_standardized_rmse_mean": 0.3551165478169906,
+      "joint_standardized_rmse_std": 0.021427791136266378,
+      "parameters_mean": 17040587,
+      "parameters_std": 0.0,
+      "elapsed_seconds_mean": 114.21120519638062,
+      "elapsed_seconds_std": 20.203975346524906,
+      "rmse_mm_channel1_mean": 22.748130122534487,
+      "rmse_mm_channel1_std": 1.5075407704453574,
+      "mae_mm_channel1_mean": 16.19911207600496,
+      "mae_mm_channel1_std": 1.4017742958265518,
+      "rmse_mm_channel2_mean": 18.306542017006326,
+      "rmse_mm_channel2_std": 1.1704023597479047,
+      "mae_mm_channel2_mean": 12.975126155968555,
+      "mae_mm_channel2_std": 1.0849620696998317,
+      "rmse_mm_channel3_mean": 17.758037117841553,
+      "rmse_mm_channel3_std": 1.1782580960562372,
+      "mae_mm_channel3_mean": 12.607886064091346,
+      "mae_mm_channel3_std": 1.1288311194139424,
+      "rmse_mm_channel4_mean": 21.206722751194825,
+      "rmse_mm_channel4_std": 1.387401176641753,
+      "mae_mm_channel4_mean": 15.102362387965858,
+      "mae_mm_channel4_std": 1.340465965903768,
+      "rmse_increase_vs_9m_percent": 25.36704651335222
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "VanillaLSTM",
+      "split": "validation",
+      "n_seeds": 5,
+      "complete_five_seed_group": true,
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "temperature_rmse_c_mean": 2.5662081678727855,
+      "temperature_rmse_c_std": 0.00042689103267821787,
+      "temperature_mae_c_mean": 1.844870843475382,
+      "temperature_mae_c_std": 0.0002077979662436459,
+      "pooled_rmse_mm_mean": 20.711804557029474,
+      "pooled_rmse_mm_std": 0.005283563333401834,
+      "pooled_mae_mm_mean": 15.719749828203652,
+      "pooled_mae_mm_std": 0.0039500505736075366,
+      "joint_standardized_rmse_mean": 0.3569198758754597,
+      "joint_standardized_rmse_std": 8.085316405529118e-05,
+      "parameters_mean": 519456,
+      "parameters_std": 0.0,
+      "elapsed_seconds_mean": 300.5517778873444,
+      "elapsed_seconds_std": 9.162410812541328,
+      "rmse_mm_channel1_mean": 22.99904785725657,
+      "rmse_mm_channel1_std": 0.007302355872226223,
+      "mae_mm_channel1_mean": 17.63978751079816,
+      "mae_mm_channel1_std": 0.005109453543341033,
+      "rmse_mm_channel2_mean": 19.275628255741186,
+      "rmse_mm_channel2_std": 0.0064356250639447795,
+      "mae_mm_channel2_mean": 14.543658044790751,
+      "mae_mm_channel2_std": 0.004052213004862247,
+      "rmse_mm_channel3_mean": 18.346752581284935,
+      "rmse_mm_channel3_std": 0.0036250679711929364,
+      "mae_mm_channel3_mean": 13.929876085547859,
+      "mae_mm_channel3_std": 0.0031063974922301454,
+      "rmse_mm_channel4_mean": 21.878227240739246,
+      "rmse_mm_channel4_std": 0.004014571801298416,
+      "mae_mm_channel4_mean": 16.762890456171274,
+      "mae_mm_channel4_std": 0.0038170287752748084,
+      "rmse_increase_vs_9m_percent": 3.732107990982847
+    },
+    {
+      "budget": "6m",
+      "month": 6,
+      "model": "VanillaLSTM",
+      "split": "test",
+      "n_seeds": 5,
+      "complete_five_seed_group": true,
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "temperature_rmse_c_mean": 3.0026247100555348,
+      "temperature_rmse_c_std": 0.0004192060693478798,
+      "temperature_mae_c_mean": 2.2602257747635726,
+      "temperature_mae_c_std": 0.0002172286491480898,
+      "pooled_rmse_mm_mean": 20.803516563547863,
+      "pooled_rmse_mm_std": 0.00475516352844239,
+      "pooled_mae_mm_mean": 15.512726797223825,
+      "pooled_mae_mm_std": 0.004157344953483533,
+      "joint_standardized_rmse_mean": 0.37173792823446705,
+      "joint_standardized_rmse_std": 7.181743798188391e-05,
+      "parameters_mean": 519456,
+      "parameters_std": 0.0,
+      "elapsed_seconds_mean": 300.5517778873444,
+      "elapsed_seconds_std": 9.162410812541328,
+      "rmse_mm_channel1_mean": 23.30697276906214,
+      "rmse_mm_channel1_std": 0.006452596189382806,
+      "mae_mm_channel1_mean": 17.390098354153572,
+      "mae_mm_channel1_std": 0.005526526656315131,
+      "rmse_mm_channel2_mean": 18.926113299448854,
+      "rmse_mm_channel2_std": 0.005560229966963265,
+      "mae_mm_channel2_mean": 14.091981418571676,
+      "mae_mm_channel2_std": 0.004552795672695483,
+      "rmse_mm_channel3_mean": 18.335199859111015,
+      "rmse_mm_channel3_std": 0.0033234758594052663,
+      "mae_mm_channel3_mean": 13.837811675311231,
+      "mae_mm_channel3_std": 0.0032171765689923584,
+      "rmse_mm_channel4_mean": 22.15531763970528,
+      "rmse_mm_channel4_std": 0.003708847524242593,
+      "mae_mm_channel4_mean": 16.69638074170455,
+      "mae_mm_channel4_std": 0.0037366249990319587,
+      "rmse_increase_vs_9m_percent": 2.9146692380847217
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "PCFNet",
+      "split": "validation",
+      "n_seeds": 5,
+      "complete_five_seed_group": true,
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "temperature_rmse_c_mean": 2.223228120190328,
+      "temperature_rmse_c_std": 0.007909909587099525,
+      "temperature_mae_c_mean": 1.601195637441884,
+      "temperature_mae_c_std": 0.008439593672715415,
+      "pooled_rmse_mm_mean": 17.1521710261377,
+      "pooled_rmse_mm_std": 0.2159629692068896,
+      "pooled_mae_mm_mean": 11.96441276934773,
+      "pooled_mae_mm_std": 0.2117791100523723,
+      "joint_standardized_rmse_mean": 0.3029043275665773,
+      "joint_standardized_rmse_std": 0.0030362966688491895,
+      "parameters_mean": 17040587,
+      "parameters_std": 0.0,
+      "elapsed_seconds_mean": 71.46938676834107,
+      "elapsed_seconds_std": 2.6416997991874904,
+      "rmse_mm_channel1_mean": 19.33752614681237,
+      "rmse_mm_channel1_std": 0.2538500368271205,
+      "mae_mm_channel1_mean": 13.483804550774424,
+      "mae_mm_channel1_std": 0.2592230203859675,
+      "rmse_mm_channel2_mean": 15.767933962756324,
+      "rmse_mm_channel2_std": 0.1606838563620399,
+      "mae_mm_channel2_mean": 11.124457986948315,
+      "mae_mm_channel2_std": 0.14647174744218144,
+      "rmse_mm_channel3_mean": 15.015555060955592,
+      "rmse_mm_channel3_std": 0.19457536226584438,
+      "mae_mm_channel3_mean": 10.545671323872176,
+      "mae_mm_channel3_std": 0.19534624667949463,
+      "rmse_mm_channel4_mean": 18.128115958591373,
+      "rmse_mm_channel4_std": 0.24974028495680473,
+      "mae_mm_channel4_mean": 12.70142579684053,
+      "mae_mm_channel4_std": 0.24914085670629196,
+      "rmse_increase_vs_9m_percent": 7.489306129704731
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "PCFNet",
+      "split": "test",
+      "n_seeds": 5,
+      "complete_five_seed_group": true,
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "temperature_rmse_c_mean": 2.8289595622211374,
+      "temperature_rmse_c_std": 0.07027533799121043,
+      "temperature_mae_c_mean": 2.0961635579088287,
+      "temperature_mae_c_std": 0.04772641457230118,
+      "pooled_rmse_mm_mean": 20.869752045040194,
+      "pooled_rmse_mm_std": 0.6622649132357199,
+      "pooled_mae_mm_mean": 15.432014114175296,
+      "pooled_mae_mm_std": 0.5137480926543168,
+      "joint_standardized_rmse_mean": 0.3726773053905803,
+      "joint_standardized_rmse_std": 0.011056053618422858,
+      "parameters_mean": 17040587,
+      "parameters_std": 0.0,
+      "elapsed_seconds_mean": 71.46938676834107,
+      "elapsed_seconds_std": 2.6416997991874904,
+      "rmse_mm_channel1_mean": 23.568990369617474,
+      "rmse_mm_channel1_std": 0.7546288909209166,
+      "mae_mm_channel1_mean": 17.532654515093206,
+      "mae_mm_channel1_std": 0.592528229454273,
+      "rmse_mm_channel2_mean": 18.967095948944625,
+      "rmse_mm_channel2_std": 0.5859400746120447,
+      "mae_mm_channel2_mean": 14.008944087489965,
+      "mae_mm_channel2_std": 0.4488479936761623,
+      "rmse_mm_channel3_mean": 18.4563616200182,
+      "rmse_mm_channel3_std": 0.5827089348907697,
+      "mae_mm_channel3_mean": 13.723914338698137,
+      "mae_mm_channel3_std": 0.4628409813725103,
+      "rmse_mm_channel4_mean": 21.97688600867099,
+      "rmse_mm_channel4_std": 0.7104059370316361,
+      "mae_mm_channel4_mean": 16.411538896264044,
+      "mae_mm_channel4_std": 0.5519660878811127,
+      "rmse_increase_vs_9m_percent": 29.97446288668224
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "VanillaLSTM",
+      "split": "validation",
+      "n_seeds": 5,
+      "complete_five_seed_group": true,
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "temperature_rmse_c_mean": 2.5645458497768527,
+      "temperature_rmse_c_std": 0.0002033880490192289,
+      "temperature_mae_c_mean": 1.8428901994221967,
+      "temperature_mae_c_std": 0.000282317558844053,
+      "pooled_rmse_mm_mean": 20.705106179313233,
+      "pooled_rmse_mm_std": 0.0016727237642867054,
+      "pooled_mae_mm_mean": 15.706006705801284,
+      "pooled_mae_mm_std": 0.00205782556140329,
+      "joint_standardized_rmse_mean": 0.36239443965812035,
+      "joint_standardized_rmse_std": 2.9176812842688405e-05,
+      "parameters_mean": 519456,
+      "parameters_std": 0.0,
+      "elapsed_seconds_mean": 177.6401620388031,
+      "elapsed_seconds_std": 5.692359862421395,
+      "rmse_mm_channel1_mean": 22.992013180710252,
+      "rmse_mm_channel1_std": 0.0017434248958859634,
+      "mae_mm_channel1_mean": 17.62293149390312,
+      "mae_mm_channel1_std": 0.0023070912848299216,
+      "rmse_mm_channel2_mean": 19.26687065767162,
+      "rmse_mm_channel2_std": 0.0015201951366282545,
+      "mae_mm_channel2_mean": 14.530747252501415,
+      "mae_mm_channel2_std": 0.0016875805065146507,
+      "rmse_mm_channel3_mean": 18.341682885239198,
+      "rmse_mm_channel3_std": 0.0016300237177701725,
+      "mae_mm_channel3_mean": 13.91875279903053,
+      "mae_mm_channel3_std": 0.001999071993532433,
+      "rmse_mm_channel4_mean": 21.872227408016748,
+      "rmse_mm_channel4_std": 0.0019290299843853522,
+      "mae_mm_channel4_mean": 16.74881374561646,
+      "mae_mm_channel4_std": 0.0024834614072345228,
+      "rmse_increase_vs_9m_percent": 3.698560125140826
+    },
+    {
+      "budget": "3m",
+      "month": 3,
+      "model": "VanillaLSTM",
+      "split": "test",
+      "n_seeds": 5,
+      "complete_five_seed_group": true,
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "temperature_rmse_c_mean": 3.001241023728748,
+      "temperature_rmse_c_std": 0.00019593784642658296,
+      "temperature_mae_c_mean": 2.258556149081856,
+      "temperature_mae_c_std": 0.00027038863204300093,
+      "pooled_rmse_mm_mean": 20.79617099723541,
+      "pooled_rmse_mm_std": 0.0016052639263263054,
+      "pooled_mae_mm_mean": 15.497680652270677,
+      "pooled_mae_mm_std": 0.002420834850864339,
+      "joint_standardized_rmse_mean": 0.377893404844278,
+      "joint_standardized_rmse_std": 2.7842031848949776e-05,
+      "parameters_mean": 519456,
+      "parameters_std": 0.0,
+      "elapsed_seconds_mean": 177.6401620388031,
+      "elapsed_seconds_std": 5.692359862421395,
+      "rmse_mm_channel1_mean": 23.299131043562806,
+      "rmse_mm_channel1_std": 0.0017569349243735342,
+      "mae_mm_channel1_mean": 17.37305294922094,
+      "mae_mm_channel1_std": 0.002700904988179729,
+      "rmse_mm_channel2_mean": 18.91794374417685,
+      "rmse_mm_channel2_std": 0.001422589202410392,
+      "mae_mm_channel2_mean": 14.07758676883037,
+      "mae_mm_channel2_std": 0.0020843062266840367,
+      "rmse_mm_channel3_mean": 18.329254407375874,
+      "rmse_mm_channel3_std": 0.0015352710039309475,
+      "mae_mm_channel3_mean": 13.824783073297345,
+      "mae_mm_channel3_std": 0.0023085456724742832,
+      "rmse_mm_channel4_mean": 22.147982112079553,
+      "rmse_mm_channel4_std": 0.0017940223228170248,
+      "mae_mm_channel4_mean": 16.680764615585506,
+      "mae_mm_channel4_std": 0.0027418476850331985,
+      "rmse_increase_vs_9m_percent": 2.8783308370695204
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "PCFNet",
+      "split": "validation",
+      "n_seeds": 5,
+      "complete_five_seed_group": true,
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "temperature_rmse_c_mean": 2.3125976227458467,
+      "temperature_rmse_c_std": 0.0326403587166405,
+      "temperature_mae_c_mean": 1.6989212378991505,
+      "temperature_mae_c_std": 0.03418173096997707,
+      "pooled_rmse_mm_mean": 17.677482565358588,
+      "pooled_rmse_mm_std": 0.24693461455053692,
+      "pooled_mae_mm_mean": 12.340779834780971,
+      "pooled_mae_mm_std": 0.16030879104308685,
+      "joint_standardized_rmse_mean": 0.37229477032172476,
+      "joint_standardized_rmse_std": 0.005182955213226994,
+      "parameters_mean": 17040587,
+      "parameters_std": 0.0,
+      "elapsed_seconds_mean": 56.77145586013794,
+      "elapsed_seconds_std": 2.320808267087239,
+      "rmse_mm_channel1_mean": 19.851860924575657,
+      "rmse_mm_channel1_std": 0.2724343610396274,
+      "mae_mm_channel1_mean": 13.83417565893018,
+      "mae_mm_channel1_std": 0.16615260789741623,
+      "rmse_mm_channel2_mean": 16.285660645842164,
+      "rmse_mm_channel2_std": 0.20353716418012738,
+      "mae_mm_channel2_mean": 11.537829979083742,
+      "mae_mm_channel2_std": 0.1672716945456524,
+      "rmse_mm_channel3_mean": 15.535708175104999,
+      "rmse_mm_channel3_std": 0.2361998619117231,
+      "mae_mm_channel3_mean": 10.915431199832698,
+      "mae_mm_channel3_std": 0.15023358011496726,
+      "rmse_mm_channel4_mean": 18.686111994304223,
+      "rmse_mm_channel4_std": 0.2737847896922148,
+      "mae_mm_channel4_mean": 13.07342339532011,
+      "mae_mm_channel4_std": 0.16056262041724523,
+      "rmse_increase_vs_9m_percent": 10.781330956575585
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "PCFNet",
+      "split": "test",
+      "n_seeds": 5,
+      "complete_five_seed_group": true,
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "temperature_rmse_c_mean": 3.0436783903605407,
+      "temperature_rmse_c_std": 0.14829388138190677,
+      "temperature_mae_c_mean": 2.288142521382429,
+      "temperature_mae_c_std": 0.09525607549616903,
+      "pooled_rmse_mm_mean": 22.26983979354257,
+      "pooled_rmse_mm_std": 1.2942606714722442,
+      "pooled_mae_mm_mean": 16.500638890846844,
+      "pooled_mae_mm_std": 0.8773657475280852,
+      "joint_standardized_rmse_mean": 0.47408516772691,
+      "joint_standardized_rmse_std": 0.026427405128799552,
+      "parameters_mean": 17040587,
+      "parameters_std": 0.0,
+      "elapsed_seconds_mean": 56.77145586013794,
+      "elapsed_seconds_std": 2.320808267087239,
+      "rmse_mm_channel1_mean": 25.077795544123923,
+      "rmse_mm_channel1_std": 1.455359499931222,
+      "mae_mm_channel1_mean": 18.66810362414124,
+      "mae_mm_channel1_std": 0.9996595306655102,
+      "rmse_mm_channel2_mean": 20.38569996340795,
+      "rmse_mm_channel2_std": 1.225310217481664,
+      "mae_mm_channel2_mean": 15.105528906487235,
+      "mae_mm_channel2_std": 0.8253398134903331,
+      "rmse_mm_channel3_mean": 19.73374205218032,
+      "rmse_mm_channel3_std": 1.1604130702270925,
+      "mae_mm_channel3_mean": 14.682696940615605,
+      "mae_mm_channel3_std": 0.7825412484661229,
+      "rmse_mm_channel4_mean": 23.36545845320807,
+      "rmse_mm_channel4_std": 1.312855771642248,
+      "mae_mm_channel4_mean": 17.488264782681043,
+      "mae_mm_channel4_std": 0.8989809388144422,
+      "rmse_increase_vs_9m_percent": 38.694051538865956
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "VanillaLSTM",
+      "split": "validation",
+      "n_seeds": 5,
+      "complete_five_seed_group": true,
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "temperature_rmse_c_mean": 2.563541417538333,
+      "temperature_rmse_c_std": 0.0004935455635583951,
+      "temperature_mae_c_mean": 1.841806023972962,
+      "temperature_mae_c_std": 0.0003844957716600451,
+      "pooled_rmse_mm_mean": 20.690755804811023,
+      "pooled_rmse_mm_std": 0.0017374518688449097,
+      "pooled_mae_mm_mean": 15.69554352282989,
+      "pooled_mae_mm_std": 0.0032472692931979144,
+      "joint_standardized_rmse_mean": 0.43096652822759274,
+      "joint_standardized_rmse_std": 4.2093711367885474e-05,
+      "parameters_mean": 519456,
+      "parameters_std": 0.0,
+      "elapsed_seconds_mean": 133.9695644378662,
+      "elapsed_seconds_std": 16.181902109317274,
+      "rmse_mm_channel1_mean": 22.976789177143925,
+      "rmse_mm_channel1_std": 0.0021785991271697207,
+      "mae_mm_channel1_mean": 17.61145211362416,
+      "mae_mm_channel1_std": 0.004014487190168263,
+      "rmse_mm_channel2_mean": 19.255356869299163,
+      "rmse_mm_channel2_std": 0.0025573635724422724,
+      "mae_mm_channel2_mean": 14.522561123705668,
+      "mae_mm_channel2_std": 0.0027422336618053845,
+      "rmse_mm_channel3_mean": 18.327278168189345,
+      "rmse_mm_channel3_std": 0.001321335057527005,
+      "mae_mm_channel3_mean": 13.908316173773725,
+      "mae_mm_channel3_std": 0.0027125181395278044,
+      "rmse_mm_channel4_mean": 21.856115935016966,
+      "rmse_mm_channel4_std": 0.0017038810265660549,
+      "mae_mm_channel4_mean": 16.73706347902199,
+      "mae_mm_channel4_std": 0.003722598138446331,
+      "rmse_increase_vs_9m_percent": 3.6266883288675666
+    },
+    {
+      "budget": "1m",
+      "month": 1,
+      "model": "VanillaLSTM",
+      "split": "test",
+      "n_seeds": 5,
+      "complete_five_seed_group": true,
+      "seeds": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "temperature_rmse_c_mean": 3.000149047680017,
+      "temperature_rmse_c_std": 0.0005628288177070587,
+      "temperature_mae_c_mean": 2.2573671353327147,
+      "temperature_mae_c_std": 0.0004413058526706991,
+      "pooled_rmse_mm_mean": 20.78324121441099,
+      "pooled_rmse_mm_std": 0.002160998335072165,
+      "pooled_mae_mm_mean": 15.485977523601413,
+      "pooled_mae_mm_std": 0.002708725611252862,
+      "joint_standardized_rmse_mean": 0.4487678756678304,
+      "joint_standardized_rmse_std": 5.523752264432656e-05,
+      "parameters_mean": 519456,
+      "parameters_std": 0.0,
+      "elapsed_seconds_mean": 133.9695644378662,
+      "elapsed_seconds_std": 16.181902109317274,
+      "rmse_mm_channel1_mean": 23.28518943239236,
+      "rmse_mm_channel1_std": 0.002547292406031233,
+      "mae_mm_channel1_mean": 17.359872706526986,
+      "mae_mm_channel1_std": 0.0029134851652142715,
+      "rmse_mm_channel2_mean": 18.907367384935196,
+      "rmse_mm_channel2_std": 0.0028280730915490335,
+      "mae_mm_channel2_mean": 14.068164676232973,
+      "mae_mm_channel2_std": 0.0023943351725682566,
+      "rmse_mm_channel3_mean": 18.316314118447796,
+      "rmse_mm_channel3_std": 0.0015576025999730447,
+      "mae_mm_channel3_mean": 13.813383256325036,
+      "mae_mm_channel3_std": 0.0027000494956691086,
+      "rmse_mm_channel4_mean": 22.13378831383235,
+      "rmse_mm_channel4_std": 0.0020135241527135285,
+      "mae_mm_channel4_mean": 16.66789682639364,
+      "mae_mm_channel4_std": 0.0031465463741300135,
+      "rmse_increase_vs_9m_percent": 2.814367404799256
+    }
+  ],
+  "cost_policy": "A2 elapsed time includes all fresh OOF/producer/response stages and evaluation; baseline elapsed time is its complete run."
+}

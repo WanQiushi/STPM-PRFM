@@ -1,0 +1,801 @@
+{
+  "rows": [
+    {
+      "arm": "S0",
+      "seed": 2024,
+      "temperature_rmse_c": 1.998906268835271,
+      "response_rmse_mm": 14.575568826782279,
+      "response_mae_mm": 10.418019221980408,
+      "response_mse_mm2": 212.44720662426735,
+      "temperature_full66_rmse_c": 1.9207111970014472,
+      "parameters": 91531,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/evaluation_A2/seed2024/metrics.json"
+    },
+    {
+      "arm": "S3",
+      "seed": 2024,
+      "temperature_rmse_c": 1.9592567246065418,
+      "response_rmse_mm": 14.831823719710943,
+      "response_mae_mm": 10.5040691604768,
+      "response_mse_mm2": 219.98299485258016,
+      "temperature_full66_rmse_c": 1.9164943731076145,
+      "parameters": 91531,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/evaluation_A2/seed2024/metrics.json"
+    },
+    {
+      "arm": "S0",
+      "seed": 2025,
+      "temperature_rmse_c": 1.9749646394120801,
+      "response_rmse_mm": 14.555116608110731,
+      "response_mae_mm": 10.270479186200745,
+      "response_mse_mm2": 211.85141947570085,
+      "temperature_full66_rmse_c": 1.9429838346697856,
+      "parameters": 91531,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/evaluation_A2/seed2025/metrics.json"
+    },
+    {
+      "arm": "S3",
+      "seed": 2025,
+      "temperature_rmse_c": 2.0157801493595326,
+      "response_rmse_mm": 14.642860111034507,
+      "response_mae_mm": 10.199276085237017,
+      "response_mse_mm2": 214.4133522313255,
+      "temperature_full66_rmse_c": 1.9358228396233643,
+      "parameters": 91531,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/evaluation_A2/seed2025/metrics.json"
+    },
+    {
+      "arm": "S0",
+      "seed": 2026,
+      "temperature_rmse_c": 2.020360320910315,
+      "response_rmse_mm": 14.857122597291275,
+      "response_mae_mm": 9.979051657792766,
+      "response_mse_mm2": 220.73409187094302,
+      "temperature_full66_rmse_c": 1.916313027820819,
+      "parameters": 91531,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/evaluation_A2/seed2026/metrics.json"
+    },
+    {
+      "arm": "S3",
+      "seed": 2026,
+      "temperature_rmse_c": 2.0944922723050614,
+      "response_rmse_mm": 15.315227340619463,
+      "response_mae_mm": 10.382511482047825,
+      "response_mse_mm2": 234.55618849485793,
+      "temperature_full66_rmse_c": 1.9246372362455,
+      "parameters": 91531,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/evaluation_A2/seed2026/metrics.json"
+    },
+    {
+      "arm": "S0",
+      "seed": 2027,
+      "temperature_rmse_c": 2.025406309545377,
+      "response_rmse_mm": 15.09902775099276,
+      "response_mae_mm": 10.706914955118158,
+      "response_mse_mm2": 227.98063902524953,
+      "temperature_full66_rmse_c": 1.9646326988629486,
+      "parameters": 91531,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/evaluation_A2/seed2027/metrics.json"
+    },
+    {
+      "arm": "S3",
+      "seed": 2027,
+      "temperature_rmse_c": 1.996218224898231,
+      "response_rmse_mm": 14.897029177732767,
+      "response_mae_mm": 10.386670161543998,
+      "response_mse_mm2": 221.9214783222214,
+      "temperature_full66_rmse_c": 1.9383543753198273,
+      "parameters": 91531,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/evaluation_A2/seed2027/metrics.json"
+    },
+    {
+      "arm": "S0",
+      "seed": 2028,
+      "temperature_rmse_c": 1.967991502557531,
+      "response_rmse_mm": 14.938209557134229,
+      "response_mae_mm": 10.577708151511883,
+      "response_mse_mm2": 223.1501047728564,
+      "temperature_full66_rmse_c": 1.9120270071198848,
+      "parameters": 91531,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/evaluation_A2/seed2028/metrics.json"
+    },
+    {
+      "arm": "S3",
+      "seed": 2028,
+      "temperature_rmse_c": 2.093224937547207,
+      "response_rmse_mm": 15.325384224361294,
+      "response_mae_mm": 10.698616165297391,
+      "response_mse_mm2": 234.86740162430203,
+      "temperature_full66_rmse_c": 1.9508947133132488,
+      "parameters": 91531,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/evaluation_A2/seed2028/metrics.json"
+    },
+    {
+      "arm": "S1",
+      "seed": 2024,
+      "temperature_rmse_c": 1.9945251602809022,
+      "response_rmse_mm": 14.763090409191076,
+      "response_mae_mm": 10.254627772147533,
+      "response_mse_mm2": 217.94883842994955,
+      "temperature_full66_rmse_c": 1.928209122319308,
+      "parameters": 91291,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S1/seed2024/metrics.json"
+    },
+    {
+      "arm": "S2",
+      "seed": 2024,
+      "temperature_rmse_c": 2.2609043484161186,
+      "response_rmse_mm": 17.526783529132228,
+      "response_mae_mm": 14.245691734061438,
+      "response_mse_mm2": 307.1881408770608,
+      "temperature_full66_rmse_c": 2.3290402278291507,
+      "parameters": 20763,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S2/seed2024/metrics.json"
+    },
+    {
+      "arm": "S4",
+      "seed": 2024,
+      "temperature_rmse_c": 1.998906268835271,
+      "response_rmse_mm": 14.91179337274762,
+      "response_mae_mm": 10.608807279611888,
+      "response_mse_mm2": 222.36158159151987,
+      "temperature_full66_rmse_c": 1.9207111970014472,
+      "parameters": 91527,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S4/seed2024/metrics.json"
+    },
+    {
+      "arm": "S5",
+      "seed": 2024,
+      "temperature_rmse_c": 1.998906268835271,
+      "response_rmse_mm": 15.039182824076432,
+      "response_mae_mm": 10.8372162170672,
+      "response_mse_mm2": 226.1770200159956,
+      "temperature_full66_rmse_c": 1.9207111970014472,
+      "parameters": 91507,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S5/seed2024/metrics.json"
+    },
+    {
+      "arm": "S6",
+      "seed": 2024,
+      "temperature_rmse_c": 1.998906268835271,
+      "response_rmse_mm": 15.743959610913839,
+      "response_mae_mm": 11.253192839493016,
+      "response_mse_mm2": 247.87226423008622,
+      "temperature_full66_rmse_c": 1.9207111970014472,
+      "parameters": 91531,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S6/seed2024/metrics.json"
+    },
+    {
+      "arm": "S1",
+      "seed": 2025,
+      "temperature_rmse_c": 2.002236978287118,
+      "response_rmse_mm": 14.618740624452737,
+      "response_mae_mm": 10.087003692387418,
+      "response_mse_mm2": 213.7075774450248,
+      "temperature_full66_rmse_c": 1.9204046936155437,
+      "parameters": 91291,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S1/seed2025/metrics.json"
+    },
+    {
+      "arm": "S2",
+      "seed": 2025,
+      "temperature_rmse_c": 2.260307496209207,
+      "response_rmse_mm": 17.520929927624646,
+      "response_mae_mm": 14.274676329585425,
+      "response_mse_mm2": 306.98298552873297,
+      "temperature_full66_rmse_c": 2.329802051130389,
+      "parameters": 20763,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S2/seed2025/metrics.json"
+    },
+    {
+      "arm": "S4",
+      "seed": 2025,
+      "temperature_rmse_c": 1.9749646394120801,
+      "response_rmse_mm": 14.956128579176013,
+      "response_mae_mm": 10.60114042940337,
+      "response_mse_mm2": 223.6857820768455,
+      "temperature_full66_rmse_c": 1.9429838346697856,
+      "parameters": 91527,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S4/seed2025/metrics.json"
+    },
+    {
+      "arm": "S5",
+      "seed": 2025,
+      "temperature_rmse_c": 1.9749646394120801,
+      "response_rmse_mm": 15.028031782957237,
+      "response_mae_mm": 10.744512796786665,
+      "response_mse_mm2": 225.84173926957286,
+      "temperature_full66_rmse_c": 1.9429838346697856,
+      "parameters": 91507,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S5/seed2025/metrics.json"
+    },
+    {
+      "arm": "S6",
+      "seed": 2025,
+      "temperature_rmse_c": 1.9749646394120801,
+      "response_rmse_mm": 15.72395260218966,
+      "response_mae_mm": 11.256057593095294,
+      "response_mse_mm2": 247.24268543590702,
+      "temperature_full66_rmse_c": 1.9429838346697856,
+      "parameters": 91531,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S6/seed2025/metrics.json"
+    },
+    {
+      "arm": "S1",
+      "seed": 2026,
+      "temperature_rmse_c": 1.9133897016029668,
+      "response_rmse_mm": 14.364328026787932,
+      "response_mae_mm": 9.958592581311061,
+      "response_mse_mm2": 206.33391966116528,
+      "temperature_full66_rmse_c": 1.9155022696058832,
+      "parameters": 91291,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S1/seed2026/metrics.json"
+    },
+    {
+      "arm": "S2",
+      "seed": 2026,
+      "temperature_rmse_c": 2.2510046568389175,
+      "response_rmse_mm": 17.301664143719456,
+      "response_mae_mm": 14.068060386344943,
+      "response_mse_mm2": 299.34758214206755,
+      "temperature_full66_rmse_c": 2.3169295226895867,
+      "parameters": 20763,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S2/seed2026/metrics.json"
+    },
+    {
+      "arm": "S4",
+      "seed": 2026,
+      "temperature_rmse_c": 2.020360320910315,
+      "response_rmse_mm": 15.260160658668022,
+      "response_mae_mm": 10.512541639895993,
+      "response_mse_mm2": 232.87250332835924,
+      "temperature_full66_rmse_c": 1.916313027820819,
+      "parameters": 91527,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S4/seed2026/metrics.json"
+    },
+    {
+      "arm": "S5",
+      "seed": 2026,
+      "temperature_rmse_c": 2.020360320910315,
+      "response_rmse_mm": 15.132266435932767,
+      "response_mae_mm": 10.40272832664258,
+      "response_mse_mm2": 228.98548748805737,
+      "temperature_full66_rmse_c": 1.916313027820819,
+      "parameters": 91507,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S5/seed2026/metrics.json"
+    },
+    {
+      "arm": "S6",
+      "seed": 2026,
+      "temperature_rmse_c": 2.020360320910315,
+      "response_rmse_mm": 15.854794159230192,
+      "response_mae_mm": 10.784174843655398,
+      "response_mse_mm2": 251.3744978315598,
+      "temperature_full66_rmse_c": 1.916313027820819,
+      "parameters": 91531,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S6/seed2026/metrics.json"
+    },
+    {
+      "arm": "S1",
+      "seed": 2027,
+      "temperature_rmse_c": 2.007495773481764,
+      "response_rmse_mm": 14.881036610897777,
+      "response_mae_mm": 10.477343643149107,
+      "response_mse_mm2": 221.44525061487997,
+      "temperature_full66_rmse_c": 1.9422667317200517,
+      "parameters": 91291,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S1/seed2027/metrics.json"
+    },
+    {
+      "arm": "S2",
+      "seed": 2027,
+      "temperature_rmse_c": 2.268221372268482,
+      "response_rmse_mm": 17.716826956554975,
+      "response_mae_mm": 14.477370345788815,
+      "response_mse_mm2": 313.88595740851304,
+      "temperature_full66_rmse_c": 2.3238417760548296,
+      "parameters": 20763,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S2/seed2027/metrics.json"
+    },
+    {
+      "arm": "S4",
+      "seed": 2027,
+      "temperature_rmse_c": 2.025406309545377,
+      "response_rmse_mm": 15.367528553062604,
+      "response_mae_mm": 10.969273130438717,
+      "response_mse_mm2": 236.16093382919442,
+      "temperature_full66_rmse_c": 1.9646326988629486,
+      "parameters": 91527,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S4/seed2027/metrics.json"
+    },
+    {
+      "arm": "S5",
+      "seed": 2027,
+      "temperature_rmse_c": 2.025406309545377,
+      "response_rmse_mm": 15.563489216541136,
+      "response_mae_mm": 11.152378256025584,
+      "response_mse_mm2": 242.2221965933922,
+      "temperature_full66_rmse_c": 1.9646326988629486,
+      "parameters": 91507,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S5/seed2027/metrics.json"
+    },
+    {
+      "arm": "S6",
+      "seed": 2027,
+      "temperature_rmse_c": 2.025406309545377,
+      "response_rmse_mm": 16.13742095051773,
+      "response_mae_mm": 11.487996203585801,
+      "response_mse_mm2": 260.41635493420847,
+      "temperature_full66_rmse_c": 1.9646326988629486,
+      "parameters": 91531,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S6/seed2027/metrics.json"
+    },
+    {
+      "arm": "S1",
+      "seed": 2028,
+      "temperature_rmse_c": 2.074272296645316,
+      "response_rmse_mm": 15.197905279131325,
+      "response_mae_mm": 10.263808755611834,
+      "response_mse_mm2": 230.97632487344777,
+      "temperature_full66_rmse_c": 1.940975227239297,
+      "parameters": 91291,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S1/seed2028/metrics.json"
+    },
+    {
+      "arm": "S2",
+      "seed": 2028,
+      "temperature_rmse_c": 2.249922359725717,
+      "response_rmse_mm": 17.47219570942429,
+      "response_mae_mm": 14.292987133539219,
+      "response_mse_mm2": 305.27762290842463,
+      "temperature_full66_rmse_c": 2.3161317357734763,
+      "parameters": 20763,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S2/seed2028/metrics.json"
+    },
+    {
+      "arm": "S4",
+      "seed": 2028,
+      "temperature_rmse_c": 1.967991502557531,
+      "response_rmse_mm": 15.175348976341882,
+      "response_mae_mm": 10.816900880167088,
+      "response_mse_mm2": 230.2912165537606,
+      "temperature_full66_rmse_c": 1.9120270071198848,
+      "parameters": 91527,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S4/seed2028/metrics.json"
+    },
+    {
+      "arm": "S5",
+      "seed": 2028,
+      "temperature_rmse_c": 1.967991502557531,
+      "response_rmse_mm": 15.288951298363521,
+      "response_mae_mm": 11.046785558585992,
+      "response_mse_mm2": 233.7520318037316,
+      "temperature_full66_rmse_c": 1.9120270071198848,
+      "parameters": 91507,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S5/seed2028/metrics.json"
+    },
+    {
+      "arm": "S6",
+      "seed": 2028,
+      "temperature_rmse_c": 1.967991502557531,
+      "response_rmse_mm": 15.760143083772554,
+      "response_mae_mm": 11.391875717849523,
+      "response_mse_mm2": 248.38211002098387,
+      "temperature_full66_rmse_c": 1.9120270071198848,
+      "parameters": 91531,
+      "observed_t_nodes": 37426,
+      "observed_y_nodes": 133727,
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/evaluation_S6/seed2028/metrics.json"
+    }
+  ],
+  "statistics": {
+    "S0": {
+      "temperature_rmse_c": {
+        "mean": 1.997525808252115,
+        "sample_std": 0.025893650497817184
+      },
+      "response_rmse_mm": {
+        "mean": 14.805009068062253,
+        "sample_std": 0.23558132459362296
+      },
+      "response_mae_mm": {
+        "mean": 10.390434634520792,
+        "sample_std": 0.2826735467284728
+      },
+      "response_mse_mm2": {
+        "mean": 219.23269235380343,
+        "sample_std": 6.975903121177802
+      },
+      "temperature_full66_rmse_c": {
+        "mean": 1.9313335530949771,
+        "sample_std": 0.022111962348617224
+      }
+    },
+    "S1": {
+      "temperature_rmse_c": {
+        "mean": 1.9983839820596132,
+        "sample_std": 0.05721849532574989
+      },
+      "response_rmse_mm": {
+        "mean": 14.765020190092168,
+        "sample_std": 0.30935616824317475
+      },
+      "response_mae_mm": {
+        "mean": 10.208275288921389,
+        "sample_std": 0.1966459715301995
+      },
+      "response_mse_mm2": {
+        "mean": 218.08238220489346,
+        "sample_std": 9.148029354060771
+      },
+      "temperature_full66_rmse_c": {
+        "mean": 1.9294716089000168,
+        "sample_std": 0.011989512795903236
+      }
+    },
+    "S2": {
+      "temperature_rmse_c": {
+        "mean": 2.258072046691688,
+        "sample_std": 0.007622226942333079
+      },
+      "response_rmse_mm": {
+        "mean": 17.507680053291118,
+        "sample_std": 0.14831101000956196
+      },
+      "response_mae_mm": {
+        "mean": 14.271757185863967,
+        "sample_std": 0.14569471294851874
+      },
+      "response_mse_mm2": {
+        "mean": 306.5364577729598,
+        "sample_std": 5.193838196614556
+      },
+      "temperature_full66_rmse_c": {
+        "mean": 2.3231490626954865,
+        "sample_std": 0.00646864530950295
+      }
+    },
+    "S3": {
+      "temperature_rmse_c": {
+        "mean": 2.031794461743315,
+        "sample_std": 0.06018423577822458
+      },
+      "response_rmse_mm": {
+        "mean": 15.002464914691796,
+        "sample_std": 0.3048146742266394
+      },
+      "response_mae_mm": {
+        "mean": 10.434228610920607,
+        "sample_std": 0.18365568199942625
+      },
+      "response_mse_mm2": {
+        "mean": 225.14828310505737,
+        "sample_std": 9.155615234871947
+      },
+      "temperature_full66_rmse_c": {
+        "mean": 1.933240707521911,
+        "sample_std": 0.01321874010010856
+      }
+    },
+    "S4": {
+      "temperature_rmse_c": {
+        "mean": 1.997525808252115,
+        "sample_std": 0.025893650497817184
+      },
+      "response_rmse_mm": {
+        "mean": 15.134192027999228,
+        "sample_std": 0.19568832227718855
+      },
+      "response_mae_mm": {
+        "mean": 10.701732671903411,
+        "sample_std": 0.18667403911879377
+      },
+      "response_mse_mm2": {
+        "mean": 229.07440347593592,
+        "sample_std": 5.920817663921673
+      },
+      "temperature_full66_rmse_c": {
+        "mean": 1.9313335530949771,
+        "sample_std": 0.022111962348617224
+      }
+    },
+    "S5": {
+      "temperature_rmse_c": {
+        "mean": 1.997525808252115,
+        "sample_std": 0.025893650497817184
+      },
+      "response_rmse_mm": {
+        "mean": 15.21038431157422,
+        "sample_std": 0.22333866762947766
+      },
+      "response_mae_mm": {
+        "mean": 10.836724231021606,
+        "sample_std": 0.2918128083682358
+      },
+      "response_mse_mm2": {
+        "mean": 231.39569503414992,
+        "sample_std": 6.8310971479548295
+      },
+      "temperature_full66_rmse_c": {
+        "mean": 1.9313335530949771,
+        "sample_std": 0.022111962348617224
+      }
+    },
+    "S6": {
+      "temperature_rmse_c": {
+        "mean": 1.997525808252115,
+        "sample_std": 0.025893650497817184
+      },
+      "response_rmse_mm": {
+        "mean": 15.844054081324794,
+        "sample_std": 0.1715107817463578
+      },
+      "response_mae_mm": {
+        "mean": 11.234659439535807,
+        "sample_std": 0.27047837861897706
+      },
+      "response_mse_mm2": {
+        "mean": 251.05758249054907,
+        "sample_std": 5.466829562893892
+      },
+      "temperature_full66_rmse_c": {
+        "mean": 1.9313335530949771,
+        "sample_std": 0.022111962348617224
+      }
+    }
+  },
+  "paired_deltas": [
+    {
+      "arm": "S1",
+      "seed": 2024,
+      "temperature_rmse_delta_c": -0.0043811085543687955,
+      "response_rmse_delta_mm": 0.18752158240879702
+    },
+    {
+      "arm": "S1",
+      "seed": 2025,
+      "temperature_rmse_delta_c": 0.02727233887503777,
+      "response_rmse_delta_mm": 0.06362401634200587
+    },
+    {
+      "arm": "S1",
+      "seed": 2026,
+      "temperature_rmse_delta_c": -0.10697061930734808,
+      "response_rmse_delta_mm": -0.4927945705033423
+    },
+    {
+      "arm": "S1",
+      "seed": 2027,
+      "temperature_rmse_delta_c": -0.017910536063613147,
+      "response_rmse_delta_mm": -0.2179911400949841
+    },
+    {
+      "arm": "S1",
+      "seed": 2028,
+      "temperature_rmse_delta_c": 0.10628079408778501,
+      "response_rmse_delta_mm": 0.2596957219970957
+    },
+    {
+      "arm": "S2",
+      "seed": 2024,
+      "temperature_rmse_delta_c": 0.26199807958084764,
+      "response_rmse_delta_mm": 2.951214702349949
+    },
+    {
+      "arm": "S2",
+      "seed": 2025,
+      "temperature_rmse_delta_c": 0.285342856797127,
+      "response_rmse_delta_mm": 2.9658133195139147
+    },
+    {
+      "arm": "S2",
+      "seed": 2026,
+      "temperature_rmse_delta_c": 0.23064433592860256,
+      "response_rmse_delta_mm": 2.444541546428182
+    },
+    {
+      "arm": "S2",
+      "seed": 2027,
+      "temperature_rmse_delta_c": 0.2428150627231047,
+      "response_rmse_delta_mm": 2.617799205562214
+    },
+    {
+      "arm": "S2",
+      "seed": 2028,
+      "temperature_rmse_delta_c": 0.281930857168186,
+      "response_rmse_delta_mm": 2.533986152290062
+    },
+    {
+      "arm": "S3",
+      "seed": 2024,
+      "temperature_rmse_delta_c": -0.03964954422872924,
+      "response_rmse_delta_mm": 0.25625489292866455
+    },
+    {
+      "arm": "S3",
+      "seed": 2025,
+      "temperature_rmse_delta_c": 0.04081550994745253,
+      "response_rmse_delta_mm": 0.0877435029237752
+    },
+    {
+      "arm": "S3",
+      "seed": 2026,
+      "temperature_rmse_delta_c": 0.07413195139474649,
+      "response_rmse_delta_mm": 0.45810474332818885
+    },
+    {
+      "arm": "S3",
+      "seed": 2027,
+      "temperature_rmse_delta_c": -0.029188084647146173,
+      "response_rmse_delta_mm": -0.20199857325999382
+    },
+    {
+      "arm": "S3",
+      "seed": 2028,
+      "temperature_rmse_delta_c": 0.1252334349896762,
+      "response_rmse_delta_mm": 0.3871746672270646
+    },
+    {
+      "arm": "S4",
+      "seed": 2024,
+      "temperature_rmse_delta_c": 0.0,
+      "response_rmse_delta_mm": 0.3362245459653419
+    },
+    {
+      "arm": "S4",
+      "seed": 2025,
+      "temperature_rmse_delta_c": 0.0,
+      "response_rmse_delta_mm": 0.40101197106528197
+    },
+    {
+      "arm": "S4",
+      "seed": 2026,
+      "temperature_rmse_delta_c": 0.0,
+      "response_rmse_delta_mm": 0.4030380613767477
+    },
+    {
+      "arm": "S4",
+      "seed": 2027,
+      "temperature_rmse_delta_c": 0.0,
+      "response_rmse_delta_mm": 0.26850080206984295
+    },
+    {
+      "arm": "S4",
+      "seed": 2028,
+      "temperature_rmse_delta_c": 0.0,
+      "response_rmse_delta_mm": 0.23713941920765258
+    },
+    {
+      "arm": "S5",
+      "seed": 2024,
+      "temperature_rmse_delta_c": 0.0,
+      "response_rmse_delta_mm": 0.46361399729415353
+    },
+    {
+      "arm": "S5",
+      "seed": 2025,
+      "temperature_rmse_delta_c": 0.0,
+      "response_rmse_delta_mm": 0.4729151748465057
+    },
+    {
+      "arm": "S5",
+      "seed": 2026,
+      "temperature_rmse_delta_c": 0.0,
+      "response_rmse_delta_mm": 0.27514383864149217
+    },
+    {
+      "arm": "S5",
+      "seed": 2027,
+      "temperature_rmse_delta_c": 0.0,
+      "response_rmse_delta_mm": 0.464461465548375
+    },
+    {
+      "arm": "S5",
+      "seed": 2028,
+      "temperature_rmse_delta_c": 0.0,
+      "response_rmse_delta_mm": 0.35074174122929236
+    },
+    {
+      "arm": "S6",
+      "seed": 2024,
+      "temperature_rmse_delta_c": 0.0,
+      "response_rmse_delta_mm": 1.1683907841315602
+    },
+    {
+      "arm": "S6",
+      "seed": 2025,
+      "temperature_rmse_delta_c": 0.0,
+      "response_rmse_delta_mm": 1.168835994078929
+    },
+    {
+      "arm": "S6",
+      "seed": 2026,
+      "temperature_rmse_delta_c": 0.0,
+      "response_rmse_delta_mm": 0.9976715619389172
+    },
+    {
+      "arm": "S6",
+      "seed": 2027,
+      "temperature_rmse_delta_c": 0.0,
+      "response_rmse_delta_mm": 1.0383931995249682
+    },
+    {
+      "arm": "S6",
+      "seed": 2028,
+      "temperature_rmse_delta_c": 0.0,
+      "response_rmse_delta_mm": 0.8219335266383254
+    }
+  ],
+  "contract": "D1 original304train/66temperatureval,26commonvalidation,1minute1440nodes,4bearings;original A2 recipe,5temperature seeds;shared corresponding H1 per intervention;no test scoring",
+  "reuse_report": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/reuse_report.json",
+  "test_evaluated": false,
+  "aggregation": "Five temperature seeds2024-2028, mean/sample SDddof1; one shared response checkpoint per intervention, no ensemble"
+}

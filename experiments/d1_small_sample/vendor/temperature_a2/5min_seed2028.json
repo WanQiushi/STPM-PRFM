@@ -1,0 +1,28 @@
+{
+  "run_name": "5min_seed2028",
+  "data": "data/mainbridge_temperature_v2/minute_complete.npz",
+  "split_days": [
+    511,
+    110,
+    109
+  ],
+  "train_stride": 720,
+  "width": 32,
+  "latent_dim": 8,
+  "residual_width": 16,
+  "batch_size": 32,
+  "epochs_base": 80,
+  "epochs_residual": 60,
+  "patience": 12,
+  "lr_base": 0.001,
+  "lr_residual": 0.001,
+  "level_weight": 0.5,
+  "amplitude_weight": 0.25,
+  "shape_weight": 0.25,
+  "seed": 2028,
+  "initial_checkpoint": "temperature_prediction/outputs/va_2_2_sampling_20261008/v9_5min_seed2028/best.pt",
+  "version": "va-2.2",
+  "arm": "trend",
+  "trend_weight": 3.0,
+  "sample_minutes": 5
+}

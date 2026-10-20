@@ -1,0 +1,51 @@
+{
+  "run_name": "staged_bw_fft_neuralode_d1_seed2024",
+  "data": "data/mainbridge_temperature_v2/minute_complete.npz",
+  "fixed_origins": "experiments/v4_temperature_temperature_alt_20260927/fixed_window_origins.json",
+  "output": "outputs/fft_joint_neuralode_d1_staged_20260929/staged_bw_fft_neuralode_d1_seed2024",
+  "seed": 2024,
+  "split_days": [
+    511,
+    110,
+    109
+  ],
+  "train_stride": 720,
+  "sample_minutes": 15,
+  "history_days": 30,
+  "horizon_days": 1,
+  "train_use_all_causal_origins": true,
+  "static_hours_range": [
+    24.0,
+    168.0
+  ],
+  "noise_hours_range": [
+    0.5,
+    8.0
+  ],
+  "init_static_hours": 43.312984466552734,
+  "init_noise_hours": 7.376662731170654,
+  "mask_order": 6.0,
+  "width": 32,
+  "residual_scale": 0.1,
+  "epochs": 60,
+  "bw_pretrain_epochs": 15,
+  "prediction_warmup_epochs": 15,
+  "patience_after_cutoff": 12,
+  "batch_size": 16,
+  "lr": 0.001,
+  "cutoff_lr": 0.0001,
+  "stage1_weight": 0.02,
+  "component_weight": 0.1,
+  "loop_weight": 0.05,
+  "loop_epsilon": 0.001,
+  "ode_weight": 0.001,
+  "grad_clip": 1.0,
+  "stage1_loss_weights": {
+    "static_lf": 1.0,
+    "linear": 2.0,
+    "bw": 2.5,
+    "noise_hf": 1.0
+  },
+  "task": "known_future_temperature_conditional_displacement_prediction",
+  "test_policy": "sealed"
+}

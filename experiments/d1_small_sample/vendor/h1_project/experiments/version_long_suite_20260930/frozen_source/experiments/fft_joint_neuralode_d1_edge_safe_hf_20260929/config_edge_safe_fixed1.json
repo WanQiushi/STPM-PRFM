@@ -1,0 +1,71 @@
+{
+  "run_name": "edge_safe_hf_fixed1_seed2024",
+  "data": "data/mainbridge_temperature_v2/minute_complete.npz",
+  "fixed_origins": "experiments/v4_temperature_temperature_alt_20260927/fixed_window_origins.json",
+  "output": "outputs/fft_joint_neuralode_d1_edge_safe_hf_20260929/edge_safe_hf_fixed1_seed2024",
+  "seed": 2024,
+  "split_days": [
+    511,
+    110,
+    109
+  ],
+  "train_stride": 720,
+  "sample_minutes": 15,
+  "history_days": 30,
+  "horizon_days": 1,
+  "train_use_all_causal_origins": true,
+  "season_days": 365.25,
+  "enable_lf_anchor": true,
+  "enable_seasonal_a": true,
+  "seasonal_a_scale": 0.3,
+  "mf_range_weight": 0.1,
+  "static_hours_range": [
+    24.0,
+    168.0
+  ],
+  "noise_hours_range": [
+    0.5,
+    2.0
+  ],
+  "init_static_hours": 43.312984466552734,
+  "init_noise_hours": 1.0,
+  "mask_order": 6.0,
+  "edge_padding_hours": 72.0,
+  "train_noise_cutoff": false,
+  "thermal_lag_hours_range": [
+    0.25,
+    4.0
+  ],
+  "init_thermal_lag_hours": 1.25,
+  "width": 32,
+  "residual_scale": 0.05,
+  "epochs": 75,
+  "bw_pretrain_epochs": 15,
+  "prediction_warmup_epochs": 20,
+  "patience_after_cutoff": 15,
+  "batch_size": 16,
+  "lr": 0.001,
+  "cutoff_lr": 0.0,
+  "stage1_weight": 0.02,
+  "lf_component_weight": 0.5,
+  "mf_component_weight": 0.75,
+  "lf_path_weight": 0.2,
+  "lf_delta_weight": 0.2,
+  "mf_delta_weight": 0.5,
+  "mf_spectral_weight": 0.1,
+  "extreme_weight": 0.05,
+  "extreme_temperature": 0.1,
+  "continuity_weight": 0.05,
+  "loop_weight": 0.05,
+  "loop_epsilon": 0.001,
+  "ode_weight": 0.001,
+  "grad_clip": 1.0,
+  "stage1_loss_weights": {
+    "static_lf": 1.0,
+    "linear": 2.0,
+    "bw": 2.5,
+    "noise_hf": 1.0
+  },
+  "task": "known_future_temperature_edge_safe_hf_fixed1",
+  "test_policy": "sealed"
+}

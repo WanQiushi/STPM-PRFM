@@ -1,0 +1,817 @@
+{
+  "name": "d1_full219_frozen_inference_20261017",
+  "gpu": 1,
+  "jobs": [
+    {
+      "key": "Mamba_seed2024",
+      "family": "baseline",
+      "model": "Mamba",
+      "seed": 2024,
+      "checkpoint": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/Mamba_seed2024/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D1",
+      "python": "${WORKSPACE}/envs/mamba_py311_20261015/bin/python",
+      "original_output": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/Mamba_seed2024"
+    },
+    {
+      "key": "Mamba_seed2025",
+      "family": "baseline",
+      "model": "Mamba",
+      "seed": 2025,
+      "checkpoint": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/Mamba_seed2025/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D1",
+      "python": "${WORKSPACE}/envs/mamba_py311_20261015/bin/python",
+      "original_output": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/Mamba_seed2025"
+    },
+    {
+      "key": "Mamba_seed2026",
+      "family": "baseline",
+      "model": "Mamba",
+      "seed": 2026,
+      "checkpoint": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/Mamba_seed2026/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D1",
+      "python": "${WORKSPACE}/envs/mamba_py311_20261015/bin/python",
+      "original_output": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/Mamba_seed2026"
+    },
+    {
+      "key": "Mamba_seed2027",
+      "family": "baseline",
+      "model": "Mamba",
+      "seed": 2027,
+      "checkpoint": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/Mamba_seed2027/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D1",
+      "python": "${WORKSPACE}/envs/mamba_py311_20261015/bin/python",
+      "original_output": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/Mamba_seed2027"
+    },
+    {
+      "key": "Mamba_seed2028",
+      "family": "baseline",
+      "model": "Mamba",
+      "seed": 2028,
+      "checkpoint": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/Mamba_seed2028/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D1",
+      "python": "${WORKSPACE}/envs/mamba_py311_20261015/bin/python",
+      "original_output": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/Mamba_seed2028"
+    },
+    {
+      "key": "PCFNet_seed2024",
+      "family": "baseline",
+      "model": "PCFNet",
+      "seed": 2024,
+      "checkpoint": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/PCFNet_seed2024/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D1",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/PCFNet_seed2024"
+    },
+    {
+      "key": "PCFNet_seed2025",
+      "family": "baseline",
+      "model": "PCFNet",
+      "seed": 2025,
+      "checkpoint": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/PCFNet_seed2025/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D1",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/PCFNet_seed2025"
+    },
+    {
+      "key": "PCFNet_seed2026",
+      "family": "baseline",
+      "model": "PCFNet",
+      "seed": 2026,
+      "checkpoint": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/PCFNet_seed2026/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D1",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/PCFNet_seed2026"
+    },
+    {
+      "key": "PCFNet_seed2027",
+      "family": "baseline",
+      "model": "PCFNet",
+      "seed": 2027,
+      "checkpoint": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/PCFNet_seed2027/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D1",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/PCFNet_seed2027"
+    },
+    {
+      "key": "PCFNet_seed2028",
+      "family": "baseline",
+      "model": "PCFNet",
+      "seed": 2028,
+      "checkpoint": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/PCFNet_seed2028/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D1",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/PCFNet_seed2028"
+    },
+    {
+      "key": "ModernTCN_seed2024",
+      "family": "baseline",
+      "model": "ModernTCN",
+      "seed": 2024,
+      "checkpoint": "${WORKSPACE}/outputs/minute_moderntcn_joint5_20261009/ModernTCN_1min_Joint5_MSE_seed2024/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_moderntcn_joint5_20261009",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_moderntcn_joint5_20261009/ModernTCN_1min_Joint5_MSE_seed2024"
+    },
+    {
+      "key": "ModernTCN_seed2025",
+      "family": "baseline",
+      "model": "ModernTCN",
+      "seed": 2025,
+      "checkpoint": "${WORKSPACE}/outputs/minute_moderntcn_joint5_20261009/ModernTCN_1min_Joint5_MSE_seed2025/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_moderntcn_joint5_20261009",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_moderntcn_joint5_20261009/ModernTCN_1min_Joint5_MSE_seed2025"
+    },
+    {
+      "key": "ModernTCN_seed2026",
+      "family": "baseline",
+      "model": "ModernTCN",
+      "seed": 2026,
+      "checkpoint": "${WORKSPACE}/outputs/minute_moderntcn_joint5_20261009/ModernTCN_1min_Joint5_MSE_seed2026/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_moderntcn_joint5_20261009",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_moderntcn_joint5_20261009/ModernTCN_1min_Joint5_MSE_seed2026"
+    },
+    {
+      "key": "ModernTCN_seed2027",
+      "family": "baseline",
+      "model": "ModernTCN",
+      "seed": 2027,
+      "checkpoint": "${WORKSPACE}/outputs/minute_moderntcn_joint5_20261009/ModernTCN_1min_Joint5_MSE_seed2027/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_moderntcn_joint5_20261009",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_moderntcn_joint5_20261009/ModernTCN_1min_Joint5_MSE_seed2027"
+    },
+    {
+      "key": "ModernTCN_seed2028",
+      "family": "baseline",
+      "model": "ModernTCN",
+      "seed": 2028,
+      "checkpoint": "${WORKSPACE}/outputs/minute_moderntcn_joint5_20261009/ModernTCN_1min_Joint5_MSE_seed2028/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_moderntcn_joint5_20261009",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_moderntcn_joint5_20261009/ModernTCN_1min_Joint5_MSE_seed2028"
+    },
+    {
+      "key": "VanillaLSTM_seed2024",
+      "family": "baseline",
+      "model": "VanillaLSTM",
+      "seed": 2024,
+      "checkpoint": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/VanillaLSTM_seed2024/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D1",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/VanillaLSTM_seed2024"
+    },
+    {
+      "key": "VanillaLSTM_seed2025",
+      "family": "baseline",
+      "model": "VanillaLSTM",
+      "seed": 2025,
+      "checkpoint": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/VanillaLSTM_seed2025/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D1",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/VanillaLSTM_seed2025"
+    },
+    {
+      "key": "VanillaLSTM_seed2026",
+      "family": "baseline",
+      "model": "VanillaLSTM",
+      "seed": 2026,
+      "checkpoint": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/VanillaLSTM_seed2026/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D1",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/VanillaLSTM_seed2026"
+    },
+    {
+      "key": "VanillaLSTM_seed2027",
+      "family": "baseline",
+      "model": "VanillaLSTM",
+      "seed": 2027,
+      "checkpoint": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/VanillaLSTM_seed2027/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D1",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/VanillaLSTM_seed2027"
+    },
+    {
+      "key": "VanillaLSTM_seed2028",
+      "family": "baseline",
+      "model": "VanillaLSTM",
+      "seed": 2028,
+      "checkpoint": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/VanillaLSTM_seed2028/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/baseline_lstm_mamba_pcfnet_20261015/D1",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/baseline_lstm_mamba_pcfnet_20261015/D1/VanillaLSTM_seed2028"
+    },
+    {
+      "key": "DLinear_seed2024",
+      "family": "baseline",
+      "model": "DLinear",
+      "seed": 2024,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/DLinear_1min_Joint5_MSE_seed2024/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/DLinear_1min_Joint5_MSE_seed2024"
+    },
+    {
+      "key": "DLinear_seed2025",
+      "family": "baseline",
+      "model": "DLinear",
+      "seed": 2025,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/DLinear_1min_Joint5_MSE_seed2025/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/DLinear_1min_Joint5_MSE_seed2025"
+    },
+    {
+      "key": "DLinear_seed2026",
+      "family": "baseline",
+      "model": "DLinear",
+      "seed": 2026,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/DLinear_1min_Joint5_MSE_seed2026/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/DLinear_1min_Joint5_MSE_seed2026"
+    },
+    {
+      "key": "DLinear_seed2027",
+      "family": "baseline",
+      "model": "DLinear",
+      "seed": 2027,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/DLinear_1min_Joint5_MSE_seed2027/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/DLinear_1min_Joint5_MSE_seed2027"
+    },
+    {
+      "key": "DLinear_seed2028",
+      "family": "baseline",
+      "model": "DLinear",
+      "seed": 2028,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/DLinear_1min_Joint5_MSE_seed2028/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/DLinear_1min_Joint5_MSE_seed2028"
+    },
+    {
+      "key": "TimeXer_seed2024",
+      "family": "baseline",
+      "model": "TimeXer",
+      "seed": 2024,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimeXer_1min_Joint5_MSE_seed2024/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimeXer_1min_Joint5_MSE_seed2024"
+    },
+    {
+      "key": "TimeXer_seed2025",
+      "family": "baseline",
+      "model": "TimeXer",
+      "seed": 2025,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimeXer_1min_Joint5_MSE_seed2025/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimeXer_1min_Joint5_MSE_seed2025"
+    },
+    {
+      "key": "TimeXer_seed2026",
+      "family": "baseline",
+      "model": "TimeXer",
+      "seed": 2026,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimeXer_1min_Joint5_MSE_seed2026/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimeXer_1min_Joint5_MSE_seed2026"
+    },
+    {
+      "key": "TimeXer_seed2027",
+      "family": "baseline",
+      "model": "TimeXer",
+      "seed": 2027,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimeXer_1min_Joint5_MSE_seed2027/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimeXer_1min_Joint5_MSE_seed2027"
+    },
+    {
+      "key": "TimeXer_seed2028",
+      "family": "baseline",
+      "model": "TimeXer",
+      "seed": 2028,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimeXer_1min_Joint5_MSE_seed2028/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimeXer_1min_Joint5_MSE_seed2028"
+    },
+    {
+      "key": "PatchTST_seed2024",
+      "family": "baseline",
+      "model": "PatchTST",
+      "seed": 2024,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/PatchTST_1min_Joint5_MSE_seed2024/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/PatchTST_1min_Joint5_MSE_seed2024"
+    },
+    {
+      "key": "PatchTST_seed2025",
+      "family": "baseline",
+      "model": "PatchTST",
+      "seed": 2025,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/PatchTST_1min_Joint5_MSE_seed2025/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/PatchTST_1min_Joint5_MSE_seed2025"
+    },
+    {
+      "key": "PatchTST_seed2026",
+      "family": "baseline",
+      "model": "PatchTST",
+      "seed": 2026,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/PatchTST_1min_Joint5_MSE_seed2026/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/PatchTST_1min_Joint5_MSE_seed2026"
+    },
+    {
+      "key": "PatchTST_seed2027",
+      "family": "baseline",
+      "model": "PatchTST",
+      "seed": 2027,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/PatchTST_1min_Joint5_MSE_seed2027/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/PatchTST_1min_Joint5_MSE_seed2027"
+    },
+    {
+      "key": "PatchTST_seed2028",
+      "family": "baseline",
+      "model": "PatchTST",
+      "seed": 2028,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/PatchTST_1min_Joint5_MSE_seed2028/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/PatchTST_1min_Joint5_MSE_seed2028"
+    },
+    {
+      "key": "iTransformer_seed2024",
+      "family": "baseline",
+      "model": "iTransformer",
+      "seed": 2024,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/iTransformer_1min_Joint5_MSE_seed2024/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/iTransformer_1min_Joint5_MSE_seed2024"
+    },
+    {
+      "key": "iTransformer_seed2025",
+      "family": "baseline",
+      "model": "iTransformer",
+      "seed": 2025,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/iTransformer_1min_Joint5_MSE_seed2025/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/iTransformer_1min_Joint5_MSE_seed2025"
+    },
+    {
+      "key": "iTransformer_seed2026",
+      "family": "baseline",
+      "model": "iTransformer",
+      "seed": 2026,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/iTransformer_1min_Joint5_MSE_seed2026/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/iTransformer_1min_Joint5_MSE_seed2026"
+    },
+    {
+      "key": "iTransformer_seed2027",
+      "family": "baseline",
+      "model": "iTransformer",
+      "seed": 2027,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/iTransformer_1min_Joint5_MSE_seed2027/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/iTransformer_1min_Joint5_MSE_seed2027"
+    },
+    {
+      "key": "iTransformer_seed2028",
+      "family": "baseline",
+      "model": "iTransformer",
+      "seed": 2028,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/iTransformer_1min_Joint5_MSE_seed2028/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/iTransformer_1min_Joint5_MSE_seed2028"
+    },
+    {
+      "key": "TimesNet_seed2024",
+      "family": "baseline",
+      "model": "TimesNet",
+      "seed": 2024,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimesNet_1min_Joint5_MSE_seed2024/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimesNet_1min_Joint5_MSE_seed2024"
+    },
+    {
+      "key": "TimesNet_seed2025",
+      "family": "baseline",
+      "model": "TimesNet",
+      "seed": 2025,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimesNet_1min_Joint5_MSE_seed2025/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimesNet_1min_Joint5_MSE_seed2025"
+    },
+    {
+      "key": "TimesNet_seed2026",
+      "family": "baseline",
+      "model": "TimesNet",
+      "seed": 2026,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimesNet_1min_Joint5_MSE_seed2026/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimesNet_1min_Joint5_MSE_seed2026"
+    },
+    {
+      "key": "TimesNet_seed2027",
+      "family": "baseline",
+      "model": "TimesNet",
+      "seed": 2027,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimesNet_1min_Joint5_MSE_seed2027/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimesNet_1min_Joint5_MSE_seed2027"
+    },
+    {
+      "key": "TimesNet_seed2028",
+      "family": "baseline",
+      "model": "TimesNet",
+      "seed": 2028,
+      "checkpoint": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimesNet_1min_Joint5_MSE_seed2028/best_accuracy.pt",
+      "source": "${WORKSPACE}/experiments/minute_joint5_forecast_20261007",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/outputs/minute_joint5_forecast_20261007/TimesNet_1min_Joint5_MSE_seed2028"
+    },
+    {
+      "key": "S0_seed2024",
+      "family": "framework",
+      "model": "S0",
+      "seed": 2024,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024"
+    },
+    {
+      "key": "S0_seed2025",
+      "family": "framework",
+      "model": "S0",
+      "seed": 2025,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025"
+    },
+    {
+      "key": "S0_seed2026",
+      "family": "framework",
+      "model": "S0",
+      "seed": 2026,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026"
+    },
+    {
+      "key": "S0_seed2027",
+      "family": "framework",
+      "model": "S0",
+      "seed": 2027,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027"
+    },
+    {
+      "key": "S0_seed2028",
+      "family": "framework",
+      "model": "S0",
+      "seed": 2028,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028"
+    },
+    {
+      "key": "S1_seed2024",
+      "family": "framework",
+      "model": "S1",
+      "seed": 2024,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2024/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2024/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2024"
+    },
+    {
+      "key": "S1_seed2025",
+      "family": "framework",
+      "model": "S1",
+      "seed": 2025,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2025/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2025/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2025"
+    },
+    {
+      "key": "S1_seed2026",
+      "family": "framework",
+      "model": "S1",
+      "seed": 2026,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2026/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2026/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2026"
+    },
+    {
+      "key": "S1_seed2027",
+      "family": "framework",
+      "model": "S1",
+      "seed": 2027,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2027/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2027/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2027"
+    },
+    {
+      "key": "S1_seed2028",
+      "family": "framework",
+      "model": "S1",
+      "seed": 2028,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2028/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2028/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S1_seed2028"
+    },
+    {
+      "key": "S2_seed2024",
+      "family": "framework",
+      "model": "S2",
+      "seed": 2024,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S2_seed2024/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/d1_A2_remaining_ablations_20261015",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S2_seed2024"
+    },
+    {
+      "key": "S2_seed2025",
+      "family": "framework",
+      "model": "S2",
+      "seed": 2025,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S2_seed2025/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/d1_A2_remaining_ablations_20261015",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S2_seed2025"
+    },
+    {
+      "key": "S2_seed2026",
+      "family": "framework",
+      "model": "S2",
+      "seed": 2026,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S2_seed2026/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/d1_A2_remaining_ablations_20261015",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S2_seed2026"
+    },
+    {
+      "key": "S2_seed2027",
+      "family": "framework",
+      "model": "S2",
+      "seed": 2027,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S2_seed2027/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/d1_A2_remaining_ablations_20261015",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S2_seed2027"
+    },
+    {
+      "key": "S2_seed2028",
+      "family": "framework",
+      "model": "S2",
+      "seed": 2028,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S2_seed2028/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/d1_A2_remaining_ablations_20261015",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_remaining_ablations_20261015/S2_seed2028"
+    },
+    {
+      "key": "S3_seed2024",
+      "family": "framework",
+      "model": "S3",
+      "seed": 2024,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2024/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2024/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2024"
+    },
+    {
+      "key": "S3_seed2025",
+      "family": "framework",
+      "model": "S3",
+      "seed": 2025,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2025/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2025/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2025"
+    },
+    {
+      "key": "S3_seed2026",
+      "family": "framework",
+      "model": "S3",
+      "seed": 2026,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2026/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2026/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2026"
+    },
+    {
+      "key": "S3_seed2027",
+      "family": "framework",
+      "model": "S3",
+      "seed": 2027,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2027/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2027/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2027"
+    },
+    {
+      "key": "S3_seed2028",
+      "family": "framework",
+      "model": "S3",
+      "seed": 2028,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2028/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2028/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/d1_A2_no_trend_20261015/A2_lambda0_seed2028"
+    },
+    {
+      "key": "S4_seed2024",
+      "family": "framework",
+      "model": "S4",
+      "seed": 2024,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024"
+    },
+    {
+      "key": "S4_seed2025",
+      "family": "framework",
+      "model": "S4",
+      "seed": 2025,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025"
+    },
+    {
+      "key": "S4_seed2026",
+      "family": "framework",
+      "model": "S4",
+      "seed": 2026,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026"
+    },
+    {
+      "key": "S4_seed2027",
+      "family": "framework",
+      "model": "S4",
+      "seed": 2027,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027"
+    },
+    {
+      "key": "S4_seed2028",
+      "family": "framework",
+      "model": "S4",
+      "seed": 2028,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028"
+    },
+    {
+      "key": "S5_seed2024",
+      "family": "framework",
+      "model": "S5",
+      "seed": 2024,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024"
+    },
+    {
+      "key": "S5_seed2025",
+      "family": "framework",
+      "model": "S5",
+      "seed": 2025,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025"
+    },
+    {
+      "key": "S5_seed2026",
+      "family": "framework",
+      "model": "S5",
+      "seed": 2026,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026"
+    },
+    {
+      "key": "S5_seed2027",
+      "family": "framework",
+      "model": "S5",
+      "seed": 2027,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027"
+    },
+    {
+      "key": "S5_seed2028",
+      "family": "framework",
+      "model": "S5",
+      "seed": 2028,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028"
+    },
+    {
+      "key": "S6_seed2024",
+      "family": "framework",
+      "model": "S6",
+      "seed": 2024,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2024"
+    },
+    {
+      "key": "S6_seed2025",
+      "family": "framework",
+      "model": "S6",
+      "seed": 2025,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2025"
+    },
+    {
+      "key": "S6_seed2026",
+      "family": "framework",
+      "model": "S6",
+      "seed": 2026,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2026"
+    },
+    {
+      "key": "S6_seed2027",
+      "family": "framework",
+      "model": "S6",
+      "seed": 2027,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2027"
+    },
+    {
+      "key": "S6_seed2028",
+      "family": "framework",
+      "model": "S6",
+      "seed": 2028,
+      "checkpoint": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028/best.pt",
+      "source": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028/frozen_source",
+      "python": "${PYTHON}",
+      "original_output": "${WORKSPACE}/temperature_prediction/outputs/va_core_ablation_all_20261008/A2_seed2028"
+    }
+  ],
+  "training_performed": false,
+  "weights_reselected": false,
+  "seeds": [
+    2024,
+    2025,
+    2026,
+    2027,
+    2028
+  ],
+  "input_policy": "Preserve every original history value available before each forecast origin; replace only unavailable historical entries by linear interpolation over available anchors inside the same past30day window, holding nearest available endpoint at window edges. No future target is used.",
+  "score_policy": "All110validation/109test daily origins; retained measured labels only; per-seed metrics followed by mean/sample SD; original cohorts reported separately."
+}

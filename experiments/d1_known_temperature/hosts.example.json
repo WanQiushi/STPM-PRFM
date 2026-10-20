@@ -1,0 +1,12 @@
+{
+  "local": {
+    "dataset": "REPLACE_WITH_PREPARED_KNOWN_TEMPERATURE_CACHE_DIRECTORY",
+    "h1": "REPLACE_WITH_RESPONSE_RUN_DIRECTORY",
+    "physical_gpu": "${GPU}"
+  },
+  "runtime": {
+    "dataset": "REPLACE_WITH_PREPARED_KNOWN_TEMPERATURE_CACHE_DIRECTORY",
+    "h1": "REPLACE_WITH_RESPONSE_RUN_DIRECTORY",
+    "physical_gpu": "${GPU}"
+  }
+}

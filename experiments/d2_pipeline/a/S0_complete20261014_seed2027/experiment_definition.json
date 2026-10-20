@@ -1,0 +1,19 @@
+{
+  "arm": "S0",
+  "label": "Fixed A2 / vd2.1-2 full framework",
+  "family": "main",
+  "seed": 2027,
+  "paired_reference": "S0",
+  "temperature_action": "full",
+  "response_action": "train",
+  "temperature_dt": 1,
+  "response_evaluation_dt": 15,
+  "H1_training_dt": 15,
+  "temperature_windows": 499,
+  "H1_identification_windows": 199,
+  "adaptation_windows": 137,
+  "input_policy": "Past observed temperature/responses and original known calendar only; future temperature forecast input to deployed H1",
+  "latent_truth_used_as_input": false,
+  "test_policy": "Validation-only selection then fixed held-out evaluation",
+  "scope": "Transferred D1 architecture/training recipe on D2.1; not reuse of D1 metrics or checkpoints"
+}

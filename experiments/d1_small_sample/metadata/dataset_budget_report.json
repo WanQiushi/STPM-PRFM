@@ -1,0 +1,207 @@
+[
+  {
+    "budget": "9m",
+    "period": "latest30",
+    "label_start": 347040,
+    "label_end": 735840,
+    "start_date": "2022-08-30 00:00:00",
+    "end_exclusive": "2023-05-27 00:00:00",
+    "train_windows": 87,
+    "validation_windows": 26,
+    "test_windows": 39,
+    "h1_pretrain_windows": 30,
+    "oof_windows": 65,
+    "oof_fold_sizes": [
+      [
+        15,
+        5,
+        22
+      ],
+      [
+        34,
+        9,
+        22
+      ],
+      [
+        51,
+        13,
+        21
+      ]
+    ],
+    "a2_trainable": true,
+    "teacher_source_audit": {
+      "source": "Original filled displacement targets used by the FFT component teachers.",
+      "sample_minutes": 15,
+      "future_points": 96,
+      "training_windows": 30,
+      "label_end": 735840,
+      "max_input_available_at": 652305,
+      "cross_budget_teacher_windows": 0
+    },
+    "selection_status": "selected"
+  },
+  {
+    "budget": "6m",
+    "period": "latest30",
+    "label_start": 476640,
+    "label_end": 735840,
+    "start_date": "2022-11-28 00:00:00",
+    "end_exclusive": "2023-05-27 00:00:00",
+    "train_windows": 49,
+    "validation_windows": 26,
+    "test_windows": 39,
+    "h1_pretrain_windows": 13,
+    "oof_windows": 36,
+    "oof_fold_sizes": [
+      [
+        8,
+        3,
+        12
+      ],
+      [
+        18,
+        5,
+        12
+      ],
+      [
+        28,
+        8,
+        12
+      ]
+    ],
+    "a2_trainable": true,
+    "teacher_source_audit": {
+      "source": "Original filled displacement targets used by the FFT component teachers.",
+      "sample_minutes": 15,
+      "future_points": 96,
+      "training_windows": 13,
+      "label_end": 735840,
+      "max_input_available_at": 652305,
+      "cross_budget_teacher_windows": 0
+    },
+    "selection_status": "selected"
+  },
+  {
+    "budget": "3m",
+    "period": "latest30",
+    "label_start": 606240,
+    "label_end": 735840,
+    "start_date": "2023-02-26 00:00:00",
+    "end_exclusive": "2023-05-27 00:00:00",
+    "train_windows": 29,
+    "validation_windows": 26,
+    "test_windows": 39,
+    "h1_pretrain_windows": 5,
+    "oof_windows": 21,
+    "oof_fold_sizes": [
+      [
+        4,
+        2,
+        7
+      ],
+      [
+        10,
+        3,
+        7
+      ],
+      [
+        17,
+        5,
+        7
+      ]
+    ],
+    "a2_trainable": true,
+    "teacher_source_audit": {
+      "source": "Original filled displacement targets used by the FFT component teachers.",
+      "sample_minutes": 15,
+      "future_points": 96,
+      "training_windows": 5,
+      "label_end": 735840,
+      "max_input_available_at": 652305,
+      "cross_budget_teacher_windows": 0
+    },
+    "selection_status": "selected"
+  },
+  {
+    "budget": "1m",
+    "period": "latest30",
+    "label_start": 692640,
+    "label_end": 735840,
+    "start_date": "2023-04-27 00:00:00",
+    "end_exclusive": "2023-05-27 00:00:00",
+    "train_windows": 8,
+    "validation_windows": 26,
+    "test_windows": 39,
+    "h1_pretrain_windows": 0,
+    "oof_windows": 6,
+    "oof_fold_sizes": [
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        3,
+        1,
+        2
+      ],
+      [
+        4,
+        2,
+        2
+      ]
+    ],
+    "a2_trainable": false,
+    "teacher_source_audit": {
+      "source": "Original filled displacement targets used by the FFT component teachers.",
+      "sample_minutes": 15,
+      "future_points": 96,
+      "training_windows": 0,
+      "label_end": 735840,
+      "max_input_available_at": null,
+      "cross_budget_teacher_windows": 0
+    },
+    "selection_status": "unselected_data_condition_reference"
+  },
+  {
+    "budget": "1m",
+    "period": "coverage30_user_approved",
+    "label_start": 640800,
+    "label_end": 684000,
+    "start_date": "2023-03-22 00:00:00",
+    "end_exclusive": "2023-04-21 00:00:00",
+    "train_windows": 20,
+    "validation_windows": 26,
+    "test_windows": 39,
+    "h1_pretrain_windows": 5,
+    "oof_windows": 15,
+    "oof_fold_sizes": [
+      [
+        2,
+        1,
+        5
+      ],
+      [
+        6,
+        2,
+        5
+      ],
+      [
+        10,
+        3,
+        5
+      ]
+    ],
+    "a2_trainable": true,
+    "teacher_source_audit": {
+      "source": "Original filled displacement targets used by the FFT component teachers.",
+      "sample_minutes": 15,
+      "future_points": 96,
+      "training_windows": 5,
+      "label_end": 684000,
+      "max_input_available_at": 652305,
+      "cross_budget_teacher_windows": 0
+    },
+    "selection_status": "selected"
+  }
+]

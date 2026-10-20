@@ -1,0 +1,41 @@
+{
+  "jobs": [
+    {
+      "name": "fold1",
+      "warm_config": "temperature_configs/fold1_v9.json",
+      "config": "temperature_configs/fold1_A2.json"
+    },
+    {
+      "name": "fold2",
+      "warm_config": "temperature_configs/fold2_v9.json",
+      "config": "temperature_configs/fold2_A2.json"
+    },
+    {
+      "name": "fold3",
+      "warm_config": "temperature_configs/fold3_v9.json",
+      "config": "temperature_configs/fold3_A2.json"
+    },
+    {
+      "name": "final",
+      "warm_config": "temperature_configs/final_v9.json",
+      "config": "temperature_configs/final_A2.json"
+    }
+  ],
+  "temperature_sample_minutes": 1,
+  "response_training_minutes": 15,
+  "final_evaluation_minutes": 15,
+  "H1_identification_windows": 499,
+  "H1_adaptation_windows": 137,
+  "temperature_final_windows": 499,
+  "OOF_train_counts": [
+    345,
+    393,
+    439
+  ],
+  "OOF_forecast_counts": [
+    47,
+    45,
+    45
+  ],
+  "execution": "Reuse unchanged ongoing S0 temperature; fresh CPU4 H1499 identification, original OOF137 adaptation"
+}
